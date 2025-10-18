@@ -1,0 +1,31 @@
+.trigger--share-button-trigger {
+  padding: 0 10px;
+}
+
+.dropdown {
+  z-index: 2;
+}
+
+.container {
+  padding: 10px;
+}
+
+
+
+
+
+.container--share-button-response {
+  /* Cor translúcida */
+  background: rgba(255, 255, 255, 0.1);
+
+  /* Efeito de vidro */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .trigger--share-button-trigger {
+    padding: 0;
+  }
+}

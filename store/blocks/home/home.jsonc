@@ -1,0 +1,767 @@
+{
+  "store.home": {
+    "blocks": [
+      // "responsive-layout.desktop#video-banner-home",
+      // "responsive-layout.mobile#banner-topo-mobile",
+      "list-context.image-list#home",
+      "flex-layout.row#script_rd",
+      "flex-layout.row#deals",
+      "flex-layout.row#shelf-mais-vendidos",
+      "flex-layout.row#cookie-script",
+      "responsive-layout.mobile#categorias",
+      "responsive-layout.mobile#banners-mobile",
+      "modal-trigger#roleta",
+      "responsive-layout.desktop#categorias",
+      "__fold__",
+      "responsive-layout.desktop#carrossel-5l-8l",
+      "responsive-layout.desktop#img-como-usar",
+      "responsive-layout.mobile#img-como-usar",
+      "flex-layout.row#linha-line",
+      "rich-text#prateleira-maior-capacidade",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#linha-line",
+      "rich-text#prateleira-madu-nova",
+      "flex-layout.row#shelf3",
+      "flex-layout.row#linha-line",
+      "responsive-layout.desktop#instagram",
+      "responsive-layout.mobile#instagram",
+      "flex-layout.row#titulo-blog-home",
+      "responsive-layout.mobile#blog",
+      "responsive-layout.desktop#blog"
+    ]
+  },
+  //  ESPAÇADOR
+  "flex-layout.row#linha-line": {
+    "props": {
+      "blockClass": "linha-line",
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#line"
+    ]
+  },
+  // TESTE
+  "flex-layout.row#cookie-script": {
+    "props": {
+      "blockClass": "cookie-script"
+    },
+    "children": [
+      "sandbox#cookie-script"
+    ]
+  },
+  "sandbox#cookie-script": {
+    "props": {
+      "initialContent": "<script type='text/javascript' charset='UPeadfa3f040b66.js'></script>",
+      "allowCookies": true
+    }
+  },
+  "list-context.image-list#home": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/Banner DESKTOP sweet pink.webp",
+          "mobileImage": "assets/Banner MOBILE sweet pink.webp"
+        },
+        {
+          "image": "assets/Banner DESKTOP sweet black.webp",
+          "mobileImage": "assets/Banner MOBILE sweet black.webp"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "responsive-layout.mobile#banners-mobile": {
+    "children": [
+      "rich-text#titulo-prateleira-5l",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "responsive-layout.desktop#carrossel-5l-8l": {
+    "children": [
+      "flex-layout.row#linha-line",
+      "rich-text#titulo-prateleira-5l",
+      "flex-layout.row#shelf",
+      "flex-layout.row#linha-line"
+    ]
+  },
+  "flex-layout.row#script_rd": {
+    "props": {
+      "blockClass": "script_rd"
+    },
+    "children": [
+      "scriptrd" // script do RD
+    ]
+  },
+  // SECAO SHELF MAIS VENDIDOS - SOL. MARCOS CHICORA 05/09
+  "flex-layout.row#shelf-mais-vendidos": {
+    "props": {
+      "blockClass": "shelf-mais-vendidos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-line",
+      "rich-text#titulo-prateleira-mais-vendidos",
+      "list-context.product-list#prateleira-mais-vendidos",
+      "flex-layout.row#linha-line"
+    ]
+  },
+  // LINHA SEPARADORA COM EFEITO
+  "rich-text#line": {
+    "props": {
+      "text": "",
+      "blockClass": "line"
+    }
+  },
+  "rich-text#titulo-prateleira-mais-vendidos": {
+    "props": {
+      "text": "## Lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#prateleira-mais-vendidos": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-mais-vendidos"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 20
+    }
+  },
+  "product-summary.shelf": {
+    "props": {
+      "priceBehavior": "default"
+    }
+  },
+  "slider-layout#prateleira-mais-vendidos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  },
+  // SESSÃO DESKTOP - IMAGENS COMO USAR
+  "responsive-layout.desktop#img-como-usar": {
+    "children": [
+      "flex-layout.row#linha-line",
+      "flex-layout.row#linha-imgs-como-usar"
+    ]
+  },
+  "flex-layout.row#linha-imgs-como-usar": {
+    "props": {
+      "blockClass": "linha-img-como-usar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#loira",
+      "image#rosa",
+      "image#dvm"
+    ]
+  },
+  // imagens linha como usar
+  "image#loira": {
+    "props": {
+      "blockClass": "imagens-como-usar",
+      "alt": "Mulher com autoclave",
+      "src": "assets/linha-como-usar/loira-desktop.webp"
+    }
+  },
+  "image#rosa": {
+    "props": {
+      "blockClass": "imagens-como-usar",
+      "alt": "Match perfeito",
+      "src": "assets/linha-como-usar/match-desktop.webp"
+    }
+  },
+  "image#dvm": {
+    "props": {
+      "blockClass": "imagens-como-usar",
+      "alt": "Tecnologia DVM",
+      "src": "assets/linha-como-usar/dvm-desktop.webp"
+    }
+  },
+  // SESSÃO DESKTOP - IMAGENS COMO USAR
+  "responsive-layout.mobile#img-como-usar": {
+    "children": [
+      "flex-layout.row#linha-line",
+      "flex-layout.row#linha-imgs-como-usar-mobile"
+    ]
+  },
+  "flex-layout.row#linha-imgs-como-usar-mobile": {
+    "props": {
+      "blockClass": "linha-imgs-como-usar-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#imgs-como-usar-mobile"
+    ]
+  },
+  // list context do componente com as imagens - slides MOBILE
+  "list-context.image-list#imgs-como-usar-mobile": {
+    "children": [
+      "slider-layout#imgs-como-usar-mobile"
+    ],
+    "props": {
+      "height": 620,
+      "images": [
+        {
+          "mobileImage": "assets/linha-como-usar/loira-desktop.webp"
+        },
+        {
+          "mobileImage": "assets/linha-como-usar/match-desktop.webp"
+        },
+        {
+          "mobileImage": "assets/linha-como-usar/dvm-desktop.webp"
+        }
+      ]
+    }
+  },
+  // slider
+  "slider-layout#imgs-como-usar-mobile": {
+    "props": {
+      "title": "Slider Imanges",
+      "blockClass": "slider-imgs-como-usar",
+      "itemsPerPage": {
+        "phone": 2
+      },
+      "arrowSize": 15,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "rich-text#titulo-prateleira-5l": {
+    "props": {
+      "text": "## Autoclaves de 5 litros",
+      "blockClass": "shelfTitle"
+    }
+  },
+  // prateleira de 8 litros
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#prateleira-8litros"
+    ]
+  },
+  "list-context.product-list#prateleira-8litros": {
+    "blocks": [
+      // "product-summary.shelf"
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-8litros"
+    ],
+    "props": {
+      "collection": "210",
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems": 50
+    },
+    "title": "Prateleira 5 e 8 litros"
+  },
+  "slider-layout#prateleira-8litros": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#prateleira-maior-capacidade"
+    ]
+  },
+  // linha da prateleira de maior capacidade
+  "rich-text#prateleira-maior-capacidade": {
+    "props": {
+      "text": "## Autoclaves Horizontais",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#prateleira-maior-capacidade": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-maior-capacidade"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "208",
+      "maxItems": 40
+    }
+  },
+  "slider-layout#prateleira-maior-capacidade": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  },
+  "flex-layout.row#shelf3": {
+    "children": [
+      "list-context.product-list#prateleira-madu"
+    ]
+  },
+  // linha da prateleira de maior capacidade
+  "rich-text#prateleira-madu-nova": {
+    "props": {
+      "text": "## Idea.Love by MAD.U",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#prateleira-madu": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-madu"
+    ],
+    "props": {
+      "blockClass": "shelf",
+      "orderBy": "OrderByBestDiscountDESC",
+      "category": "80"
+    }
+  },
+  "slider-layout#prateleira-madu": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  },
+  "flex-layout.row#conteudo-instagram": {
+    "props": {
+      "blockClass": "linha-instagram",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-instagram",
+      "flex-layout.row#postagens-instagram"
+    ]
+  },
+  // slider instagram
+  "flex-layout.row#postagens-instagram": {
+    "props": {
+      "blockClass": "linha-instagram"
+    },
+    "children": [
+      "slider-layout#instagram-home"
+    ]
+  },
+  "slider-layout#instagram-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "video-banner-slider",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 3000
+      }
+    },
+    "children": [
+      // LIMITEI A 10
+      "link#8",
+      "link#7",
+      "link#6",
+      "link#5",
+      "link#4",
+      "link#3",
+      "link#2",
+      "link#1"
+    ]
+  },
+  // ICONES DO INSTAGRAM - MODELO
+  "image#links-instagram": {
+    "props": {
+      "src": "assets/icones_instagram.svg",
+      "blockClass": "icones-instagram"
+    }
+  },
+  // SITE SEGURO
+  "link#1": {
+    "props": {
+      "href": "https://www.instagram.com/p/DM-Zwq7PQja",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#1",
+      "image#links-instagram"
+    ]
+  },
+  "image#1": {
+    "props": {
+      "src": "assets/1.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#2": {
+    "props": {
+      "href": "https://www.instagram.com/p/DM-x_PTBZCO",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#2",
+      "image#links-instagram"
+    ]
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/2.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#3": {
+    "props": {
+      "href": "https://www.instagram.com/p/DNBRZT2Tb_D",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#3",
+      "image#links-instagram"
+    ]
+  },
+  "image#3": {
+    "props": {
+      "src": "assets/3.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#4": {
+    "props": {
+      "href": "https://www.instagram.com/p/DNDfcgiTv9x",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#4",
+      "image#links-instagram"
+    ]
+  },
+  "image#4": {
+    "props": {
+      "src": "assets/4.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#5": {
+    "props": {
+      "href": "https://www.instagram.com/p/DNQSHwdNUOf",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#5",
+      "image#links-instagram"
+    ]
+  },
+  "image#5": {
+    "props": {
+      "src": "assets/5.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#6": {
+    "props": {
+      "href": "https://www.instagram.com/p/DNTberMpovn",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#6",
+      "image#links-instagram"
+    ]
+  },
+  "image#6": {
+    "props": {
+      "src": "assets/6.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#7": {
+    "props": {
+      "href": "https://www.instagram.com/idealine_autoclaves/p/DNV2QAnMjTZ",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#7",
+      "image#links-instagram"
+    ]
+  },
+  "image#7": {
+    "props": {
+      "src": "assets/7.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#8": {
+    "props": {
+      "href": "https://www.instagram.com/p/DNZSBmjiwhc",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#8",
+      "image#links-instagram"
+    ]
+  },
+  "image#8": {
+    "props": {
+      "src": "assets/8.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // BLOGO
+  "flex-layout.row#titulo-blog-home": {
+    "props": {
+      "blockClass": "linha-blog"
+    },
+    "children": [
+      "rich-text#blog"
+    ]
+  },
+  "rich-text#blog": {
+    "props": {
+      "text": "## Blog Idealine ##",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "responsive-layout.mobile#blog": {
+    "children": [
+      "flex-layout.row#blog-home-mobile"
+    ]
+  },
+  "responsive-layout.desktop#blog": {
+    "children": [
+      "flex-layout.row#blog-home"
+    ]
+  },
+  // DESKTOP
+  "flex-layout.row#blog-home": {
+    "props": {
+      "blockClass": "linha-blog",
+      "fullWidth": true
+    },
+    "children": [
+      "blog-latest-posts-preview.wordpress-latest-posts-preview"
+    ]
+  },
+  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
+    "props": {
+      "blockClass": "sessao-blog",
+      "useTextOverlays": false,
+      "showExcerpts": true,
+      "showDates": false,
+      "showCategories": false,
+      "absoluteLinks": true,
+      "numberOfPosts": 3
+    }
+  },
+  // MOBILE
+  "flex-layout.row#blog-home-mobile": {
+    "props": {
+      "blockClass": "linha-blog-mobile"
+    },
+    "children": [
+      "slider-layout#blog-images-mobile"
+    ]
+  },
+  "slider-layout#blog-images-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carrossel-mobile-blog"
+      // ,
+      // "autoplay": {
+      //   "timeout": 8000,
+      //   "stopOnHover": true
+      // }
+    },
+    "children": [
+      "link#blog-post1",
+      "link#blog-post2",
+      "link#blog-post3"
+    ]
+  },
+  "link#blog-post1": {
+    "props": {
+      "blockClass": "link-blog-post",
+      "openNewTab": true,
+      "href": "https://idealineblog.com.br/como-o-estresse-afeta-a-saude-bucal"
+    },
+    "children": [
+      "flex-layout.col#coluna-post-blog-1"
+    ]
+  },
+  "link#blog-post2": {
+    "props": {
+      "blockClass": "link-blog-post",
+      "openNewTab": true,
+      "href": "https://idealineblog.com.br/seguranca-e-higiene-explorando-os-quatro-principais-tipos-de-esterilizacao"
+    },
+    "children": [
+      "flex-layout.col#coluna-post-blog-2"
+    ]
+  },
+  "link#blog-post3": {
+    "props": {
+      "blockClass": "link-blog-post",
+      "openNewTab": true,
+      "href": "https://idealineblog.com.br/qual-a-autoclave-ideal-para-mim"
+    },
+    "children": [
+      "flex-layout.col#coluna-post-blog-3"
+    ]
+  },
+  // COLUNAS DO LAYOUT
+  "flex-layout.col#coluna-post-blog-1": {
+    "props": {
+      "blockClass": "colunas-post-blog"
+    },
+    "children": [
+      "image#img-post-blog1",
+      "rich-text#titulo-post-blog1",
+      "rich-text#subtitulo-post-blog1"
+    ]
+  },
+  "flex-layout.col#coluna-post-blog-2": {
+    "props": {
+      "blockClass": "colunas-post-blog"
+    },
+    "children": [
+      "image#img-post-blog2",
+      "rich-text#titulo-post-blog2",
+      "rich-text#subtitulo-post-blog2"
+    ]
+  },
+  "flex-layout.col#coluna-post-blog-3": {
+    "props": {
+      "blockClass": "colunas-post-blog"
+    },
+    "children": [
+      "image#img-post-blog3",
+      "rich-text#titulo-post-blog3",
+      "rich-text#subtitulo-post-blog3"
+    ]
+  },
+  // imagens blogs
+  "image#img-post-blog1": {
+    "props": {
+      "blockClass": "img-post-blog",
+      "src": "assets/home/blog/Briefing-8-Como-o-estresse-afeta-a-saude-bucal.webp",
+      "alt": "Imagem blog"
+    }
+  },
+  "image#img-post-blog2": {
+    "props": {
+      "blockClass": "img-post-blog",
+      "src": "assets/home/blog/Texto-7-Tipos-de-Esterilizacao.webp",
+      "alt": "Imagem blog"
+    }
+  },
+  "image#img-post-blog3": {
+    "props": {
+      "blockClass": "img-post-blog",
+      "src": "assets/home/blog/Texto-6-Autoclave-Ideal-para-mim.webp",
+      "alt": "Imagem blog"
+    }
+  },
+  // titulo post blogs
+  "rich-text#titulo-post-blog1": {
+    "props": {
+      "blockClass": "titulo-post-blog",
+      "text": "Como o estresse afeta a saúde bucal?"
+    }
+  },
+  "rich-text#titulo-post-blog2": {
+    "props": {
+      "blockClass": "titulo-post-blog",
+      "text": "Os quatro Principais tipos de Esterilização"
+    }
+  },
+  "rich-text#titulo-post-blog3": {
+    "props": {
+      "blockClass": "titulo-post-blog",
+      "text": "Qual a Autoclave ideal para mim?"
+    }
+  },
+  // subtitulo -previa -post blogs
+  "rich-text#subtitulo-post-blog1": {
+    "props": {
+      "blockClass": "subitiulo-post-blog",
+      "text": "Qual a relação entre estresse e saúde bucal?   O estresse tem uma forte relação com a saúde bucal, afetando-a de diversas maneiras, tanto diretas quanto indiretas. Quando o corpo está sob estresse, ele libera hormônios como o cortisol, que podem enfraquecer o sistema imunológico e contribuir para problemas bucais.  Para minimizar os impactos do […]"
+    }
+  },
+  "rich-text#subtitulo-post-blog2": {
+    "props": {
+      "blockClass": "subitiulo-post-blog",
+      "text": "Nesse artigo do Blog da Idealine, vamos explorar em profundidade a importância da esterilização, um processo crucial para garantir a segurança e a higiene em diversas indústrias, desde a área médica até a cosmética e a de alimentos. Entender a importância da esterilização é fundamental para assegurar a eliminação eficaz de micro-organismos potencialmente nocivos que […]"
+    }
+  },
+  "rich-text#subtitulo-post-blog3": {
+    "props": {
+      "blockClass": "subitiulo-post-blog",
+      "text": "Neste artigo, vamos abordar uma questão comum e crucial: como escolher a autoclave ideal? A compra de uma autoclave é uma decisão importante, seja para clínicas, salões de beleza, hospitais ou laboratórios, pois envolve a segurança e a eficiência dos processos de esterilização. Vamos explorar em detalhes os diferentes tipos de autoclave disponíveis no mercado, […]"
+    }
+  }
+}

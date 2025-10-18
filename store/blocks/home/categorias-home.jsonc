@@ -1,0 +1,490 @@
+{
+  //SECAO COMPRE POR CATEGORIA -MOBILE
+  "responsive-layout.mobile#categorias": {
+    "children": [
+      "flex-layout.row#compre-categorias-mobile"
+    ]
+  },
+  "flex-layout.row#compre-categorias-mobile": {
+    "props": {
+      "blockClass": "container-compre-por-categoria-mobile",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.row#titulo-categorias-linha1",
+      "flex-layout.row#imagens-categorias-mobile"
+    ]
+  },
+  "flex-layout.row#imagens-categorias-mobile": {
+    "props": {
+      "blockClass": "container-imagens-secao-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.row#linha-1-cat-mobile",
+      "flex-layout.row#linha-2-cat-mobile",
+      "flex-layout.row#linha-3-cat-mobile",
+      "flex-layout.row#linha-4-cat-mobile"
+    ]
+  },
+  "flex-layout.row#linha-1-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categoria-nails",
+      "flex-layout.col#categorias-lashes"
+    ]
+  },
+  "flex-layout.row#linha-2-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-podologia",
+      "flex-layout.col#categorias-bodyPiercings"
+    ]
+  },
+  "flex-layout.row#linha-3-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-odontologia",
+      "flex-layout.col#categorias-veterinaria"
+    ]
+  },
+  "flex-layout.row#linha-4-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-laboratorio",
+      "flex-layout.col#categorias-cli-hosp"
+    ]
+  },
+   //SECAO COMPRE POR CATEGORIA - DESKTOP
+  "responsive-layout.desktop#categorias": {
+    "children": [
+      "flex-layout.row#compre-por-categoria"
+    ]
+  },
+  "flex-layout.row#compre-por-categoria": {
+    "props": {
+      "blockClass": "container-compre-por-categoria",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#titulo-categorias-linha1",
+      "flex-layout.row#imagens-categorias",
+      "flex-layout.row#imagens-segunda-linha-categorias"
+    ]
+  },
+  //conteiner do titulo das categorias
+  "flex-layout.row#titulo-categorias-linha1": {
+    "props": {
+      "blockClass": "conteiner-titulo-categorias"
+    },
+    "children": [
+      "rich-text#titulo"
+    ]
+  },
+  //titulo das categorias
+  "rich-text#titulo": {
+    "props": {
+      "text": "Compre por categoria",
+      "blockClass": "texto-titulo-categoria"
+    }
+  },
+  //subtitulo das categorias
+  "rich-text#subtitulo-categorias": {
+    "props": {
+      "text": "Beleza & Estética",
+      "blockClass": "texto-subtitulo-categoria"
+    }
+  },
+  //imagens das categorias - linha 1 - desktop
+  "flex-layout.row#imagens-categorias": {
+    "props": {
+      "blockClass": "conteiner-imagens-secao-categorias"
+    },
+    "children": [
+      "flex-layout.col#categoria-nails",
+      "flex-layout.col#categorias-lashes",
+      "flex-layout.col#categorias-podologia",
+      "flex-layout.col#categorias-bodyPiercings"
+    ]
+  },
+
+  //coluna das imagens
+  "flex-layout.col#categoria-nails": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-nails"
+    ]
+  },
+  "link#link-categoria-nails": {
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-manicure"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-nails"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-nails": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-nails",
+      "rich-text#label-cat-nails"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-nails": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/manicure.webp",
+      "alt": "Manicure",
+      "title": "Categoria Imagem de manicure",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-manicure"
+      }
+    }
+  },
+  //label da categoria
+  "rich-text#label-cat-nails": {
+    "props": {
+      "text": "Nails Designer Manicure",
+      "blockClass": [
+        "label-categorias",
+        "categorias-palavra-grande"
+      ]
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-lashes": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-lashes"
+    ]
+  },
+  "link#link-categoria-lashes": {
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-lash-designer"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-lashes"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-lashes": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-lashes",
+      "rich-text#label-cat-lashes"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-lashes": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/lasher.webp",
+      "alt": "lash designer",
+      "title": "Categoria Lash Designer",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  //label das categorias
+  "rich-text#label-cat-lashes": {
+    "props": {
+      "text": "Lash Designer",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-podologia": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-podologia"
+    ]
+  },
+  "link#link-categoria-podologia": {
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-podologia"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-podologia"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-podologia": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-podologia",
+      "rich-text#label-cat-podologia"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-podologia": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/podologia.webp",
+      "alt": "Podologia",
+      "title": "Categoria Podologia",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-podologia"
+      }
+    }
+  },
+  //label das categorias
+  "rich-text#label-cat-podologia": {
+    "props": {
+      "text": "Podologia",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-bodyPiercings": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-bodyPiercings"
+    ]
+  },
+  "link#link-categoria-bodyPiercings": {
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-body-piercing"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-bodyPiercings"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-bodyPiercings": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-bodyPiercings",
+      "rich-text#label-cat-bodypiercings"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-bodyPiercings": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/body_piercing.webp",
+      "alt": "BodyPiercing",
+      "title": "Categoria Body Piercer",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
+      }
+    }
+  },
+  "rich-text#label-cat-bodypiercings": {
+    "props": {
+      "text": "Body Piercer",
+      "blockClass": "label-categorias"
+    }
+  },
+  //secao linha 2 - categorias - desktop
+  "flex-layout.row#imagens-segunda-linha-categorias": {
+    "props": {
+      "blockClass": "conteiner-imagens-secao-categorias",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#categorias-odontologia",
+      "flex-layout.col#categorias-veterinaria",
+      "flex-layout.col#categorias-laboratorio",
+      "flex-layout.col#categorias-cli-hosp"
+    ]
+  },
+  //link para a categoria
+  "flex-layout.col#categorias-odontologia": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-odontologia"
+    ]
+  },
+  "link#link-categoria-odontologia": {
+    "props": {
+      "href": "/odontologia/autoclaves-para-odontologia"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-odontologia"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-odontologia": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-odontologia",
+      "rich-text#label-cat-odontologia"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-odontologia": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/odontologia.webp",
+      "alt": "Odontologia",
+      "title": "Categoria Odontologia",
+      "link": {
+        "url": "/odontologia/autoclaves-para-odontologia"
+      }
+    }
+  },
+  //label categoria
+  "rich-text#label-cat-odontologia": {
+    "props": {
+      "text": "Odontologia",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna imagens
+  "flex-layout.col#categorias-veterinaria": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-veterinaria"
+    ]
+  },
+  "link#link-categoria-veterinaria": {
+    "props": {
+      "href": "/veterinaria/autoclaves-para-veterinaria"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-veterinaria"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-veterinaria": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-veterinaria",
+      "rich-text#label-cat-veterinaria"
+    ]
+  },
+  "image#categorias-veterinaria": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/veterinario.webp",
+      "alt": "Veterinaria",
+      "title": "Categoria Veterinária",
+      "link": {
+        "url": "/veterinaria/autoclaves-para-veterinaria"
+      }
+    }
+  },
+  "rich-text#label-cat-veterinaria": {
+    "props": {
+      "text": "Veterinária",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna imagens
+  "flex-layout.col#categorias-laboratorio": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-laboratorio"
+    ]
+  },
+  "link#link-categoria-laboratorio": {
+    "props": {
+      "href": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-laboratorio"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-laboratorio": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-laboratorio",
+      "rich-text#label-cat-laboratorio"
+    ]
+  },
+  "image#categorias-laboratorio": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/laboratorio.webp",
+      "alt": "Laboratorio",
+      "title": "Categoria Laboratório",
+      "link": {
+        "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+      }
+    }
+  },
+  "rich-text#label-cat-laboratorio": {
+    "props": {
+      "text": "Laboratórios",
+      "blockClass": "label-categorias"
+    }
+  },
+  // coluna imagens
+  "flex-layout.col#categorias-cli-hosp": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-cli-hosp"
+    ]
+  },
+  "link#link-categoria-cli-hosp": {
+    "props": {
+      "href": "/clinicas-e-hospitais/"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-cli-hosp"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-cli-hosp": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-cli-hosp",
+      "rich-text#label-cat-cli-hosp"
+    ]
+  },
+  "image#categorias-cli-hosp": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/cli-hosp.webp",
+      "alt": "Clinicas-hospitais",
+      "title": "Categoria Clínicas e hospitais",
+      "link": {
+        "url": "/clinicas-e-hospitais/"
+      }
+    }
+  },
+  "rich-text#label-cat-cli-hosp": {
+    "props": {
+      "text": "Clínicas e Hospitais",
+      "blockClass": [
+        "label-categorias",
+        "categorias-palavra-grande"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  display: none;
+}
+
+.profileIcon{
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+}
+
+.container :global(.vtex-button){
+  border: 0;
+  /* padding-top: 28px; */
+}
+.container :global(.vtex-button__label){
+  border: 0;
+  padding: 0;
+}
+
+.profile{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+/* mobile */
+@media screen  and (max-width: 1024px) {
+  .profileIcon{
+    width: 20px;
+    height: 16px;
+    display: none;
+  }
+
+  :global(.vtex-login-2-x-profile), :global(.vtex-login-2-x-label){
+    display: flex;
+    text-align: LEFT;
+    font-size: 0.9rem;
+    color: var(--rosa-pink-escuro)
+  }
+
+
+
+}
+
+

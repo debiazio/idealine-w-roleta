@@ -1,0 +1,87 @@
+/* NOVO LAYOUT */
+.container--breadcrumb-dinamic-child{
+  padding: 0;
+}
+
+.link--breadcrumb-child,
+.term--breadcrumb-child,
+.arrow--breadcrumb-child:last-child .link--breadcrumb-child,
+.link--breadcrumb-child:hover,
+.arrow--breadcrumb-child::before{
+  color: #696969!important;
+}
+
+.link--breadcrumb-dinamic-child,
+.term--breadcrumb-dinamic-child{
+  font-size: 8px;
+  color: #fff;
+}
+
+.link--breadcrumb-dinamic-child:hover,
+.arrow--breadcrumb-dinamic-child:last-child .link--breadcrumb-dinamic-child,
+.term--breadcrumb-dinamic-child{
+    color:#fff;
+}
+
+.arrow--breadcrumb-dinamic-child::before{
+  color:#fff;
+}
+
+/* NOVO LAYOUT */
+
+
+.link,
+.term{
+    font-size:12px;
+    color:white;
+    padding:0;
+    line-height:1;
+}
+.arrow{
+    padding:0 5px;
+}
+.arrow::before{
+    content:"/";
+    font-size:13px;
+    color:white;
+    padding-right:5px;
+    line-height:1;
+}
+.link:hover,
+.arrow:last-child .link,
+.term{
+    color:white;
+}
+.container{
+    padding:10px 0;
+    display:flex;
+    align-items:center;
+    padding: 20px 0 20px 50px;
+    flex-wrap: wrap;
+}
+.caretIcon{
+    display:none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .homeLink,
+  .arrow,
+  .arrow--1::before,
+  .arrow--2::before,
+  .link--1,
+  .link--2,
+  .termArrow,
+  .term    {
+    color: #BFB8B8
+  }
+
+  .term {
+    font-weight: 900;
+  }
+
+  .container{
+    padding: 20px 0 20px 20px;
+  }
+}

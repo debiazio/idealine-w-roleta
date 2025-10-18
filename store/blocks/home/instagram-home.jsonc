@@ -1,0 +1,227 @@
+{
+  "responsive-layout.desktop#instagram": {
+    "children": [
+      "flex-layout.row#conteiner-instagram-desktop"
+    ]
+  },
+  "responsive-layout.mobile#instagram":{
+    "children": [
+      "flex-layout.row#conteiner-instagram-desktop"
+    ]
+  },
+  // LINHA INSTAGRAM - DESKTOP
+  "flex-layout.row#conteiner-instagram-desktop": {
+    "props": {
+      "blockClass": "conteiner-instagram-desktop",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-instagram",
+      "flex-layout.row#conteiner-imagens-instagram-desktop"
+    ]
+  },
+  // LINHA DO TITULO
+  "flex-layout.row#titulo-instagram": {
+    "props": {
+      "blockClass": "linha-instagram"
+    },
+    "children": [
+      "rich-text#titulo-instagram"
+    ]
+  },
+  "rich-text#titulo-instagram": {
+    "props": {
+      "text": "## Redes sociais ##",
+      "blockClass": "shelfTitle"
+    }
+  },
+  // LINHA DAS IMAGENS
+  "flex-layout.row#conteiner-imagens-instagram-desktop": {
+    "props": {
+      "blockClass": "conteiner-imgs-instagram-desktop",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna1-instagram-desktop",
+      "flex-layout.col#coluna2-instagram-desktop",
+      "flex-layout.col#coluna3-instagram-desktop"
+    ]
+  },
+  // COLUNAS INSTAGRAM DESKTOP
+  "flex-layout.col#coluna1-instagram-desktop": {
+    "props": {
+      "blockClass": ["colunas-instagram-desktop", "insta-col-1"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-img-superior-coluna1",
+      "flex-layout.row#linha-img-inferior-coluna1"
+    ]
+  },
+  "flex-layout.col#coluna2-instagram-desktop": {
+    "props": {
+      "blockClass": ["colunas-instagram-desktop", "insta-col-2"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-img-superior-coluna2",
+      "flex-layout.row#linha-img-inferior-coluna2"
+    ]
+  },
+  "flex-layout.col#coluna3-instagram-desktop": {
+    "props": {
+      "blockClass": ["colunas-instagram-desktop", "insta-col-3"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-img-superior-coluna3",
+      "flex-layout.row#linha-img-inferior-coluna3"
+    ]
+  },
+  // BLOCO DAS COLUNAS
+  // LINHAS DA COLUNA 1
+  "flex-layout.row#linha-img-superior-coluna1": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem1-coluna1-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  "flex-layout.row#linha-img-inferior-coluna1": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem2-coluna1-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  // LINHAS DA COLUNA 2
+  "flex-layout.row#linha-img-superior-coluna2": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem1-coluna2-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  "flex-layout.row#linha-img-inferior-coluna2": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem2-coluna2-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  // LINHAS DA COLUNA 3
+  "flex-layout.row#linha-img-superior-coluna3": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem1-coluna3-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  "flex-layout.row#linha-img-inferior-coluna3": {
+    "props": {
+      "blockClass": "linha-img-colunas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#postagem2-coluna3-instagram",
+      "image#instagram-rodape"
+    ]
+  },
+  // FIM BLOCO DAS COLUNAS
+  // BLOCO DAS IMAGENS
+  "image#postagem1-coluna1-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/aniversario-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DP6SMHCDT58",
+        "openNewTab": true
+      }
+
+    }
+  },
+  "image#postagem2-coluna1-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/autoclaves-registradas-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DPjltADALuE",
+        "openNewTab": true
+      }
+
+    }
+  },
+  "image#postagem1-coluna2-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/esterilizar-pincas-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DPbo30PDSpS/?img_index=1",
+        "openNewTab": true
+      }
+
+    }
+  },
+  "image#postagem2-coluna2-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/carrinho-lash-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DPRufG5jKEq",
+        "openNewTab": true
+      }
+
+    }
+  },
+  "image#postagem1-coluna3-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/feira-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DPBkM9dj584",
+        "openNewTab": true
+      }
+
+    }
+  },
+  "image#postagem2-coluna3-instagram":{
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/outubro/semana-3/3-ambientacoes-instagram.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DO8pazQDa_7",
+        "openNewTab": true
+      }
+
+    }
+  },
+  // FIM BLOCO DAS IMAGENS
+  "image#instagram-rodape":{
+    "props": {
+      "blockClass": "instagram-rodape",
+      "src": "assets/instagram-home/instagram-rodape.webp",
+      "alt": "Rodapé Instagram"
+    }
+  }
+}

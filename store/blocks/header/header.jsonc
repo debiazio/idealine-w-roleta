@@ -1,0 +1,214 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#cabecalho-desktop"
+    ]
+  },
+  "sticky-layout#cabecalho-desktop": {
+    "props": {
+      "blockClass": "sticky-header",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#container-superior-cabecalho-desktop",
+      "flex-layout.row#cabecalho-categorias-desktop"
+    ]
+  },
+  "flex-layout.row#container-superior-cabecalho-desktop": {
+    "props": {
+      "blockClass": "conteiner-linha-superior-cabecalho",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#linha-superior-cabecalho-desktop"
+    ]
+  },
+  "flex-layout.row#linha-superior-cabecalho-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.row#login",
+      "flex-layout.col#heart-icon",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "O que você está procurando?",
+      "blockClass": "search-bar"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "maxSuggestedProducts": 2,
+      "productLayout": "HORIZONTAL",
+      "customBreakpoints": {
+        "xs": 0
+      }
+    }
+  },
+  "flex-layout.row#login": {
+    "props": {
+      "blockClass": "linha-login"
+    },
+    "children": [
+      "login"
+    ]
+  },
+  "login": {
+    "props": {
+      "blockClass": "label-login",
+      "showIconProfile": true,
+      "iconLabel": "Login",
+      "emailAndPasswordTitle": "Entrar",
+      "accessCodeTitle": "Coloque o e-mail cadastrado para receber o código de recuperação",
+      "emailPlaceholder": "Insira seu e-mail",
+      "passwordPlaceholder": "senha",
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "Escolha um método de login"
+    }
+  },
+  "flex-layout.col#heart-icon": {
+    "props": {
+      "blockClass": "heart-icon",
+      "title": "Favoritos",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#heart-icon"
+    ]
+  },
+  "image#heart-icon": {
+    "props": {
+      "title": "Favoritos",
+      "src": "assets/header-black/favoritos.webp",
+      "link": {
+        "url": "account#/wishlist",
+        "noFollow": false,
+        "openNewTab": false,
+        "title": "Favoritos"
+      },
+      "blockClass": "heart-icon",
+      "maxWidth": "50px"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header-black/logo-idealine.webp",
+      "width": "274",
+      "height": "42"
+    }
+  },
+  "flex-layout.row#cabecalho-categorias-desktop": {
+    "props": {
+      "blockClass": "menu-itens"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  // mobile config
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  // menu fixo (stick)
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#heart-icon",
+      // "flex-layout.col#spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "barra-pesquisa-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "login",
+      "vtex.menu@2.x:menu#category-menu-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header-black/logo-idealine.webp",
+      "height": "22",
+      "blockClass": "logo-mobile"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "blockClass": "list-price-savings"
+    },
+    "children": [
+      "product-list-price"
+    ]
+  },
+
+  "flex-layout.row#selling-price": {
+    "props": {
+      "blockClass": "selling-price",
+      "colSizing": "auto"
+    },
+    "children": [
+      "product-selling-price"
+    ]
+  },
+
+
+  "product-installments": {
+    "props": {
+      "message": "{installmentsNumber}x DE {installmentValue} SEM JUROS NO CARTÃO",
+      "installmentsCriteria": "max-quantity"
+    }
+  }
+
+}

@@ -1,0 +1,73 @@
+/* .wishlistIconContainer {
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+.wishlistIconContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wishlistIconContainer--fav-dinamic-background{
+  display: flex;
+  justify-content: flex-end!important;
+}
+
+
+.wishlistIconContainer :global(.vtex-button) {
+  border: 0;
+  background: transparent;
+  min-height: auto;
+  z-index: 2;
+  transition: all 0.5s ease;
+  /* margin-top: 15px;
+  margin-left: 82%; */
+}
+
+.wishlistIconContainer :global(.vtex-button):hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+
+.wishlistIconContainer :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+
+.wishlistIcon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='25' height='23' viewBox='0 0 50 46'><path d='M36.032 35.539L35.7177 35.8001C31.0186 39.7067 30.6277 39.9611 26.8879 42.3813C26.3391 42.7378 25.7165 43.1395 25.0008 43.6065L23.1121 42.3813C19.3724 39.9611 18.9814 39.7067 14.2823 35.8001L13.968 35.539C9.48844 31.8199 1.99242 25.5968 1.99242 15.9677C1.99242 8.38554 7.53361 2.21773 14.3454 2.21773C18.2521 2.21773 21.846 4.20951 24.2053 7.68424C24.3933 7.96209 24.688 8.12444 24.9992 8.12444C25.312 8.12444 25.6067 7.96209 25.7947 7.68424C28.154 4.20951 31.7479 2.21773 35.6546 2.21773C42.4664 2.21773 48.0076 8.38554 48.0076 15.9677C48.0076 25.5968 40.5116 31.8199 36.032 35.539ZM35.6546 0C31.5374 0 27.718 1.90641 25.0008 5.2757C22.282 1.90641 18.4626 0 14.3454 0C6.4359 0 0 7.1637 0 15.9677C0 20.6492 1.58341 25.1366 4.70662 29.3042C7.30504 32.7739 10.4674 35.4001 12.7771 37.3165L13.0898 37.5776C17.8807 41.5612 18.2822 41.8189 22.1106 44.2978C22.7843 44.7346 23.5647 45.2401 24.4955 45.8477C24.6519 45.9498 24.8263 46 25.0008 46C25.1737 46 25.3481 45.9498 25.5045 45.8477C26.4353 45.2401 27.2172 44.7346 27.8894 44.2978C31.7178 41.8206 32.1193 41.5612 36.9102 37.5776L37.2229 37.3165C39.5326 35.4001 42.695 32.7739 45.2934 29.3042C48.4166 25.1366 50 20.6492 50 15.9677C50 7.1637 43.5641 0 35.6546 0Z' fill='%23C0BABA'/></svg>");
+  width: 25px;
+  height: 23px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+
+
+  .wishlistIconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 20px;
+  }
+
+
+  .wishlistIconContainer--wishlist-shelf {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    z-index: 1;
+    text-align: right;
+  }
+
+  .wishlistIconContainer :global(.vtex-button) {
+    border: 0;
+    background: transparent;
+    min-height: auto;
+    transition: all 0.5s ease;
+    position: unset;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+}

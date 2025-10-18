@@ -1,0 +1,161 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#parcelamento",
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals5"
+    ],
+    "props": {
+      "blockClass": ["deals", "mobile-deals"]
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "props": {
+      "blockClass": "coluna-deals",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#deal1",
+      "rich-text#deal1",
+      "rich-text#sub-deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/home/icon-caminhao.webp",
+      "blockClass": "img-deals"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**ENTREGAS PARA\n TODO O BRASIL**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#sub-deal1":{
+    "props": {
+      "text": "Nós entregamos onde for melhor para você e o seu negócio",
+      "blockClass": "sub-mobile-deals"
+    }
+  },
+
+  "flex-layout.col#deals2": {
+    "props": {
+      "blockClass": "coluna-deals",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#deal2",
+      "rich-text#deal2",
+      "rich-text#sub-deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/home/icon-garantia.webp",
+      "blockClass": "img-deals"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**GARANTIA\n DE FÁBRICA**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#sub-deal2":{
+    "props": {
+      "text": "Garantia de 12 meses oferecida pelo fabricante",
+      "blockClass": "sub-mobile-deals"
+    }
+  },
+  "flex-layout.col#parcelamento": {
+    "props": {
+      "blockClass": "coluna-deals",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#parcelas",
+      "rich-text#parcelas",
+      "rich-text#subtitulo-parcelas"
+    ]
+  },
+  "image#parcelas": {
+    "props": {
+      "src": "assets/home/icon-cartao.webp",
+      "blockClass": "img-deals"
+    }
+  },
+  "rich-text#parcelas": {
+    "props": {
+      "text": "**PARCELE\n EM ATÉ 10X**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#subtitulo-parcelas":{
+    "props": {
+      "text": "Com a gente você pode parcelar em ate 10x sem juros no cartão de crédito",
+      "blockClass": "sub-mobile-deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "props": {
+      "blockClass": "coluna-deals",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#deal4",
+      "rich-text#deal4",
+      "rich-text#sub-deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/home/icon-boleto.webp",
+      "blockClass": "img-deals"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**BOLETO\n PARCELADO**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#sub-deal4":{
+    "props": {
+      "text": "Consulte as condições em Formas de Pagamento",
+      "blockClass":"sub-mobile-deals"
+    }
+  },
+  "flex-layout.col#deals5": {
+    "props": {
+      "blockClass": "coluna-deals",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#deal5",
+      "rich-text#deal5",
+      "rich-text#sub-deal5"
+    ]
+  },
+  "image#deal5": {
+    "props": {
+      "src": "assets/home/icon-site-seguro.webp",
+      "blockClass": "img-deals"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "**SITE\n SEGURO**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#sub-deal5":{
+    "props": {
+      "text": "Loja oficial da nossa empresa com proteção de dados e certificado de segurança",
+      "blockClass":"sub-mobile-deals"
+    }
+  }
+}

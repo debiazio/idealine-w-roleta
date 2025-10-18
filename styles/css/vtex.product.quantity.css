@@ -1,0 +1,17 @@
+.stretchChildrenWidth .quantitySelectorContainer--seletor-quantidade {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+}
+
+.quantitySelectorStepper--seletor-quantidade {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .availableQuantityContainer--seletor-quantidade {
+    margin-left: 20px;
+  }
+}

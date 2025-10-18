@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Rubik";
+  font-display: swap;
+  src:
+    url(assets/fonts/Rubik-Regular.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nErXyi0A.woff2) format('woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "montserrat-regular";
+  font-display: swap;
+  src:
+    url(assets/fonts/Montserrat-Regular.ttf),
+    url(assets/fonts/Montserrat-Regular.woff2);
+}
+
+@font-face {
+  font-family: "montserrat-bold";
+  font-display: swap;
+  src:
+    url(assets/fonts/Montserrat-Bold.ttf),
+    url(assets/fonts/Montserrat-Bold.woff2);
+}
+@font-face {
+  font-family: "montserrat-extrabold";
+  font-display: swap;
+  src:
+    url(assets/fonts/Montserrat-ExtraBold.ttf),
+    url(assets/fonts/Montserrat-ExtraBold.woff2);
+}
+@font-face {
+  font-family: "inter-bold";
+  font-display: swap;
+  src:
+    url(assets/fonts/Inter_28pt-Bold.ttf),
+    url(assets/fonts/Inter_28pt-Bold.woff2);
+}
+@font-face {
+  font-family: "inter-regular";
+  font-display: swap;
+  src:
+    url(assets/fonts/Inter_28pt-Regular.ttf),
+    url(assets/fonts/Inter_28pt-Regular.woff2);
+}
+

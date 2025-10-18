@@ -1,0 +1,94 @@
+{
+  "store.custom#template-categoria-2": {
+    "blocks": [
+      "flex-layout.row#template-copy-linha-1",
+      "flex-layout.row#template-copy-linha-2"
+    ]
+  },
+  "flex-layout.row#template-copy-linha-1": {
+    "props": {
+      "blockClass": "template-copy-line",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#banner-template-copy",
+      "rich-text#titulo-template-copy"
+    ],
+    "title": "Linha 1 - template-copy"
+  },
+  "image#banner-template-copy":{
+    "props": {
+      "blockClass": "banner-template",
+      "src": "assets/banner_menu_idealine_beleza_e_estetica.webp",
+      "alt": "Banner categoria"
+    },
+    "title": "Banner template"
+  },
+  "rich-text#titulo-template-copy": {
+    "props": {
+      "text": "Título template",
+      "blockClass": "titulo-template"
+    },
+    "title": "Título template"
+  },
+  "flex-layout.row#template-copy-linha-2": {
+    "props": {
+      "blockClass": "template-copy-linha-2"
+    },
+    "children": [
+      "search-result-layout.customQuery#template-copy-cat"
+    ]
+  },
+  "search-result-layout.customQuery#template-copy-cat": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "208",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#template-copy"
+    ]
+  },
+  "search-result-layout.desktop#template-copy": {
+    "children": [
+      // "breadcrumb.search",
+      // "search-title.v2",
+      "flex-layout.row#results#template-copy-cat"
+    ]
+  },
+  "flex-layout.row#results#template-copy-cat": {
+    "children": [
+      "flex-layout.col#filter-template-copy",
+      "flex-layout.col#search-template-copy"
+    ]
+  },
+  "flex-layout.col#filter-template-copy": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search-template-copy": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }
+}

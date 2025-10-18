@@ -1,0 +1,190 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name", //nome
+      "flex-layout.col#productRating", //avaliações
+      // "product-summary-space",
+      "flex-layout.row#linha-prateleira"
+
+    ]
+  },
+
+  "flex-layout.row#linha-prateleira": {
+    "props": {
+      "blockClass": "linha-prateleira-duas-colunas"
+    },
+    "children": [
+      "flex-layout.col#coluna1-parcelamento",
+      "flex-layout.col#coluna2-parcelamento"
+    ]
+  },
+  "flex-layout.col#coluna1-parcelamento": {
+    "props": {
+      "blockClass": "coluna-parcelamento",
+      "width": "80%"
+    },
+    "children": [
+      "product-installments#summary", // parcelamento
+      "product-installments#summary-segunda-linha",
+      // "bundle",
+      "product-list-price#summary", //preco de: quanto custava
+      "product-selling-price", //preço por
+      "product-spot-price-savings"
+    ]
+  },
+  "flex-layout.col#coluna2-parcelamento": {
+    "props": {
+      "blockClass": "coluna-parcelamento",
+      "width": "20%"
+    },
+    "children": [
+      "product-price-savings#summary-shelf"
+    ]
+  },
+  "product-price-savings#summary-shelf": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "message": "-{savingsPercentage}",
+      "blockClass": "desconto"
+    }
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating",
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "product-rating-inline"
+    ]
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "add-to-list-btn", //fav button
+      "product-summary-image#shelf",
+      "flex-layout.row#sacola-icone"
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "aspectRatio": "1:1",
+      "maxHeight": "auto",
+      "blockclass": "imagens-shelf",
+      "showBadge": false,
+      "badgeText": "de desconto",
+      "mainImageLabel": {
+        "label": "principal",
+        "labelMatchCriteria": "exact"
+      },
+      "hoverImage": {
+        "criteria": "label",
+        "label": "hover",
+        "labelMatchCriteria": "exact"
+      }
+      // "width": {
+      //   "desktop": "280",
+      //   "mobile": "157"
+      // },
+      // "height": {
+      //   "desktop": "280",
+      //   "mobile": "157"
+      // }
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "promotion"
+    },
+    "children": [
+      "product-highlight-wrapper"
+    ]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": [
+      "product-highlight-text"
+    ]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "de { listPriceValue}"
+    }
+  },
+  "product-spot-price-savings": {
+    "props": {
+      "blockClass": "summary",
+      "message": "À VISTA GANHE 3% DE DESCONTO"
+      // "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
+    }
+  },
+
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão}  false { }}"
+  }
+  },
+  "product-installments#summary-segunda-linha": {
+    "props": {
+      "blockClass": "summary-segunda",
+      "message": "{hasMoreThanOne, select, true { ou } false { }}",
+      "installmentsCriteria": "max-quantity"
+    }
+  },
+
+  //linha adicionada para teste ICONE SACOLA - botao comprar
+  "flex-layout.row#sacola-icone": {
+    "props": {
+      "blockClass": "sacola-icone"
+    },
+    "children": [
+      "add-to-cart-button#sacola-icon"
+    ]
+  },
+  "add-to-cart-button#sacola-icon": {
+    "props": {
+      // "text": "teste",
+      "blockClass": "botao-icone-sacola",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "unavailableText": "Produto indisponível"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary",
+      "message": "- {savingsValue}"
+    }
+  },
+  "product-summary.shelf#teste": {
+    "children": [
+      // "condition-layout.product#flag-promo-forced",
+      "stack-layout#prodsum",
+      "product-summary-name", //nome
+      "flex-layout.col#productRating", //avaliações
+      // "product-summary-space",
+      "flex-layout.row#linha-prateleira",
+      "product-spot-price-savings"
+    ]
+  }
+}
