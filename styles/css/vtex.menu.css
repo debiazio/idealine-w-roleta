@@ -17,6 +17,13 @@
   justify-content: space-around;
 }
 
+
+.submenuContainer{
+  background-color: white;
+}
+
+
+
 /*
 .menuContainerNav .menuContainer{
   display: flex;
@@ -29,6 +36,11 @@
   flex-direction: column;
   width: 100%;
   color: white;
+}
+
+.menuItem--menu-dropdown,
+.menuItem--menu-dropdown--isOpen{
+  background-color: white!important;
 }
 
 
@@ -46,9 +58,9 @@
 
 /* menu dropdown */
 
-/* .submenuWrapper--isOpen {
-  margin: 15px;
-} */
+.submenuWrapper--isOpen {
+  background-color: white!important;
+}
 
 
 

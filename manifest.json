@@ -1,7 +1,7 @@
 {
   "vendor": "mfmgroup",
   "name": "store-theme",
-  "version": "1.0.145",
+  "version": "1.0.148",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -74,8 +74,7 @@
     "mfmgroup.btdownload": "0.x",
     "mfmgroup.alterafundo": "0.x",
     "vtex.overlay-layout": "0.x",
-    "mfmgroup.bundle": "0.x",
-    "mfmgroup.roleta": "0.x"
+    "mfmgroup.bundle": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

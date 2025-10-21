@@ -303,22 +303,6 @@
   margin-bottom: 20px;
 }
 
-/* .skuSelectorContainer {
-  margin: 1rem 0;
-  display: flex;
-} */
-
-
-/* icone de favoritos */
-/* .imageElementLink--heart-icon {
-  margin-top: 65px;
-} */
-
-/* .imageElementLink--heart-icon:hover{
-  background:url(assets/teste-coracao.svg) no-repeat ;
-} */
-
-
 
 
 
@@ -383,7 +367,7 @@
 
 /* input da pesquisa */
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  color: var(--fonte-cor-black);
+  color: #e80e7b;
   font-size: 1.1rem;
   font-weight: 200;
   background-color: transparent;
@@ -391,18 +375,19 @@
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: rgba(47, 43, 45, 0.21);
+  color: var(--fonte-cor-normal);
 
 }
 
 
 .searchBarContainer :global(.vtex-input__suffix) {
   background-color: transparent;
+  color: var(--fonte-cor-normal)!important;
 }
 
 .searchBarIcon--search-bar--search {
   background-color: transparent;
-  color: var(--fonte-cor-normal);
+  color: var(--fonte-cor-normal)!important;
 }
 
 

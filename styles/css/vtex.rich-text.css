@@ -20,7 +20,7 @@
 
 .container--line {
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.4), transparent);
+  background: linear-gradient(to right, transparent, #FEBBCE, transparent);
 }
 
 .headingLevel2--shelfTitle {
@@ -43,7 +43,7 @@
 
 .paragraph--deals {
   font-family: "montserrat-bold";
-  color: var(--fonte-deals-normal);
+  color: var(--fonte-cor-normal);
   font-size: 12px;
   margin: 19px 0;
 }
@@ -90,6 +90,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 20px 0;
 }
 
 .wrapper--texto-titulo-banner-final {

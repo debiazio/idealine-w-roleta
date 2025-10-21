@@ -5,11 +5,11 @@
 }
 
 :root {
-  --fonte-cor-normal: #696969;
-  --fonte-cor-black: #FFFFFF;
+  --fonte-cor-normal: #ffffff;
+  /* --fonte-cor-normal: #696969; */
+  /* --fonte-cor-black: #ffffff; */
   --fundo: #000000;
 
-  --white: #fffefd;
   --rosa-installments: #FEBBCE;
 
 
@@ -23,6 +23,7 @@
   --preto-raisin: #2f2b2d;
   --cinza-french: #bcb2ba;
   --magnolia: #ede7eb;
+  --white: #fffefd;
   --blush-lavanda: #fff3fd;
   --sombra: #70809038;
 }

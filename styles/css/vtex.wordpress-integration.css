@@ -4,8 +4,10 @@
   border-radius: 25px 25px 0 0;
 }
 
+.teaserContainer--sessao-blog,
 .teaserContainer--sessao-blog :global(.vtex-card){
   border-radius: 25px;
+  box-shadow: rgb(0 0 0 / 34%) 0px 3px 9px 0px!important;
 }
 
 .teaserTitle--sessao-blog {

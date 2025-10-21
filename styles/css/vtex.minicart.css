@@ -11,6 +11,9 @@
     align-items: center;
 }
 
+.opened  {
+  background-color: white;
+}
 
 /* .minicartContainer  :global(.vtex-button){
     border: 0;
@@ -23,6 +26,7 @@
 
 .drawer{
   z-index: 9999;
+  background-color: white;
 }
 
 

@@ -25,7 +25,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/home/icon-caminhao.webp",
+      "src": "assets/home-black/icon-caminhao.webp",
       "blockClass": "img-deals"
     }
   },
@@ -55,7 +55,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/home/icon-garantia.webp",
+      "src": "assets/home-black/icon-garantia.webp",
       "blockClass": "img-deals"
     }
   },
@@ -84,7 +84,7 @@
   },
   "image#parcelas": {
     "props": {
-      "src": "assets/home/icon-cartao.webp",
+      "src": "assets/home-black/icon-cartao.webp",
       "blockClass": "img-deals"
     }
   },
@@ -113,7 +113,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "assets/home/icon-boleto.webp",
+      "src": "assets/home-black/icon-boleto.webp",
       "blockClass": "img-deals"
     }
   },
@@ -142,7 +142,7 @@
   },
   "image#deal5": {
     "props": {
-      "src": "assets/home/icon-site-seguro.webp",
+      "src": "assets/home-black/icon-site-seguro.webp",
       "blockClass": "img-deals"
     }
   },
