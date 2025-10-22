@@ -1,3 +1,7 @@
+.image--hover{
+  z-index: 99;
+}
+
 .imageElement--imgs-pgto-icons{
   max-width: 100px;
   max-height: 50px;
@@ -50,6 +54,7 @@
 .container {
   width: 100%;
   max-width: 1600px;
+  overflow: hidden;
 }
 
 .imageElement--heart-icon {

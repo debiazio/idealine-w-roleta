@@ -48,6 +48,9 @@
     ]
   },
   "flex-layout.row#results#template-cat": {
+    "props": {
+      "blockClass": "results-linha"
+    },
     "children": [
       "flex-layout.col#filter-template",
       "flex-layout.col#search-template"
@@ -55,7 +58,8 @@
   },
   "flex-layout.col#filter-template": {
     "props": {
-      "width": "20%"
+      "width": "20%",
+      "blockClass": "coluna-filtros"
     },
     "children": [
       "filter-navigator.v3"

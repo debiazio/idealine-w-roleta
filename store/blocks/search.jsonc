@@ -9,7 +9,7 @@
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip",
         "_unstableProductOriginVtex": true,
-        "fullWidth": true
+        "fullWidth": false
       }
     }
   },
@@ -24,7 +24,7 @@
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip",
         "_unstableProductOriginVtex": true,
-        "fullWidth": true
+        "fullWidth": false
       }
     }
   },
@@ -39,7 +39,7 @@
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip",
         "_unstableProductOriginVtex": true,
-        "fullWidth": true
+        "fullWidth": false
       }
     }
   },
@@ -54,7 +54,7 @@
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip",
         "_unstableProductOriginVtex": true,
-        "fullWidth": true
+        "fullWidth": false
       }
     }
   },

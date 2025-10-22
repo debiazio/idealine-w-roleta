@@ -1,3 +1,11 @@
+.flexRow--template-copy-linha-2{
+  margin: 20px
+}
+
+.flexRowContent--linha-img-colunas{
+  background-color: #ffffff;
+}
+
 .flexColChild--coluna-logo-idealine {
   display: flex;
   flex-direction: column;
