@@ -9,6 +9,7 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-formaspgto-comprecom-logo",
       "flex-layout.row#footer-3-desktop"
     ]
   },
@@ -284,12 +285,12 @@
       "image#icon-youtube"
     ]
   },
-  // IMAGENS INCONES REDES
+  // IMAGENS ICONES REDES
   "image#icon-facebook": {
     "props": {
       "src": "assets/footer/facebook-icon-footer.svg",
       "blockClass": "redes-footer",
-      "link":{
+      "link": {
         "url": "https://www.facebook.com/idealineautoclaves",
         "openNewTab": true,
         "alt": "Link redes sociais",
@@ -301,7 +302,7 @@
     "props": {
       "src": "assets/footer/instagram-icon-footer.svg",
       "blockClass": "redes-footer",
-      "link":{
+      "link": {
         "url": "https://www.instagram.com/idealine_autoclaves/",
         "openNewTab": true,
         "alt": "Link redes sociais",
@@ -313,12 +314,106 @@
     "props": {
       "src": "assets/footer/youtube-icon-footer.svg",
       "blockClass": "redes-footer",
-      "link":{
+      "link": {
         "url": "https://www.youtube.com/channel/UCiA0juVQujppyBHeLgDMLXQ",
         "openNewTab": true,
         "alt": "Link redes sociais",
         "title": "Link redes sociais"
       }
+    }
+  },
+  // LINHA FORMAS PGTO - COMPRE COM SEGURANCA - LOGO
+  "flex-layout.row#footer-formaspgto-comprecom-logo": {
+    "props": {
+      "blockClass": "linha-formaspgto-logo-compreCom",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-formas-pgto",
+      "flex-layout.col#coluna-compre-seguranca",
+      "flex-layout.col#coluna-logo-idealine"
+    ]
+  },
+  "flex-layout.col#coluna-formas-pgto": {
+    "props": {
+      "blockClass": "coluna-formas-pgto"
+    },
+    "children": [
+      "rich-text#titulo-formas-pgto",
+      "flex-layout.row#imagens-formas-pgto"
+    ]
+  },
+  "flex-layout.col#coluna-compre-seguranca": {
+    "props": {
+      "blockClass": "coluna-formas-pgto"
+    },
+    "children": [
+      "rich-text#titulo-compreCom"
+    ]
+  },
+  "flex-layout.col#coluna-logo-idealine": {
+    "props": {
+      "blockClass": "coluna-formas-pgto"
+    },
+    "children": [
+      "image#logo-idealine-footer"
+    ]
+  },
+  // titulos
+  // titulo forma pgto
+  "rich-text#titulo-formas-pgto": {
+    "props": {
+      "blockClass": "title-footer",
+      "text": "Formas de Pagamento"
+    }
+  },
+  // titulo compre com
+  "rich-text#titulo-compreCom": {
+    "props": {
+      "blockClass": "title-footer",
+      "text": "Compre com Segurança"
+    }
+  },
+  // imagen logo footer idealine
+  "image#logo-idealine-footer": {
+    "props": {
+      "blockClass": "logo-footer-idealine",
+      "src": "assets/header-black/logo-idealine.webp",
+      "alt": "Logo Idealine"
+    }
+  },
+  // LINHA IMAGES CARTOES
+  "flex-layout.row#imagens-formas-pgto": {
+    "props": {
+      "blockClass": "linha-images-formas-pgto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#visa-footer",
+      "image#master-footer",
+      "image#mercado-pago"
+    ]
+  },
+  // imagens cartoes
+  "image#visa-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-visa-footer.svg",
+      "alt": "Formas de pagamento"
+    }
+  },
+  "image#master-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-master-footer.svg",
+      "alt": "Formas de pagamento"
+    }
+  },
+  "image#mercado-pago": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-mercadopago-footer.svg",
+      "alt": "Formas de pagamento"
     }
   },
   // colunas POLITICA

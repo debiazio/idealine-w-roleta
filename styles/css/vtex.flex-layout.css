@@ -1,4 +1,16 @@
-.flexRowContent--linha-redes{
+.flexRow--linha-images-formas-pgto {
+  margin: 15px 0;
+}
+
+.flexRowContent--linha-images-formas-pgto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+
+.flexRowContent--linha-redes {
   gap: 10px;
 }
 
@@ -557,6 +569,11 @@
 /* .flexRow--footer-2-desktop {
   padding: 32px 0 36px;
 } */
+
+.flexRow--linha-formaspgto-logo-compreCom {
+  background: #000000;
+  padding: 30px 200px;
+}
 
 .flexRow--footer-2-desktop {
   border-top: 14px solid #FEBBCE;
