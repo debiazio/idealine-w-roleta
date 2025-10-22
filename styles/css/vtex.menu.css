@@ -1,16 +1,12 @@
-/* barra de menus principal */
-/* .styledLinkContainer--menu-itens {
-  padding-left: 50px;
-  padding-right: 50px;
-} */
-
-/*
-.styledLinkContent--menu-itens {
-  font-weight: 400;
-  list-style: none;
-  margin: 0 8vw 0 0;
+.styledLinkContainer--menu-footer-filho {
+  margin: 5px 0;
 }
- */
+
+.styledLink--menu-footer-filho {
+  color: var(--fonte-cor-normal);
+  font-family: "montserrat-regular";
+  font-size: 14px;
+}
 
 .menuContainer {
   display: flex;
@@ -18,7 +14,7 @@
 }
 
 
-.submenuContainer{
+.submenuContainer {
   background-color: white;
 }
 
@@ -39,8 +35,8 @@
 }
 
 .menuItem--menu-dropdown,
-.menuItem--menu-dropdown--isOpen{
-  background-color: white!important;
+.menuItem--menu-dropdown--isOpen {
+  background-color: white !important;
 }
 
 
@@ -59,7 +55,7 @@
 /* menu dropdown */
 
 .submenuWrapper--isOpen {
-  background-color: white!important;
+  background-color: white !important;
 }
 
 

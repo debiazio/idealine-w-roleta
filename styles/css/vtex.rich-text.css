@@ -294,10 +294,13 @@
 }
 
 .wrapper--title-newsletter {
-  color: #696969;
-  margin: 0 0 35px;
-  font-size: 25px;
+  font-family: "inter-bold";
+  font-size: 35px;
   text-align: center;
+}
+
+.paragraph--title-newsletter {
+  color: #FFFFFF;
 }
 
 .container--footer {
@@ -305,17 +308,24 @@
 }
 
 .paragraph--footer {
+  font-family: "montserrat-regular";
+  font-size: 12px;
   margin: 9px 0 13px;
   padding: 0 50px;
   text-align: center;
+  color: var(--fonte-cor-normal);
 }
 
 
 .paragraph--title-footer {
-  margin: 0 0 14px;
+  margin: 0 0 5px;
   font-weight: 800;
-  color: #ffffff;
-  font-size: 1rem;
+  color: var(--fonte-cor-normal);
+  font-size: 1.1rem;
+}
+
+.link--footer {
+  color: var(--fonte-cor-normal);
 }
 
 .container--title-footer {

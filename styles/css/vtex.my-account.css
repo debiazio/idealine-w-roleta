@@ -161,12 +161,12 @@ input:-webkit-autofill {
 
 /* botão submit newletter */
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button {
-  background-color: #696969;
+  background-color: #FEBBCE;
   border: none;
 }
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button:hover {
-  background-color: #696969;
+  background-color: #FEBBCE;
   border: none;
 }
 

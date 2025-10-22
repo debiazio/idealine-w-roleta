@@ -59,22 +59,26 @@
       "submitButtonLabel": "Enviar"
     }
   },
+  // LINHA PRINCIPAL MENUS
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "flex-layout.col#footer-2-desktop-1",
-      "flex-layout.row#footer-requisitos-merchant",
-      "flex-layout.col#footer-2-desktop-2",
-      "flex-layout.col#footer-2-desktop-4"
+      "flex-layout.col#footer-linha-institucional",
+      "flex-layout.row#footer-politica",
+      "flex-layout.col#footer-ajuda",
+      "flex-layout.col#footer-atendimento",
+      "flex-layout.col#footer-fique-conosco"
     ],
     "props": {
       "blockClass": "footer-2-desktop",
       "colSizing": "auto"
     }
   },
-  "flex-layout.col#footer-2-desktop-1": {
+  // COLUNA INSTITUCIONAL
+  "flex-layout.col#footer-linha-institucional": {
     "children": [
       "rich-text#title-footer-1",
-      "vtex.menu@2.x:menu#Empresa"
+      "menu-item#quem-somos",
+      "menu-item#nosso-blog"
     ],
     "props": {
       "blockClass": "footer-2-desktop"
@@ -82,7 +86,7 @@
   },
   "rich-text#title-footer-1": {
     "props": {
-      "text": "Empresa",
+      "text": "Institucional",
       "blockClass": "title-footer"
     }
   },
@@ -220,87 +224,123 @@
       "blockClass": "seguranca"
     }
   },
-  // ADD PARA REQUISITOS GOOGLE MERCHANT
-  "flex-layout.row#footer-requisitos-merchant": {
+  // COLUNA AJUDA
+  "flex-layout.col#footer-ajuda": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-ajuda",
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  },
+  "rich-text#footer-title-coluna-ajuda": {
+    "props": {
+      "text": "Ajuda",
+      "blockClass": "title-footer"
+    }
+  },
+  // COLUNA ATENDIMENTO
+  "flex-layout.col#footer-atendimento": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-atendimento",
+      "menu-item#Contato",
+      "menu-item#Formas-Pagamento"
+    ]
+  },
+  "rich-text#footer-title-coluna-atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "title-footer"
+    }
+  },
+  // COLUNA FIQUE CONOSCO
+  "flex-layout.col#footer-fique-conosco": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-fique-conosco",
+      "flex-layout.row#redes"
+    ]
+  },
+  "rich-text#footer-title-coluna-fique-conosco": {
+    "props": {
+      "text": "Fique conosco",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.row#redes": {
+    "props": {
+      "blockClass": "linha-redes"
+    },
+    "children": [
+      "image#icon-facebook",
+      "image#icon-instagram",
+      "image#icon-youtube"
+    ]
+  },
+  // IMAGENS INCONES REDES
+  "image#icon-facebook": {
+    "props": {
+      "src": "assets/footer/facebook-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link":{
+        "url": "https://www.facebook.com/idealineautoclaves",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  "image#icon-instagram": {
+    "props": {
+      "src": "assets/footer/instagram-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link":{
+        "url": "https://www.instagram.com/idealine_autoclaves/",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  "image#icon-youtube": {
+    "props": {
+      "src": "assets/footer/youtube-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link":{
+        "url": "https://www.youtube.com/channel/UCiA0juVQujppyBHeLgDMLXQ",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  // colunas POLITICA
+  "flex-layout.row#footer-politica": {
     "props": {
       "blockClass": "footer-merchant-desktop",
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.row#footer-merchant-desktop-horario-linha1",
-      "flex-layout.row#footer-merchant-desktop-horario-linha2"
+      "rich-text#title-footer-coluna-politicas",
+      "menu-item#Politica-privacidade",
+      "menu-item#envio-de-produtos",
+      "menu-item#trocas-e-devolucoes"
     ]
   },
-  // COLUNA HORÁRIO LINHA 1
-  "flex-layout.row#footer-merchant-desktop-horario-linha1": {
+  "rich-text#title-footer-coluna-politicas": {
     "props": {
-      "blockClass": "footer-merchant-desktop-linhas",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.col#footer-merchant-desktop-contatos",
-      "flex-layout.col#footer-2-desktop-3"
-    ]
-  },
-  // COLUNA HORÁRIO LINHA 2
-  "flex-layout.row#footer-merchant-desktop-horario-linha2": {
-    "children": [
-      "flex-layout.col#footer-merchant-desktop-horario"
-    ]
-  },
-  // COLUNA CONTATOS
-  "flex-layout.col#footer-merchant-desktop-contatos": {
-    "props": {
-      "blockClass": "col-contatos-merchant-desktop",
-      "width": "100%"
-    },
-    "children": [
-      "rich-text#footer-merchant-title",
-      "rich-text#footer-merchant-desktop-contato"
-    ]
-  },
-  "rich-text#footer-merchant-title": {
-    "props": {
-      "blockClass": "title-footer",
-      "text": "Fale com a Idealine"
+      "text": "Políticas",
+      "blockClass": "title-footer"
     }
   },
-  "rich-text#footer-merchant-desktop-contato": {
-    "props": {
-      "blockClass": "contato-merchant-desktop",
-      "text": "**Contato:** (41) 3668-2144"
-    }
-  },
-  // COLUNA HORÁRIO
-  "flex-layout.col#footer-merchant-desktop-horario": {
-    "props": {
-      "blockClass": "col-horario-merchant-desktop"
-    },
-    "children": [
-      "rich-text#footer-merchant-title-horario",
-      "rich-text#footer-merchant-desktop-horario",
-      "rich-text#footer-merchant-desktop-horario2"
-    ]
-  },
-  "rich-text#footer-merchant-title-horario": {
-    "props": {
-      "blockClass": "title-footer",
-      "text": "Horário de Atendimento"
-    }
-  },
-  "rich-text#footer-merchant-desktop-horario": {
-    "props": {
-      "blockClass": "horario-merchant-desktop",
-      "text": "- **Vendas**: de segunda a sexta, das **8h às 22h**; sábado, das **10h às 19h30**."
-    }
-  },
-  "rich-text#footer-merchant-desktop-horario2":
-  {
-    "props": {
-      "blockClass": "horario-merchant-desktop",
-      "text": "- **Pós-venda**: de segunda a sábado, das **8h às 22h**."
-    }
-  },
+  // LINHA FINAL
   "flex-layout.row#footer-3-desktop": {
     "children": [
       "rich-text#footer"
@@ -319,7 +359,6 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#menus-accordion-mobile",
-      "flex-layout.row#footer-requisitos-merchant",
       "flex-layout.row#2-footer-mobile"
     ]
   },

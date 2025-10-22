@@ -1,3 +1,7 @@
+.flexRowContent--linha-redes{
+  gap: 10px;
+}
+
 .flexRowContent--conteiner-imgs-instagram-desktop {
   gap: 35px;
 }
@@ -521,9 +525,8 @@
 
 /* rodapé */
 .flexRow--newsletter-row {
-  background: #FCF5EF;
-  padding: 43px 0 50px;
-  padding: 50px;
+  background: #696969;
+  padding: 0px 0 40px;
   /* margin-top: 20PX; */
 
 }
@@ -544,7 +547,7 @@
 }
 
 .flexRow--footer-merchant-desktop {
-  background-color: #474747;
+  background-color: #000000;
 }
 
 /* .flexRow--credits {
@@ -557,8 +560,8 @@
 
 .flexRow--footer-2-desktop {
   border-top: 14px solid #FEBBCE;
-  background: #474747;
-  padding: 40px;
+  background: #000000;
+  padding: 30px 200px;
 }
 
 .flexColChild--footer-2-desktop {
@@ -1761,7 +1764,7 @@
   }
 
   .flexRowContent--linha-img-como-usar {
-  padding: 100px 0px;
+    padding: 100px 0px;
   }
 }
 

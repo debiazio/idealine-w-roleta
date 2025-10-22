@@ -6,11 +6,14 @@
     },
     "children": [
       "menu-item#quem-somos",
+      "menu-item#nosso-blog",
       "menu-item#Politica-privacidade",
-      "menu-item#Contato",
-      "menu-item#Formas-Pagamento",
       "menu-item#envio-de-produtos",
-      "menu-item#trocas-e-devolucoes"
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#meus-pedidos",
+      "menu-item#manuais",
+      "menu-item#Contato",
+      "menu-item#Formas-Pagamento"
     ]
   },
   "menu-item#quem-somos": {
@@ -22,23 +25,23 @@
         "type": "internal",
         "href": "/institucional/quem-somos",
         "noFollow": false,
-        "tagTitle": "Quem Somos",
-        "text": "Quem Somos"
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
       },
       "blockClass": "menu-footer-filho"
     }
   },
-  "menu-item#Departamentos": {
+  "menu-item#nosso-blog": {
     "props": {
-      "id": "menu-item-Departamentos",
+      "id": "menu-item-blog",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://idealineblog.com.br",
         "noFollow": false,
-        "tagTitle": "Departamentos",
-        "text": "Departamentos"
+        "tagTitle": "Nosso Blog",
+        "text": "Nosso Blog"
       },
       "blockClass": "menu-footer-filho"
     }
@@ -118,6 +121,39 @@
       "blockClass": "menu-footer-filho"
     }
   },
+  "menu-item#meus-pedidos": {
+    "props": {
+      "id": "menu-item-menu-item#meus-pedidos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#manuais": {
+    "props": {
+      "id": "menu-item-menu-item#manuais",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manuais-idealine",
+        "noFollow": false,
+        "tagTitle": "Manuais Idealine",
+        "text": "Manuais Idealine"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+
+
+
   "vtex.menu@2.x:menu#fique-conosco": {
     "props": {
       "blockClass": "menu-footer",
