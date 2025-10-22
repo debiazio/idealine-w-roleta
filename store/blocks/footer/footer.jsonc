@@ -22,6 +22,9 @@
     }
   },
   "flex-layout.col#newsletter": {
+    "props": {
+      "blockClass": "coluna-newsletter-footer"
+    },
     "children": [
       "rich-text#title-newsletter",
       "newsletter-form"
@@ -91,140 +94,10 @@
       "blockClass": "title-footer"
     }
   },
-  "flex-layout.col#footer-2-desktop-2": {
-    "children": [
-      "rich-text#title-footer-2",
-      "flex-layout.row#methods-payments",
-      "image#payment-4"
-    ],
-    "props": {
-      "blockClass": "imagens-payments-desktop"
-    }
-  },
-  "rich-text#title-footer-2": {
-    "props": {
-      "text": "Formas de Pagamento",
-      "blockClass": "title-footer"
-    }
-  },
-  "flex-layout.row#methods-payments": {
-    "children": [
-      "image#payment-1",
-      "image#payment-2",
-      "image#payment-3"
-    ],
-    "props": {
-      "blockClass": "metodos-pagamentos"
-    }
-  },
-  "image#payment-1": {
-    "props": {
-      "src": "assets/payment-3.svg",
-      "alt": "Bandeira Visa",
-      "blockClass": "cartoes"
-    }
-  },
-  "image#payment-2": {
-    "props": {
-      "src": "assets/payment-4.svg",
-      "alt": "Bandeira Mastercard",
-      "blockClass": "cartoes"
-    }
-  },
-  "image#payment-3": {
-    "props": {
-      "src": "assets/payment-2.svg",
-      "alt": "Boleto bancário",
-      "blockClass": "cartoes"
-    }
-  },
-  "image#payment-4": {
-    "props": {
-      "src": "assets/payMee.webp",
-      "maxWidth": "320px",
-      "alt": "Pagamentos processados pela PayMee",
-      "link": {
-        "label": "PayMee",
-        "openNewTab": true,
-        "url": "https://www.paymee.com.br/"
-      }
-    }
-  },
-  "flex-layout.col#footer-2-desktop-3": {
-    "children": [
-      "rich-text#title-footer-3",
-      "vtex.menu@2.x:menu#fique-conosco"
-    ],
-    "props": {
-      "blockClass": "footer-2-desktop",
-      "width": "100%"
-    }
-  },
-  "rich-text#title-footer-3": {
-    "props": {
-      "text": "Fique Conosco",
-      "blockClass": "title-footer"
-    }
-  },
-  "flex-layout.col#footer-2-desktop-4": {
-    "children": [
-      "rich-text#title-footer-4",
-      "flex-layout.row#footer-2-desktop-4"
-    ],
-    "props": {
-      "blockClass": "footer-2-desktop"
-    }
-  },
-  "rich-text#title-footer-4": {
-    "props": {
-      "text": "Compre com Segurança",
-      "blockClass": "title-footer"
-    }
-  },
-  "flex-layout.row#footer-2-desktop-4": {
-    "children": [
-      "image#selosEncrypt",
-      "image#selosCertisign",
-      "image#vtex"
-    ]
-  },
-  "image#selosCertisign": {
-    "props": {
-      "src": "assets/seloSeguroCertiSign.svg",
-      "alt": "Selo Certisign site seguro",
-      "link": {
-        "label": "Certisign",
-        "openNewTab": true,
-        "url": "#"
-      },
-      "blockClass": "seguranca"
-    }
-  },
-  "image#selosEncrypt": {
-    "props": {
-      "src": "assets/letsEncrypt.svg",
-      "alt": "Selo Let's Encrypt site seguro",
-      "link": {
-        "label": "Let's Encrypt",
-        "openNewTab": true,
-        "url": "https://letsencrypt.org/pt-br/"
-      },
-      "blockClass": "seguranca"
-    }
-  },
-  "image#vtex": {
-    "props": {
-      "src": "assets/pngegg.png",
-      "maxWidth": "80px",
-      "alt": "Ícone VTEX",
-      "link": {
-        "label": "VTEX",
-        "openNewTab": true,
-        "url": "https://vtex.com/pt-br/"
-      },
-      "blockClass": "seguranca"
-    }
-  },
+
+
+
+
   // COLUNA AJUDA
   "flex-layout.col#footer-ajuda": {
     "props": {
@@ -277,7 +150,8 @@
   },
   "flex-layout.row#redes": {
     "props": {
-      "blockClass": "linha-redes"
+      "blockClass": "linha-redes",
+      "colSizing": "auto"
     },
     "children": [
       "image#icon-facebook",
@@ -348,12 +222,16 @@
       "blockClass": "coluna-formas-pgto"
     },
     "children": [
-      "rich-text#titulo-compreCom"
+      "rich-text#titulo-compreCom",
+      "flex-layout.row#imagens-seguranca"
     ]
   },
   "flex-layout.col#coluna-logo-idealine": {
     "props": {
-      "blockClass": "coluna-formas-pgto"
+      "blockClass": [
+        "coluna-formas-pgto",
+        "coluna-logo-idealine"
+      ]
     },
     "children": [
       "image#logo-idealine-footer"
@@ -416,6 +294,40 @@
       "alt": "Formas de pagamento"
     }
   },
+  // LINHA IMAGENS SEGURANCA
+  "flex-layout.row#imagens-seguranca": {
+    "props": {
+      "blockClass": "linha-images-formas-pgto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#lets",
+      "image#certisign",
+      "image#vtex-footer"
+    ]
+  },
+  // imagens compre com seguranca
+  "image#lets": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/lets-encrypt-icon-footer.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
+  "image#certisign": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/selo-certisign.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
+  "image#vtex-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/vtex-icon.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
   // colunas POLITICA
   "flex-layout.row#footer-politica": {
     "props": {
@@ -459,7 +371,13 @@
   },
   "flex-layout.row#menus-accordion-mobile": {
     "children": [
-      "vtex.menu@2.x:menu#footer-mobile"
+      "vtex.menu@2.x:menu#footer-mobile",
+      "flex-layout.col#footer-fique-conosco",
+       "flex-layout.col#coluna-formas-pgto",
+       "flex-layout.col#coluna-compre-seguranca"
+      // "flex-layout.row#formas-de-pagto-mobile",
+      // "flex-layout.row#fique-conosco-mobile",
+      // "flex-layout.row#compre-com-seguranca-mobile"
     ],
     "props": {
       "paddingTop": 4,

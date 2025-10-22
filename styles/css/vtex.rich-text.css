@@ -293,14 +293,12 @@
   justify-content: center;
 }
 
-.wrapper--title-newsletter {
+
+.paragraph--title-newsletter {
+  color: var(--fonte-cor-normal);
   font-family: "inter-bold";
   font-size: 35px;
   text-align: center;
-}
-
-.paragraph--title-newsletter {
-  color: #FFFFFF;
 }
 
 .container--footer {
@@ -920,6 +918,19 @@
 
   .container--confirm-form-roleta {
     text-align: center;
+  }
+
+  .container--title-newsletter {
+    max-width: 250px;
+  }
+
+  .paragraph--title-newsletter {
+    font-size: 20px;
+  }
+
+  .paragraph--title-footer {
+    margin: 15px 0;
+    font-size: 22px;
   }
 }
 

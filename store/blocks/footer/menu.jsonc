@@ -151,9 +151,6 @@
       "blockClass": "menu-footer-filho"
     }
   },
-
-
-
   "vtex.menu@2.x:menu#fique-conosco": {
     "props": {
       "blockClass": "menu-footer",
@@ -163,7 +160,6 @@
       "flex-layout.row#fique-conosco"
     ]
   },
-
   "flex-layout.row#fique-conosco": {
     "props": {
       "blockClass": "redes-sociais-footer"
@@ -174,7 +170,6 @@
       "image#youtube"
     ]
   },
-
   "image#facebook": {
     "props": {
       "src": "assets/facebook.png",
@@ -208,8 +203,6 @@
       }
     }
   },
-
-
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical",
@@ -217,12 +210,11 @@
     },
     "children": [
       "menu-item#empresa-mobile",
-      "flex-layout.row#formas-de-pagto-mobile",
-      "flex-layout.row#fique-conosco-mobile",
-      "flex-layout.row#compre-com-seguranca-mobile"
+      "menu-item#politica-mobile",
+      "menu-item#ajuda-mobile",
+      "menu-item#atendimento-mobile"
     ]
   },
-
   "menu-item#empresa-mobile": {
     "props": {
       "id": "menu-item-empresa",
@@ -232,16 +224,21 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Empresa",
-        "text": "Empresa"
+        "tagTitle": "Institucional",
+        "text": "Institucional"
       },
       "blockClass": "menu-footer-accordion-conteiner"
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#empresa-mobile"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#empresa-mobile"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#empresa-mobile": {
-    "children": ["vtex.menu@2.x:menu#empresa-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#empresa-mobile"
+    ]
   },
+  // MENU DROPDOWN MOBILE - INSTITUCIONAL
   "vtex.menu@2.x:menu#empresa-mobile": {
     "props": {
       "orientation": "vertical",
@@ -249,14 +246,118 @@
     },
     "children": [
       "menu-item#quem-somos",
+      "menu-item#nosso-blog"
+    ]
+  },
+  // MENU DROPDOWN - POLITICA
+  "menu-item#politica-mobile": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Políticas",
+        "text": "Políticas"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#politica-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#politica-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#politica-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - POLITICAS
+  "vtex.menu@2.x:menu#politica-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
       "menu-item#Politica-privacidade",
-      "menu-item#Contato",
-      "menu-item#Formas-Pagamento",
       "menu-item#envio-de-produtos",
       "menu-item#trocas-e-devolucoes"
     ]
   },
+  // MENU DROPDOWN - AJUDA
+  "menu-item#ajuda-mobile": {
+    "props": {
+      "id": "menu-item-ajuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#ajuda-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#ajuda-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#ajuda-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - AJUDA
+  "vtex.menu@2.x:menu#ajuda-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  },
+  // MENU DROPDOWN - ATENDIMENTO
+  "menu-item#atendimento-mobile": {
+    "props": {
+      "id": "menu-item-atendimento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#atendimento-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#atendimento-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - ATENDIMENTO
+  "vtex.menu@2.x:menu#atendimento-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  },
 
+
+  // APAGAR ?
   "flex-layout.row#formas-de-pagto-mobile": {
     "children": [
       "rich-text#formas-pagamento-mobile",
@@ -309,7 +410,6 @@
       "image#paymee-mobile"
     ]
   },
-
   "image#paymee-mobile": {
     "props": {
       "src": "assets/payMee.webp",
@@ -323,9 +423,6 @@
       "blockClass": "paymee-mobile"
     }
   },
-
-
-
   "flex-layout.row#fique-conosco-mobile": {
     "children": [
       "rich-text#fique-conosco-mobile",
@@ -386,70 +483,5 @@
       },
       "blockClass": "redes-footer-mobile"
     }
-  },
-
-  "flex-layout.row#compre-com-seguranca-mobile": {
-    "children": [
-      "rich-text#compre-com-seguranca-mobile",
-      "flex-layout.row#imagens-compra-segura-mobile"
-    ],
-    "props": {
-      "blockClass": "container-footer-mobile"
-    }
-  },
-  "rich-text#compre-com-seguranca-mobile": {
-    "props": {
-      "text": "Compre com segurança",
-      "blockClass": "titulo-menus-footer-mobile"
-    }
-  },
-  "flex-layout.row#imagens-compra-segura-mobile":{
-    "children": [
-      "image#selosEncrypt-mobile",
-      "image#selosCertisign-mobile",
-      "image#vtex-mobile"
-    ],
-    "props": {
-      "blockClass": "conteiner-footer-mobile-redes"
-    }
-  },
-  "image#selosEncrypt-mobile":{
-    "props": {
-      "src": "assets/letsEncrypt.svg",
-      "alt": "Selo Let's Encrypt site seguro",
-      "link": {
-        "label": "Let's Encrypt",
-        "openNewTab": true,
-        "url": "https://letsencrypt.org/pt-br/"
-      },
-      "blockClass": "redes-footer-mobile"
-    }
-  },
-  "image#selosCertisign-mobile":{
-    "props": {
-      "src": "assets/selo_certisign.png",
-      "alt": "Selo Certisign site seguro",
-      "link": {
-        "label": "Certisign",
-        "openNewTab": true,
-        "url": "#"
-      },
-      "blockClass": "redes-footer-mobile"
-    }
-  },
-  "image#vtex-mobile":{
-    "props": {
-      "src": "assets/pngegg.png",
-      "maxWidth": "80px",
-      "alt": "Ícone VTEX",
-      "link": {
-        "label": "VTEX",
-        "openNewTab": true,
-        "url": "https://vtex.com/pt-br/"
-      },
-      "blockClass": "redes-footer-mobile"
-    }
   }
-
-
 }

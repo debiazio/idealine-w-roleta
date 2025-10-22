@@ -89,58 +89,6 @@
   padding-left: 0;
 }
 
-
-
-
-@media screen and (max-width: 1024px) {
-  .styledLink--menu-footer-accordion-conteiner {
-    font-weight: 800;
-  }
-
-  .menuItem {
-    padding: 10px;
-    width: 100%;
-    /* border-bottom: 1px solid #e90b91; */
-  }
-
-  .menuContainerNav--menu-itensmenu-footer .menuItem {
-    border-bottom: none;
-
-  }
-
-
-  .menuItem--menu-dropdown {
-    padding: 20px
-  }
-
-  .accordionIcon--menu-superior-mobile,
-  .accordionIcon--menu-footer-accordion-conteiner {
-    font-size: 0;
-    width: 10px;
-    height: 16px;
-    display: block;
-    background: url(assets/arrow.png) no-repeat transparent;
-    transition: 0.5s ease all;
-  }
-
-  .accordionIcon--menu-superior-mobile--isOpen,
-  .accordionIcon--menu-footer-accordion-conteiner--isOpen {
-    transform: rotate(90deg);
-    transition: 0.5s ease all;
-  }
-
-  :global(.vtex-menu-2-x-styledLinkContent--menu-footer-filho) {
-    color: #fff;
-  }
-
-  .menuContainerNav {
-    margin-bottom: 20px;
-    /* margin-top: 20px; */
-  }
-
-
-}
-
 /* menu footer */
 .menuContainer--menu-footer .styledLinkContainer {
   margin: 0;
@@ -203,4 +151,64 @@
   font-size: 1rem;
   height: 50px;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .styledLink--menu-footer-accordion-conteiner {
+    font-weight: 800;
+  }
+
+  .menuItem {
+    width: 100%;
+  }
+
+  .menuContainerNav--menu-itensmenu-footer .menuItem {
+    border-bottom: none;
+
+  }
+
+
+  .menuItem--menu-dropdown {
+    padding: 20px
+  }
+
+  .accordionIcon--menu-superior-mobile,
+  .accordionIcon--menu-footer-accordion-conteiner {
+    font-size: 0;
+    width: 14px;
+    height: 19px;
+    display: block;
+    background: url(assets/footer/arrow-direita.svg) no-repeat transparent;
+    transition: 0.5s ease all;
+  }
+
+  .accordionIcon--menu-superior-mobile--isOpen,
+  .accordionIcon--menu-footer-accordion-conteiner--isOpen {
+    transform: rotate(90deg);
+    transition: 0.5s ease all;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--menu-footer-filho) {
+    color: #fff;
+  }
+
+  .menuContainerNav {
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+  }
+
+  .styledLinkContainer--menu-footer-accordion-conteiner {
+    margin: 10px 0;
+  }
+
+  .styledLinkContent--menu-footer-accordion-conteiner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .styledLink--menu-footer-filho{
+    font-size: 18px;
+  }
 }

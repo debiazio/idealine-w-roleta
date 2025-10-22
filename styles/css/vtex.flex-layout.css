@@ -1,3 +1,9 @@
+.flexColChild--coluna-logo-idealine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .flexRow--linha-images-formas-pgto {
   margin: 15px 0;
 }
@@ -902,11 +908,6 @@
   display: flex;
 }
 
-/* MOBILE */
-.flexRow--payment-methods {
-  border-top: 5px solid var(--pink);
-  /* margin: 20px; */
-}
 
 /* imagens por produto: BRNCO PEROLA */
 .flexRow--conteiner-pai-imagens-extras {
@@ -1783,6 +1784,30 @@
   .flexRowContent--linha-img-como-usar {
     padding: 100px 0px;
   }
+
+  .flexColChild--coluna-newsletter-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRowContent--linha-redes {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .flexRowContent--linha-images-formas-pgto{
+    justify-content: flex-start;
+  }
+
+  .flexRow--footer-mobile-principal{
+    border-top: 10px solid #FEBBCE;
+  }
+
+  .flexRowContent--header-mobile{
+    background-color: var(--fundo);
+  }
+
 }
 
 
