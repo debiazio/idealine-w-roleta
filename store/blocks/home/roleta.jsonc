@@ -1,0 +1,179 @@
+{
+  "modal-trigger#roleta": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": [
+      "modal-layout#roleta"
+    ]
+  },
+  "modal-layout#roleta": {
+    "props": {
+      "blockClass": "form-roleta"
+    },
+    "children": [
+      "flex-layout.row#form-roleta",
+      "roleta" //teste roleta
+    ]
+  },
+  "flex-layout.row#form-roleta": {
+    "props": {
+      "blockClass": "row-form-roleta"
+    },
+    "children": [
+      "newsletter-form#teste-roleta"
+    ]
+  },
+  "newsletter-form#teste-roleta": {
+    "props": {
+      "SuccessState": "rich-text#roleta-fomr",
+      "blockClass": "formulario-roleta"
+    },
+    "children": [
+      "flex-layout.col#roleta-coluna-esquerda",
+      "flex-layout.col#roleta-coluna-direita"
+    ]
+  },
+  "flex-layout.col#roleta-coluna-esquerda": {
+    "props": {
+      "blockClass": "coluna-esquerda-roleta"
+    },
+    "children": [
+
+      "image#roleta-premios",
+      "rich-text#subtitulo-form-roleta",
+      "rich-text#texto2-form-roleta",
+      "rich-text#preencha-form-roleta",
+      "newsletter-input-name#roleta",
+      "newsletter-input-email#roleta",
+      "newsletter-input-phone#roleta",
+      "flex-layout.row#confirm",
+      "newsletter-submit#roleta",
+      "flex-layout.row#rules"
+    ]
+  },
+  "image#roleta-premios": {
+    "props": {
+      "src": "assets/roleta/black-idealovers.webp",
+      "alt": "Titulo da roleta",
+      "blockClass": "titulo-img-roleta"
+    }
+  },
+  "rich-text#subtitulo-form-roleta": {
+    "props": {
+      "text": "**APOSTE NA SUA SORTE**",
+      "blockClass": "subtitulo-form-roleta"
+    }
+  },
+  "rich-text#texto2-form-roleta": {
+    "props": {
+      "text": "**E GANHE UM PRÊMIO INCRÍVEL NA SUA COMPRA**",
+      "blockClass": "texto2-roleta"
+    }
+  },
+  "rich-text#preencha-form-roleta": {
+    "props": {
+      "text": "Preencha seus dados para girar a roleta de Prêmios",
+      "blockClass": "subtitulo-roleta"
+    }
+  },
+  "newsletter-input-name#roleta": {
+    "props": {
+      "placeholderText": "Digite seu nome",
+      "blockClass": "inputs-form-roleta"
+    }
+  },
+  "newsletter-input-email#roleta": {
+    "props": {
+      "placeholderText": "Digite seu email",
+      "blockClass": "inputs-form-roleta"
+    }
+  },
+  "newsletter-input-phone#roleta": {
+    "props": {
+      "placeholderText": "Seu número de celular",
+      "blockClass": "inputs-form-roleta"
+    }
+  },
+  "newsletter-submit#roleta": {
+    "props": {
+      "submitButtonLabel": "Enviar",
+      "blockClass": "submit-button"
+    }
+  },
+  "flex-layout.row#confirm": {
+    "props": {
+      "blockClass": "conteiner-confirmacao"
+    },
+    "children": [
+      "newsletter-checkbox-confirmation#roleta",
+      "newsletter-checkbox-confirmation#roleta-termos"
+    ]
+  },
+  "newsletter-checkbox-confirmation#roleta": {
+    "props": {
+      "checkboxLabel": "Eu concordo em  receber comunicações.",
+      "blockClass": "termo-concordo-roleta"
+    }
+  },
+  "newsletter-checkbox-confirmation#roleta-termos": {
+    "props": {
+      "checkboxLabel": "Li e aceito os termos da política de privacidade",
+      "blockClass": "aceito-termos"
+    }
+  },
+  "flex-layout.row#rules": {
+    "props": {
+      "blockClass": "rules-roleta-container"
+    },
+    "children": [
+      "rich-text#titulo-rules",
+      "rich-text#regras-roleta"
+    ]
+  },
+  "rich-text#titulo-rules": {
+    "props": {
+      "text": "Regras da Roleta de Prêmios",
+      "blockClass": [
+        "texto-rules-roleta",
+        "titulo-regras-roleta"
+      ]
+    }
+  },
+  "rich-text#regras-roleta": {
+    "props": {
+      "text": "*Válido para compras acima de R$ 390,00.\n *Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.\n \n *Imagens dos prêmios meramente ilustrativas",
+      "blockClass": "texto-rules-roleta"
+    }
+  },
+  "rich-text#roleta-fomr": {
+    "props": {
+      "text": "Agora gire a roleta e boa sorte!",
+      "blockClass": "confirm-form-roleta"
+    }
+  },
+  "flex-layout.col#roleta-coluna-direita": {
+    "props": {
+      "blockClass": "coluna-direita-roleta"
+    },
+    "children": [
+      "image#roleta-primeira-tela",
+      "image#tabela-primeira-tela"
+    ]
+  },
+  "image#roleta-primeira-tela": {
+    "props": {
+      "src": "assets/roleta/roleta-estatica.webp",
+      "alt": "roleta de premios",
+      "blockClass": "roleta-primeira-tela"
+    }
+  },
+  "image#tabela-primeira-tela": {
+    "props": {
+      "src": "assets/roleta/tabela-premios-roleta.webp",
+      "alt": "Tabela roleta",
+      "blockClass": "tabela-primeira-tela"
+    }
+  }
+  // FINAL ROLETA AQUI
+}

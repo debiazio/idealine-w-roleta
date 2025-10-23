@@ -22,7 +22,7 @@
   },
   "breadcrumb#produto-comum": {
     "props": {
-      "blockClass": "breadcrumb-child"
+      // "blockClass": "breadcrumb-child"
     }
   },
   // LAYOUT DESKTOP
@@ -39,19 +39,7 @@
       // "condition-layout.product#mobile-availability"
     ]
   },
-  // avalia se o produto tem estoque MOBILE
-  "condition-layout.product#mobile-availability": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "isProductAvailable"
-        }
-      ],
-      // "Then": "flex-layout.row#mobile-product-main",
-      "Then": "condition-layout.product#mobile-fundo-dinamico",
-      "Else": "flex-layout.row#product-availability"
-    }
-  },
+
   "condition-layout.product#mobile-fundo-dinamico": {
     "props": {
       "blockClass": "condicional-fundo-dinamico",
@@ -158,18 +146,7 @@
       "Else": "flex-layout.row#mobile-product-main"
     }
   },
-  // avalia se o produto tem estoque desktop
-  "condition-layout.product#availability": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "isProductAvailable"
-        }
-      ],
-      "Then": "condition-layout.product#fundo-dinamico",
-      "Else": "flex-layout.row#product-availability"
-    }
-  },
+
   //avalia se o produto está disponível - itens secundários
   "condition-layout.product#elementos-sec-pdp-availability": {
     "props": {
@@ -336,7 +313,7 @@
   },
   "breadcrumb#fundo-dinamic": {
     "props": {
-      "blockClass": "breadcrumb-dinamic-child"
+      // "blockClass": "breadcrumb-dinamic-child"
     }
   },
   "flex-layout.row#linha-produto-fundo-dinamico": {
@@ -551,19 +528,7 @@
       "Then": "rich-text#a-vista"
     }
   },
-  // PRECO A VISTA - COM DESCONTO
-  "product-spot-price-savings#prod-din": {
-    "props": {
-      "blockClass": "prod-din-preco-vista",
-      "message": "{newSpotPriceValue}"
-    }
-  },
-  "rich-text#ou": {
-    "props": {
-      "text": "ou",
-      "blockClass": "texto-ou"
-    }
-  },
+
   "rich-text#a-vista": {
     "props": {
       "text": " À VISTA",
@@ -909,27 +874,7 @@
       "blockClass": "imagesMobile"
     }
   },
-  // LINHA DE PREÇO PARCELADO MOBILE
-  "flex-layout.row#linha-parcelas": {
-    "props": {
-      "blockClass": "parcelas-mobile"
-    },
-    "children": [
-      "product-installments", // preco parcelas
-      "product-spot-price-savings"
-    ]
-  },
-  "flex-layout.row#mobile-quantidade-cep": {
-    "props": {
-      "blockClass": "mobile-qtde-cep"
-    },
-    "children": [
-      "product-quantity",
-      "product-assembly-options",
-      "availability-subscriber", // avise-me disponibilidade
-      "flex-layout.row#botoes-comprar-bucarcep"
-    ]
-  },
+
   "flex-layout.row#add-to-list-btn-din": {
     "props": {
       "blockClass": "linha-favoritos-dinamic-background"
@@ -2716,15 +2661,7 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-  // PRODUTOS MAIS VENDIDOS titulo
-  "flex-layout.row#titulo-top-sales": {
-    "props": {
-      "blockClass": "content-titulo-top-sales"
-    },
-    "children": [
-      "rich-text#top-sales"
-    ]
-  },
+
   "rich-text#top-sales": {
     "props": {
       "text": "## **Mais vendidos**"

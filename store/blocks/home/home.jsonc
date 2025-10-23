@@ -10,6 +10,7 @@
       "flex-layout.row#cookie-script",
       "responsive-layout.mobile#categorias",
       "responsive-layout.mobile#banners-mobile",
+      "modal-trigger#roleta",
       "responsive-layout.desktop#categorias",
       "__fold__",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -374,16 +375,7 @@
       "showNavigationArrows": "never"
     }
   },
-  "flex-layout.row#conteudo-instagram": {
-    "props": {
-      "blockClass": "linha-instagram",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-instagram",
-      "flex-layout.row#postagens-instagram"
-    ]
-  },
+
   // slider instagram
   "flex-layout.row#postagens-instagram": {
     "props": {
