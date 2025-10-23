@@ -1,5 +1,14 @@
+.reviewsRatingCount{
+  color: var(--fonte-cor-normal);
+}
+
+:global(.vtex-dropdown__button){
+  color: var(--fonte-cor-normal);
+}
+
 .summaryTotalReviews{
   display: none;
+  color: var(--fonte-cor-normal);
 }
 .container {
   max-width: 96rem;
@@ -27,16 +36,19 @@
   color: transparent;
   background: transparent;
   border: transparent;
+  color: var(--fonte-cor-normal);
 }
 
 .summaryButtonContainer :global(.vtex-button__label) {
   font-size: 0.7rem;
+  color: var(--fonte-cor-normal);
 }
 
 
 .summaryContainer {
   text-align: left;
   font-size: small;
+  color: var(--fonte-cor-normal);
 }
 
 @media screen and (max-width: 1024px) {

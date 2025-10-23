@@ -855,6 +855,7 @@
 
 :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
   margin: 10px;
+  color: var(--fonte-cor-normal);
 }
 
 .flexRow--breadcrumb {

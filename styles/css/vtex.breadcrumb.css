@@ -8,7 +8,7 @@
 .arrow--breadcrumb-child:last-child .link--breadcrumb-child,
 .link--breadcrumb-child:hover,
 .arrow--breadcrumb-child::before{
-  color: #696969!important;
+  color: var(--fonte-cor-normal)!important;
 }
 
 .link--breadcrumb-dinamic-child,

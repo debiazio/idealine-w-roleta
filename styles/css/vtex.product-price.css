@@ -2,7 +2,7 @@
   display: flex
 ;
     align-items: center;
-  color: #696969;
+  color: var(--fonte-cor-normal);
 }
 
 .currencyContainer--prod-din-preco-vista-riscado {
@@ -11,7 +11,7 @@
 
 .spotPriceSavings--prod-din-preco-vista {
   font-size: 2.4vh;
-  color: #696969;
+  color: var(--fonte-cor-normal);
   font-weight: 900;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .listPrice {
-  color: #696969;
+  color: var(--fonte-cor-normal);
   margin-bottom: .25rem;
   font-size: 1rem;
 }
@@ -34,7 +34,7 @@
 }
 
 .installments {
-  color: #696969;
+  color: var(--fonte-cor-normal);
   margin-bottom: 1rem;
 }
 
@@ -46,14 +46,14 @@
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #2E2E2E;
+  color: var(--fonte-cor-normal);
 }
 
 .savings-discount--summary {
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: var(--fonte-cor-normal);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -66,11 +66,11 @@
 
 .spotPriceSavings--summary {
   font-size: 0.875rem;
-  color: #A7A7A8;
+  color: var(--fonte-cor-normal);
 }
 
 .installments--summary {
-  color: black;
+  color: var(--fonte-cor-normal);
 }
 
 .savings--summaryPercentage {
@@ -84,7 +84,7 @@
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: var(--fonte-cor-normal);
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
@@ -92,7 +92,7 @@
 
 :global(.vtex-numeric-stepper__plus-button-container),
 :global(.vtex-numeric-stepper__minus-button-container) {
-  background-color: white;
+  background-color: var(--fonte-cor-normal);
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 
@@ -114,6 +114,7 @@
 :global(.vtex-numeric-stepper__input) {
   border: none;
   background-color: transparent;
+  color: var(--fonte-cor-normal);
 }
 
 .savings--summary {

@@ -1,5 +1,17 @@
+.productDescriptionText--texto-descricao{
+  color: var(--fonte-cor-normal);
+}
+
+.productDescriptionTitle--texto-descricao{
+  color: var(--fonte-cor-normal);
+}
+
+.valueWrapper {
+  color: var(--fonte-cor-normal);
+}
+
 .image--hover{
-  z-index: 99;
+  z-index: 99!important;
 }
 
 .imageElement--imgs-pgto-icons{
@@ -119,10 +131,15 @@
   position: absolute;
 }
 
+.skuSelectorName {
+  color: var(--fonte-cor-normal);
+}
+
 .skuSelectorContainer--prod-din-sku-selector .skuSelectorName {
   display: block;
   font-size: 2.4vh;
   font-weight: bold;
+  color: var(--fonte-cor-normal);
 }
 
 .skuSelectorContainer--prod-din-sku-selector .skuSelectorName::after {
@@ -146,6 +163,7 @@
 .productBrand {
   display: flex;
   flex-direction: column;
+  color: var(--fonte-cor-normal);
 }
 
 .skuSelectorItem--prod-din-sku-selector--selected .skuSelectorInternalBox--prod-din-sku-selector {
@@ -341,7 +359,7 @@
 }
 
 .productNameContainer {
-  color: #696969;
+  color: var(--fonte-cor-normal);
   font-weight: bold;
   font-size: 2.4vh;
 }
@@ -382,7 +400,7 @@
 
 /* input da pesquisa */
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  color: #e80e7b;
+  color: var(--fonte-cor-normal);
   font-size: 1.1rem;
   font-weight: 200;
   background-color: transparent;

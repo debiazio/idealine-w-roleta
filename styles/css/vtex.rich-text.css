@@ -1,3 +1,11 @@
+.paragraph--texto-vantagens{
+  color: var(--fonte-cor-normal);
+}
+
+.heading--titulo-template{
+  color: var(--fonte-cor-normal)
+}
+
 .paragraph--titulo-post-blog {
   font-size: 18px;
   font-family: "montserrat-bold";

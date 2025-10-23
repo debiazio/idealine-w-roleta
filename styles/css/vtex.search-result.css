@@ -1,5 +1,47 @@
+.orderByOptionItem--selected,
+.orderByOptionItem:hover{
+  color: black;
+}
 
-.gallery .stackItem--fav-dinamic-background{
+.orderByOptionItem,
+.filterPopupTitle,
+.totalProducts--layout{
+  color: var(--fonte-cor-normal);
+}
+
+.orderByOptionsContainer{
+  z-index: 100;
+}
+
+.filter__container {
+  border-color: white;
+}
+
+:global(.vtex-checkbox__label){
+  color: white;
+}
+
+:global(.vtex-checkbox__line-container) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+:global(.vtex-checkbox__inner-container) {
+  border-color: white;
+}
+
+.filters--layout {
+  background-color: var(--rosa-installments);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.gallery{
+  padding-left: 10px!important;
+}
+
+.gallery .stackItem--fav-dinamic-background {
   display: block;
 }
 
@@ -11,12 +53,13 @@
 
 /* vtex-search-result-3-x- */
 
-.filterAvailable {
+/* .filterAvailable {
   background-color: var(--rosa-installments);
-}
+} */
 
 .filterTitleSpan {
   margin: 5px 10px;
+  color: white;
 }
 
 
@@ -31,5 +74,5 @@
 /* vtex-search-result-3-x-filterIsOpen */
 
 .searchNotFoundOops {
-  display: none!important;
+  display: none !important;
 }
