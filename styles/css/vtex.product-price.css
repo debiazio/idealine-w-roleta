@@ -43,6 +43,11 @@
   color: #79B03A;
 }
 
+.sellingPriceValue--prod-din-preco-vista-riscado{
+  color: var(--fonte-installments)!important;
+}
+
+
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;

@@ -5,9 +5,8 @@
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
       "condition-layout.product#elementos-sec-pdp-availability",
-      "flex-layout.row#topsales",
-      "rich-text#certificacoes-titulo",
-      "flex-layout.row#certificacoes"
+      // "flex-layout.row#topsales",
+      "flex-layout.row#linha-certificados"
     ]
   },
   // linha que mostra o caminho até o conteúdo
@@ -2763,6 +2762,15 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
+  "flex-layout.row#linha-certificados":{
+    "props": {
+      "blockClass": "linha-certificados",
+      "colSizing": "auto"
+    },"children": [
+      "rich-text#certificacoes-titulo",
+      "flex-layout.row#certificacoes"
+    ]
+  },
   "rich-text#certificacoes-titulo": {
     "props": {
       "text": "## **Certificações**",
@@ -2772,7 +2780,8 @@
   // CERTIFICADOS
   "flex-layout.row#certificacoes": {
     "props": {
-      "blockClass": "certificados"
+      "blockClass": "certificados",
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#coluna-certificado",
