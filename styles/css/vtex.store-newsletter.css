@@ -1,7 +1,11 @@
-/* .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
-  display: none;
-} */
+.defaultErrorMessage--formulario-roleta{
+  color: #ffffff
+}
 
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex__icon-check),
+.confirmationCheckboxContainer--aceito-termos :global(.vtex__icon-check){
+  color: #F466BE;
+}
 
 .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__box),
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__box){
