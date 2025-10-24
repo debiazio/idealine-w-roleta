@@ -661,15 +661,17 @@
 }
 
 .imageElement--titulo-img-roleta {
-  width: 350px;
+  width: 399px;
 }
 
 .imageElement--roleta-primeira-tela {
   width: 450px;
+  margin-top: 42px;
 }
 
 .imageElement--tabela-primeira-tela {
   width: 500px;
+  margin-top: 42px;
 }
 
 

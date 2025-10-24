@@ -1,3 +1,15 @@
+/* .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
+  display: none;
+} */
+
+
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__box),
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__box){
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+
 .newsletterForm {
   display: flex;
   gap: 8px;
@@ -5,6 +17,7 @@
 }
 
 .nameInputContainer :global(.vtex-input-prefix__group),
+.phoneInputContainer :global(.vtex-input-prefix__group),
 .emailInputContainer :global(.vtex-input-prefix__group) {
   height: auto;
   border: 0;
@@ -14,8 +27,36 @@
 .emailInputContainer :global(.vtex-styleguide-9-x-input) {
   padding: 10px 15px 10px;
   background: transparent;
-  border: 1px solid #ffffff;
   border-radius: 10px;
+}
+.nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
+.emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
+.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input){
+  padding: 8px 15px 8px;
+  background: transparent;
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group),
+.nameInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group),
+.emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
+  border: none;
+}
+
+
+.phoneInputContainer--inputs-form-roleta,
+.nameInputContainer--inputs-form-roleta,
+.emailInputContainer--inputs-form-roleta {
+  border: 2px solid #246FBF;
+  border-radius: 10px;
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
+.nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
+.emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #3D3D3D91!important;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
@@ -50,7 +91,6 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  margin-top: 36px;
   gap: 50px
 }
 
@@ -96,14 +136,17 @@
 }
 
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label) {
-  color: #ffff;
-  font-size: 14px;
+  color: #FFFFFF;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 10px;
 }
 
 .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
-  text-decoration: underline;
-  color: #ffff;
-  font-size: 14px;
+  color: #FFFFFF;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 10px;
 }
 
 
@@ -114,10 +157,14 @@
   padding-top: 5px;
 }
 
+.formSubmitContainer--submit-button :global(.vtex-button__label){
+  width: 446px;
+}
+
 .formSubmitContainer--submit-button :global(.vtex-button) {
   border: none;
-  background-color: #FEBBCE;
-  color: white;
+  background-color: #F466BE;
+  color: #ffffff;
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
@@ -125,7 +172,8 @@
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button):hover {
-  background-color: #696969;
+  background-color: #FF44B7BD;
+  color: #969696;
 }
 
 

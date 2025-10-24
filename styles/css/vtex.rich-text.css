@@ -1,3 +1,22 @@
+.paragraph--titulo-nova-roleta{
+  color: #FFFFFF;
+  font-family: "Rubik";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-nova-roleta{
+  color: #FFFFFF;
+  font-family: "Rubik";
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+
 .list--conteudo-institucionais,
 .paragraph--conteudo-institucionais,
 .headingLevel2--titulo-institucionais,
@@ -758,12 +777,7 @@
   padding: 0;
 }
 
-.wrapper--subtitulo-roleta {
-  color: #ffffff;
-  font-size: 18px;
-  text-wrap: wrap;
-  text-align: center;
-}
+
 
 .wrapper--titulo-form-roleta {
   color: #ffffff;
@@ -780,61 +794,19 @@
 }
 
 .container--titulo-regras-roleta {
-  font-size: 16px;
-  text-decoration: underline;
+  font-size: 14px;
+  color: #FFFFFFB2;
 }
 
 .container--texto-rules-roleta {
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 10px;
-  color: #ffffff;
-  text-shadow:
-    0 0 1px #ffffff,
-    0 0 5px #ffffff;
+  color: #FFFFFFB2;
   font-family: "Rubik";
 }
 
 .paragraph--texto-rules-roleta {
-  margin: 0;
-}
-
-.paragraph--subtitulo-form-roleta {
-  font-family: "Rubik";
-  color: #ff489c;
-  font-size: 20px;
-  font-weight: 900;
-  margin: 0;
-  text-shadow:
-    0 0 1px #ff489c,
-    0 0 5px #ff489c,
-    0 0 10px #ff489c,
-    0 0 15px #ff489c,
-    0 0 20px #ff489c;
-}
-
-.paragraph--texto2-roleta {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 900;
-  color: #ffffff;
-  font-family: "Rubik";
-
-  /* Efeito de glow */
-  text-shadow:
-    0 0 5px #00b3d8,
-    0 0 10px #00b3d8,
-    0 0 15px #00b3d8,
-    0 0 20px rgba(255, 23, 135, 0.854),
-    0 0 30px rgba(255, 23, 137, 0.7),
-    0 0 40px rgba(255, 23, 137, 0.7);
-}
-
-.paragraph--subtitulo-roleta {
-  color: #ff489c;
-  font-family: "Rubik";
-  font-size: 18px;
-  font-weight: 900;
   margin: 0;
 }
 
@@ -875,31 +847,13 @@
     font-size: 12px;
   }
 
-  .paragraph--subtitulo-form-roleta {
-    text-shadow: none;
-
-  }
-
 
   .container--titulo-regras-roleta {
     display: flex;
     justify-content: center;
   }
 
-  .paragraph--subtitulo-roleta {
-    font-size: 16px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    width: 300px;
-  }
 
-  .paragraph--texto2-roleta {
-    font-size: 17px;
-    text-align: center;
-    padding: 0;
-    width: 250px;
-  }
 
   .container--texto-rules-roleta {
     width: fit-content;
@@ -911,16 +865,6 @@
   .wrapper--titulo-form-roleta {
     font-size: 30px;
     margin-top: 20px;
-  }
-
-  .wrapper--subtitulo-roleta {
-    font-size: 12px;
-    padding-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .paragraph--subtitulo-roleta {
-    margin: 0;
   }
 
   .paragraph--confirm-form-roleta {

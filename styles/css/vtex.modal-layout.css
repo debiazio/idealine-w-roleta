@@ -1,4 +1,4 @@
-.closeButtonContainer--close-dia-consumidor{
+.closeButtonContainer--close-dia-consumidor {
   position: absolute;
 }
 
@@ -123,43 +123,42 @@
 
 
 /* MODAL DA ROLETA */
-.container--form-roleta{
+.container--form-roleta {
   background-color: transparent;
   backdrop-filter: blur(5px);
   box-shadow: #0000;
 }
 
 .paper--form-roleta {
-  flex-direction: row;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  background-image: url('https://stermax.com.br/images_idealine/roleta_fundo.png');
-  background-size: cover; /* Faz com que a imagem cubra todo o elemento */
-  background-position: center; /* Centraliza a imagem no elemento */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-color: #000000;
+  border-radius: 25px;
 }
 
-.closeButton--botao-fechar-roleta{
+.closeButton--botao-fechar-roleta {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    right: 40px;
-    color: white;
-    background: transparent;
-    border: none;
-    padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
-.closeButtonLabel--botao-fechar-roleta{
+.closeButtonLabel--botao-fechar-roleta {
   margin: 0;
   padding: 0;
 }
 
-:global(.vtex-modal-layout-0-x-triggerContainer){
+:global(.vtex-modal-layout-0-x-triggerContainer) {
   display: flex;
   justify-content: center;
 }

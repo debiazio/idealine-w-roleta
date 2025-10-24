@@ -1,3 +1,7 @@
+.flexRowContent--rules-roleta-container{
+  max-width: 446px;
+}
+
 .flexRowContent--product-name-fundo-dinamico{
   color: #696969!important;
 }
@@ -797,7 +801,7 @@
 }
 
 .flexColChild--menu-institucionais:hover {
-  background-color: #e086a0;
+  background-color: #d3839a!important;
 }
 
 .flexRow--menu-institucionais-active {
@@ -1103,7 +1107,6 @@
 .flexRowContent--rules-roleta-container {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 55px;
 }
 
 .flexCol--coluna-direita-roleta {
@@ -1638,7 +1641,7 @@
 /* layout roleta */
 .flexRow--row-form-roleta {
   min-width: 400px;
-  margin: 0 0 20px 40px;
+  margin: 0 0 40px 40px;
 }
 
 .flexRowContent--row-form-roleta {

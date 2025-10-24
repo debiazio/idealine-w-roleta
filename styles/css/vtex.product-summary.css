@@ -1,3 +1,7 @@
+.hoverImage{
+  z-index: 99;
+}
+
 .productNameContainer{
   padding: 8px 0;
 }
