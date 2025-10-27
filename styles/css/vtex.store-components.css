@@ -1,8 +1,8 @@
-.productDescriptionText--texto-descricao{
+.productDescriptionText--texto-descricao {
   color: var(--fonte-cor-normal);
 }
 
-.productDescriptionTitle--texto-descricao{
+.productDescriptionTitle--texto-descricao {
   color: var(--fonte-cor-normal);
 }
 
@@ -10,29 +10,29 @@
   color: var(--fonte-cor-normal);
 }
 
-.image--hover{
-  z-index: 99!important;
+.image--hover {
+  z-index: 99 !important;
 }
 
-.imageElement--imgs-pgto-icons{
+.imageElement--imgs-pgto-icons {
   max-width: 100px;
   max-height: 50px;
 }
 
-.imageElement--redes-footer{
+.imageElement--redes-footer {
   max-width: 45px;
 }
 
 
-.imageElement--img-post-blog{
+.imageElement--img-post-blog {
   border-radius: 15px 15px 0 0;
 }
 
-.imageElement--instagram-rodape{
+.imageElement--instagram-rodape {
   margin: 25px 0;
 }
 
-.imageElement--img-instagram{
+.imageElement--img-instagram {
   border-radius: 8px;
   width: 430px;
   height: 530px;
@@ -415,12 +415,12 @@
 
 .searchBarContainer :global(.vtex-input__suffix) {
   background-color: transparent;
-  color: var(--fonte-cor-normal)!important;
+  color: var(--fonte-cor-normal) !important;
 }
 
 .searchBarIcon--search-bar--search {
   background-color: transparent;
-  color: var(--fonte-cor-normal)!important;
+  color: var(--fonte-cor-normal) !important;
 }
 
 
@@ -814,10 +814,11 @@
 
   .imageElement--roleta-primeira-tela {
     padding-bottom: 10px;
+    margin-top: 0;
   }
 
   .imageElement--titulo-img-roleta {
-    margin-top: 340px;
+    margin-top: 660px;
     padding: 10px 0 10px 0;
     width: 100%;
   }
@@ -907,25 +908,31 @@
     width: 30px;
   }
 
-  .imageElement--img-instagram{
+  .imageElement--img-instagram {
     height: unset;
   }
 
-  .imageElement--instagram-rodape{
+  .imageElement--instagram-rodape {
     width: 90%;
   }
 
-  .searchBarContainer{
+  .searchBarContainer {
     background-color: var(--fundo);
   }
+
+  .imageElement--tabela-primeira-tela {
+    margin-bottom: 300px;
+    width: 75vw;
+  }
+
 
 }
 
 @media screen and (max-width: 400px) {
   .imageElement--titulo-img-roleta {
-    margin-top: 360px;
     width: 254px;
     padding: 10px 0 10px 0;
+
   }
 
   .imageElement--roleta-primeira-tela {

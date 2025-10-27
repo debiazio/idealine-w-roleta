@@ -1,3 +1,7 @@
+.closeIcon--roleta-header{
+  width: 20px;
+}
+
 .headerContainer--roleta-header {
   position: relative;
   top: 70px;
@@ -170,6 +174,14 @@
   justify-content: center;
 }
 
+
+@media screen and (max-width: 360px) {
+  .paper--form-roleta {
+    padding-bottom: 0;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .closeButton--botao-fechar-roleta {
     right: 15px;
@@ -181,12 +193,12 @@
     justify-content: center;
     display: flex;
     padding-bottom: 10px;
+    overflow: auto;
   }
+
+  .headerContainer--roleta-header {
+  position: unset;
+  padding-top: 10px;
+  width: 100%;
 }
-
-@media screen and (max-width: 360px) {
-  .paper--form-roleta {
-    padding-bottom: 0;
-  }
-
 }
