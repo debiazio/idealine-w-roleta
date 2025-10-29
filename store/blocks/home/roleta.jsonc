@@ -159,7 +159,7 @@
   },
   "rich-text#regras-roleta": {
     "props": {
-      "text": "*Válido para compras acima de R$ 390,00.\n *Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.\n*Imagens dos prêmios meramente ilustrativas",
+      "text": "Válido para compras acima de R$ 390,00.\n Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.",
       "blockClass": "texto-rules-roleta"
     }
   },

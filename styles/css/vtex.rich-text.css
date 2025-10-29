@@ -808,6 +808,7 @@
 
 .paragraph--texto-rules-roleta {
   margin: 0;
+  white-space: nowrap;
 }
 
 
