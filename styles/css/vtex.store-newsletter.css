@@ -30,7 +30,7 @@
 .nameInputContainer :global(.vtex-styleguide-9-x-input),
 .emailInputContainer :global(.vtex-styleguide-9-x-input) {
   padding: 10px 15px 10px;
-  background: transparent;
+  background: gray;
   border-radius: 10px;
 }
 .nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
