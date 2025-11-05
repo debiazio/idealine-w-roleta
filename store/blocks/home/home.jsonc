@@ -6,6 +6,7 @@
       "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
+      "flex-layout.row#shelf-timer",
       "flex-layout.row#shelf-mais-vendidos",
       "flex-layout.row#cookie-script",
       "responsive-layout.mobile#categorias",

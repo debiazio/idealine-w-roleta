@@ -1,4 +1,18 @@
-.paragraph--titulo-nova-roleta{
+/* teste prateleira cronometrada - black friday */
+.container--titulo-prateleira-timer {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-prateleira-timer{
+  font-family: "montserrat-extrabold";
+  font-size: 65px;
+  color: red;
+}
+
+/* teste prateleira cronometrada - black friday */
+
+.paragraph--titulo-nova-roleta {
   color: #FFFFFF;
   font-family: "Rubik";
   text-transform: uppercase;
@@ -8,7 +22,7 @@
   margin: 0;
 }
 
-.paragraph--subtitulo-nova-roleta{
+.paragraph--subtitulo-nova-roleta {
   color: #FFFFFF;
   font-family: "Rubik";
   font-size: 12px;

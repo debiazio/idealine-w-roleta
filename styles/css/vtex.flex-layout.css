@@ -1,22 +1,31 @@
-.flexRowContent--rules-roleta-container{
+/* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
+.flexRowContent--linha-shelf-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
+
+.flexRowContent--rules-roleta-container {
   max-width: 446px;
 }
 
-.flexRowContent--product-name-fundo-dinamico{
-  color: #696969!important;
+.flexRowContent--product-name-fundo-dinamico {
+  color: #696969 !important;
 }
 
 
-.flexRowContent--linha-certificados{
+.flexRowContent--linha-certificados {
   display: flex;
   flex-direction: column;
 }
 
-.flexRow--template-copy-linha-2{
+.flexRow--template-copy-linha-2 {
   margin: 20px
 }
 
-.flexRowContent--linha-img-colunas{
+.flexRowContent--linha-img-colunas {
   background-color: #ffffff;
 }
 
@@ -801,7 +810,7 @@
 }
 
 .flexColChild--menu-institucionais:hover {
-  background-color: #d3839a!important;
+  background-color: #d3839a !important;
 }
 
 .flexRow--menu-institucionais-active {
@@ -1823,15 +1832,15 @@
     flex-direction: row;
   }
 
-  .flexRowContent--linha-images-formas-pgto{
+  .flexRowContent--linha-images-formas-pgto {
     justify-content: flex-start;
   }
 
-  .flexRow--footer-mobile-principal{
+  .flexRow--footer-mobile-principal {
     border-top: 10px solid #FEBBCE;
   }
 
-  .flexRowContent--header-mobile{
+  .flexRowContent--header-mobile {
     background-color: var(--fundo);
   }
 

@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#shelf-timer": {
+    "props": {
+      "blockClass": "linha-shelf-timer",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-line",
+      "timershelf",
+      "rich-text#titulo-prateleira-cronometrada",
+      "list-context.product-list#prateleira-cronometrada",
+      "flex-layout.row#linha-line"
+    ]
+  },
+  "timershelf":{
+
+  },
+  // TITULO PRATELEIRA
+  "rich-text#titulo-prateleira-cronometrada": {
+    "props": {
+      "blockClass": "titulo-prateleira-timer",
+      "text": "PROMOÇÕES RELÂMPAGO"
+    }
+  },
+  // PRATELEIRA
+  "list-context.product-list#prateleira-cronometrada": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-cronometro"
+    ],
+    "props": {
+      "orderBy": "OrderByNameASC",
+      "maxItems": 20
+    }
+  },
+  // COMPONENTE DO SLIDE
+  "slider-layout#prateleira-cronometro": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  }
+}
