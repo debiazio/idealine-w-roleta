@@ -91,8 +91,9 @@
 .imageElement--miniaturas {
   width: 25px;
   border-radius: 50%;
-  padding: 2px;
+  /* padding: 2px; */
   box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+  border: 2px solid white;
 }
 
 .skuSelectorSubcontainer--voltagem {
@@ -103,7 +104,7 @@
   border-radius: 50%;
   min-width: 20px;
   max-height: 20px;
-  border: 3px solid #696969;
+  border: 3px solid var(--fonte-cor-normal);
 }
 
 .skuSelectorItem--prod-din-sku-selector--110v::after {
@@ -111,7 +112,7 @@
   font-size: 2.4vh;
   margin-left: 5px;
   font-weight: 500;
-  color: #696969;
+  color: var(--fonte-cor-normal);
 }
 
 .skuSelectorItem--prod-din-sku-selector--220v::after {
@@ -119,7 +120,7 @@
   font-size: 2.4vh;
   margin-left: 5px;
   font-weight: 500;
-  color: #696969;
+  color: var(--fonte-cor-normal);
 }
 
 

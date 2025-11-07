@@ -1,4 +1,12 @@
-.container{
+.formTitle {
+  color: var(--fonte-cor-normal);
+}
+
+.button :global(.vtex-login-2-x-button) {
+  background-color: #535353!important;
+}
+
+.container {
   display: flex;
   align-items: center;
 }
@@ -7,35 +15,38 @@
   display: none;
 }
 
-.profileIcon{
+.profileIcon {
   width: 50px;
   height: 50px;
   overflow: visible;
 }
 
-.container :global(.vtex-button){
+.container :global(.vtex-button) {
   border: 0;
   /* padding-top: 28px; */
+
 }
-.container :global(.vtex-button__label){
+
+.container :global(.vtex-button__label) {
   border: 0;
   padding: 0;
 }
 
-.profile{
+.profile {
   text-transform: capitalize;
   font-size: 14px;
 }
 
 /* mobile */
-@media screen  and (max-width: 1024px) {
-  .profileIcon{
+@media screen and (max-width: 1024px) {
+  .profileIcon {
     width: 20px;
     height: 16px;
     display: none;
   }
 
-  :global(.vtex-login-2-x-profile), :global(.vtex-login-2-x-label){
+  :global(.vtex-login-2-x-profile),
+  :global(.vtex-login-2-x-label) {
     display: flex;
     text-align: LEFT;
     font-size: 0.9rem;
@@ -45,5 +56,3 @@
 
 
 }
-
-

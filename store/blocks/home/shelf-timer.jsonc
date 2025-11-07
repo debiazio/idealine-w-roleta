@@ -1,4 +1,5 @@
 {
+    // CONTEINER PRINCIPAL
   "flex-layout.row#shelf-timer": {
     "props": {
       "blockClass": "linha-shelf-timer",
@@ -6,20 +7,90 @@
     },
     "children": [
       "flex-layout.row#linha-line",
-      "timershelf",
-      "rich-text#titulo-prateleira-cronometrada",
-      "list-context.product-list#prateleira-cronometrada",
+      "flex-layout.row#linha-conteudo-cronometro",
       "flex-layout.row#linha-line"
     ]
   },
+// LINHA DAS COLUNAS
+  "flex-layout.row#linha-conteudo-cronometro":{
+    "props": {
+      "blockClass": "linha-conteudo-cronometro",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-cronometro-esquerda",
+      "flex-layout.col#coluna-cronometro-direita"
+    ]
+  },
+  // COLUNA ESQUERDA
+  "flex-layout.col#coluna-cronometro-esquerda":{
+    "props": {
+      "blockClass": "coluna-cronometro-esquerda",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-cronometro"
+
+    ]
+  },
+  // COLUNA DIREITA
+  "flex-layout.col#coluna-cronometro-direita":{
+    "props": {
+      "blockClass": "coluna-cronometro-direita",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-menor",
+      "list-context.product-list#prateleira-cronometrada"
+    ]
+  },
+// linha da img, titulo e cronometro
+  "flex-layout.row#linha-imagem-cronometro":{
+    "props": {
+      "blockClass": "linha-imagem-cronometro",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#promo-relampago",
+      "rich-text#titulo-cronometro",
+      "timershelf",
+      "image#coracao-maior"
+    ]
+  },
+  // IMAGEM PROMO RELAMPAGO
+  "image#promo-relampago":{
+    "props": {
+      "blockClass": "img-promo-relampago",
+      "alt": "Promoção Relâmpago",
+      "src": "assets/home-black/shelf-cronometrada/promo-relampago.webp"
+    }
+  },
+  // TITULO
+  "rich-text#titulo-cronometro" :{
+    "props": {
+      "blockClass": "titulo-cronometro",
+      "text": "DESCONTO EXCLUSIVO DE **20% NA AUTOCLAVE**"
+    }
+  },
+  // cronometro
   "timershelf":{
 
   },
-  // TITULO PRATELEIRA
-  "rich-text#titulo-prateleira-cronometrada": {
+  // CORACAO MAIOR
+  "image#coracao-maior":{
     "props": {
-      "blockClass": "titulo-prateleira-timer",
-      "text": "PROMOÇÕES RELÂMPAGO"
+      "blockClass": "coracao-maior",
+      "alt": "Coração",
+      "src": "assets/home-black/shelf-cronometrada/coracao-maior.webp"
+    }
+  },
+  // ITENS COLUNA ESQUERDA
+  // CORACAO MENOR
+  "image#coracao-menor":{
+    "props": {
+      "blockClass": "coracao-menor",
+      "alt": "Coração",
+      "src": "assets/home-black/shelf-cronometrada/coracao-menor.webp"
     }
   },
   // PRATELEIRA
@@ -39,13 +110,14 @@
   "slider-layout#prateleira-cronometro": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 2,
         "tablet": 3,
         "phone": 2
       },
       "infinite": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
     }
   }
 }

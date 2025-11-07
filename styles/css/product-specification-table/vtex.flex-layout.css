@@ -11,10 +11,11 @@
 .flexRowContent--productSpecificationGroup{
   border: 1px groove #ede7eb;
   margin-top: 20px;
-  border-top: 10px solid var(--pink);
+  border-top: 10px solid var(--rosa-installments);
   margin: 20px;
   width: auto;
   padding: 20px;
+  color: var(--fonte-cor-normal);
 }
 
 .flexCol--productSpecificationName {

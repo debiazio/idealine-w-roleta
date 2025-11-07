@@ -1,4 +1,26 @@
 /* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
+.flexCol--coluna-cronometro-direita{
+  background-image: url(assets/home-black/shelf-cronometrada/BLACK.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexRowContent--linha-imagem-cronometro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flexRow--linha-shelf-timer {
+  background-image: url(assets/home-black/shelf-cronometrada/fundo-shelf-cron.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .flexRowContent--linha-shelf-timer {
   display: flex;
   flex-direction: column;
