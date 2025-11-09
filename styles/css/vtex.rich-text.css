@@ -903,6 +903,10 @@
     margin: 15px 0;
     font-size: 22px;
   }
+
+  .paragraph--texto-rules-roleta {
+    white-space: unset!important;
+  }
 }
 
 
@@ -911,9 +915,14 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px;
+    white-space: unset!important;
   }
 
   .wrapper--confirm-form-roleta {
     display: flex;
+  }
+
+  .container--subtitulo-nova-roleta{
+    max-width: 80%;
   }
 }
