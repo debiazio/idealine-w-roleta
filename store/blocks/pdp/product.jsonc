@@ -1163,7 +1163,7 @@
       "blockClass": "imagens-extras"
     },
     "children": [
-      "video#branco-perola-5l",
+      // "video#branco-perola-5l",
       "image#branco-perola-1",
       "image#branco-perola-2",
       "image#branco-perola-3",
@@ -1172,16 +1172,7 @@
       "image#branco-perola-6"
     ]
   },
-  "video#branco-perola-5l": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "assets/labell_5l_perola.mp4",
-      "muted": true
-    }
-  },
+
   "image#branco-perola-1": {
     "props": {
       "src": "assets/branco-perola-1.webp",
@@ -1274,7 +1265,7 @@
       "blockClass": "imagens-extras"
     },
     "children": [
-      "video#rosa-5l",
+      // "video#rosa-5l",
       "image#rosa-1",
       "image#rosa-2",
       "image#rosa-3",
@@ -1285,16 +1276,6 @@
       "image#rosa-8",
       "image#rosa-9"
     ]
-  },
-  "video#rosa-5l": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "assets/labell_5l_rosa.mp4",
-      "muted": true
-    }
   },
   "image#rosa-1": {
     "props": {
@@ -1417,7 +1398,7 @@
       "blockClass": "imagens-extras"
     },
     "children": [
-      "video#rose-gold-5l",
+      // "video#rose-gold-5l",
       "image#rosa-gold-1",
       "image#rosa-gold-2",
       "image#rosa-gold-3",
@@ -1429,16 +1410,7 @@
       "image#rosa-gold-9"
     ]
   },
-  "video#rose-gold-5l": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "assets/labell_5l_rose_gold.mp4",
-      "muted": true
-    }
-  },
+
   "image#rosa-gold-1": {
     "props": {
       "src": "assets/rosa-gold-1.webp",
