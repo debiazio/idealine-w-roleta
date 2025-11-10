@@ -42,8 +42,10 @@
   },
   "image#teste-trigger-roleta": {
     "props": {
-      "src": "assets/home-black/banners/gif-roleta-desktop.gif",
+      "src": "assets/home-black/banners/banner-roleta-idealine.gif",
       "alt": "Roleta",
+      "lazyLoad": false,
+      "preload": true,
       "blockClass": [
         "image-slider-desktop",
         "cursor-pointer"
@@ -141,9 +143,9 @@
       "modal-layout#roleta"
     ]
   },
-  "image#teste-trigger-roleta-mobile":{
+  "image#teste-trigger-roleta-mobile": {
     "props": {
-       "src": "assets/home-black/banners/gif-roleta-mobile.gif",
+      "src": "assets/home-black/banners/gif-roleta-mobile.gif",
       "alt": "Roleta",
       "blockClass": [
         "image-slider-mobile",
@@ -151,7 +153,7 @@
       ]
     }
   },
-   "image#idealovers-mobile": {
+  "image#idealovers-mobile": {
     "props": {
       "src": "assets/home-black/banners/black-idealovers-mobile.webp",
       "alt": "Idealovers",
@@ -161,7 +163,7 @@
       }
     }
   },
-    "image#opta-mobile": {
+  "image#opta-mobile": {
     "props": {
       "src": "assets/home-black/banners/opta-mobile.webp",
       "alt": "Opta",
@@ -171,7 +173,7 @@
       }
     }
   },
-    "image#kit-idealovers-mobile": {
+  "image#kit-idealovers-mobile": {
     "props": {
       "src": "assets/home-black/banners/black-idealovers-kit-mobile.webp",
       "alt": "Kit idealovers",
@@ -181,7 +183,7 @@
       }
     }
   },
-    "image#madu-idealovers-mobile": {
+  "image#madu-idealovers-mobile": {
     "props": {
       "src": "assets/home-black/banners/linha-idealove-mobile.webp",
       "alt": "Madu Idealove",
@@ -191,7 +193,7 @@
       }
     }
   },
-    "image#glowin-banner-mobile": {
+  "image#glowin-banner-mobile": {
     "props": {
       "src": "assets/home-black/banners/glowin-mobile.webp",
       "alt": "Glowin",

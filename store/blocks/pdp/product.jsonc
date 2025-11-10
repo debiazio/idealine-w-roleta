@@ -1266,80 +1266,18 @@
     },
     "children": [
       // "video#rosa-5l",
-      "image#rosa-1",
-      "image#rosa-2",
-      "image#rosa-3",
-      "image#rosa-4",
-      "image#rosa-5",
-      "image#rosa-6",
-      "image#rosa-7",
-      "image#rosa-8",
-      "image#rosa-9"
+      // "image#rosa-1",
+      // "image#rosa-2",
+      // "image#rosa-3",
+      // "image#rosa-4",
+      // "image#rosa-5",
+      // "image#rosa-6",
+      // "image#rosa-7",
+      // "image#rosa-8",
+      // "image#rosa-9"
     ]
   },
-  "image#rosa-1": {
-    "props": {
-      "src": "assets/rosa-1.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-2": {
-    "props": {
-      "src": "assets/rosa-2.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-3": {
-    "props": {
-      "src": "assets/rosa-3.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-4": {
-    "props": {
-      "src": "assets/rosa-4.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-5": {
-    "props": {
-      "src": "assets/rosa-5.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-6": {
-    "props": {
-      "src": "assets/rosa-6.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-7": {
-    "props": {
-      "src": "assets/rosa-7.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-8": {
-    "props": {
-      "src": "assets/rosa-8.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-9": {
-    "props": {
-      "src": "assets/rosa-9.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
+
   // rosa-gold 5l condicional
   "condition-layout.product#rosa-gold": {
     "props": {
@@ -1399,81 +1337,19 @@
     },
     "children": [
       // "video#rose-gold-5l",
-      "image#rosa-gold-1",
-      "image#rosa-gold-2",
-      "image#rosa-gold-3",
-      "image#rosa-gold-4",
-      "image#rosa-gold-5",
-      "image#rosa-gold-6",
-      "image#rosa-gold-7",
-      "image#rosa-gold-8",
-      "image#rosa-gold-9"
+      // "image#rosa-gold-1",
+      // "image#rosa-gold-2",
+      // "image#rosa-gold-3",
+      // "image#rosa-gold-4",
+      // "image#rosa-gold-5",
+      // "image#rosa-gold-6",
+      // "image#rosa-gold-7",
+      // "image#rosa-gold-8",
+      // "image#rosa-gold-9"
     ]
   },
 
-  "image#rosa-gold-1": {
-    "props": {
-      "src": "assets/rosa-gold-1.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-2": {
-    "props": {
-      "src": "assets/rosa-gold-2.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-3": {
-    "props": {
-      "src": "assets/rosa-gold-3.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-4": {
-    "props": {
-      "src": "assets/rosa-gold-4.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-5": {
-    "props": {
-      "src": "assets/rosa-gold-5.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-6": {
-    "props": {
-      "src": "assets/rosa-gold-6.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-7": {
-    "props": {
-      "src": "assets/rosa-gold-7.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-8": {
-    "props": {
-      "src": "assets/rosa-gold-8.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-9": {
-    "props": {
-      "src": "assets/rosa-gold-9.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
+ 
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
