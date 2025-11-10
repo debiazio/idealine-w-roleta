@@ -195,7 +195,8 @@
     justify-content: center;
     display: flex;
     padding-bottom: 10px;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .headerContainer--roleta-header {
