@@ -1,3 +1,7 @@
+.imageElement--cursor-pointer{
+  cursor: pointer;
+}
+
 .productDescriptionText--texto-descricao {
   color: var(--fonte-cor-normal);
 }

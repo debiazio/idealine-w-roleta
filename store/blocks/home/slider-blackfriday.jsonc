@@ -1,0 +1,204 @@
+{
+  // COMPONENTE RESPONSIVO PARA DESKTOP - SLIDER IMAGENS
+  "responsive-layout.desktop#slider-desktop": {
+    "children": [
+      "slider-layout#home-images"
+    ]
+  },
+  // SLIDER IMAGENS DESKTOP
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "title": "Slider Imagens Desktop",
+      "blockClass": "slider-desktop-home",
+      "autoplay": {
+        "timeout": 8000
+      }
+    },
+    "children": [
+      "modal-trigger#trigger2-roleta",
+      "image#idealovers",
+      "image#opta",
+      "image#kit-idealovers",
+      "image#madu-idealovers",
+      "image#glowin-banner"
+    ]
+  },
+  // TRIGGER ROLETA desktop
+  "modal-trigger#trigger2-roleta": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "image#teste-trigger-roleta",
+      "modal-layout#roleta"
+    ]
+  },
+  "image#teste-trigger-roleta": {
+    "props": {
+      "src": "assets/home-black/banners/gif-roleta-desktop.gif",
+      "alt": "Roleta",
+      "blockClass": [
+        "image-slider-desktop",
+        "cursor-pointer"
+      ]
+    }
+  },
+  "image#idealovers": {
+    "props": {
+      "src": "assets/home-black/banners/black-idealovers.webp",
+      "alt": "Idealovers",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/autoclave-bellinha-pronta-entrega"
+      }
+    }
+  },
+  "image#opta": {
+    "props": {
+      "src": "assets/home-black/banners/opta-desktop.webp",
+      "alt": "Opta",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/autoclaves"
+      }
+    }
+  },
+  "image#kit-idealovers": {
+    "props": {
+      "src": "assets/home-black/banners/black-idealovers-kit-desktop.webp",
+      "alt": "Kit idealovers",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/kits-autoclaves-idealine"
+      }
+    }
+  },
+  "image#madu-idealovers": {
+    "props": {
+      "src": "assets/home-black/banners/linha-idealove-desktop.webp",
+      "alt": "Madu Idealove",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/idealove-by-madu"
+      }
+    }
+  },
+  "image#glowin-banner": {
+    "props": {
+      "src": "assets/home-black/banners/glowin-desktop.webp",
+      "alt": "Glowin",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/kit-autoclave-bellinha-5l-com-tecnologia-dvm-e-incubadora-biologica-glowin/p"
+      }
+    }
+  },
+  // COMPONENTE RESPONSIVO PARA MOBILE - SLIDER IMAGENS
+  "responsive-layout.mobile#slider-mobile": {
+    "children": [
+      "slider-layout#home-images-mobile"
+    ]
+  },
+  // SLIDER IMAGENS MOBILE
+  "slider-layout#home-images-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "title": "Slider Imagens Mobile",
+      "blockClass": "slider-desktop-home",
+      "autoplay": {
+        "timeout": 8000
+      }
+    },
+    "children": [
+      "modal-trigger#trigger2-roleta-mobile",
+      "image#idealovers-mobile",
+      "image#opta-mobile",
+      "image#kit-idealovers-mobile",
+      "image#madu-idealovers-mobile",
+      "image#glowin-banner-mobile"
+    ]
+  },
+  // TRIGGER ROLETA MOBILE
+  "modal-trigger#trigger2-roleta-mobile": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "image#teste-trigger-roleta-mobile",
+      "modal-layout#roleta"
+    ]
+  },
+  "image#teste-trigger-roleta-mobile":{
+    "props": {
+       "src": "assets/home-black/banners/gif-roleta-mobile.gif",
+      "alt": "Roleta",
+      "blockClass": [
+        "image-slider-mobile",
+        "cursor-pointer"
+      ]
+    }
+  },
+   "image#idealovers-mobile": {
+    "props": {
+      "src": "assets/home-black/banners/black-idealovers-mobile.webp",
+      "alt": "Idealovers",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/autoclave-bellinha-pronta-entrega"
+      }
+    }
+  },
+    "image#opta-mobile": {
+    "props": {
+      "src": "assets/home-black/banners/opta-mobile.webp",
+      "alt": "Opta",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/autoclaves"
+      }
+    }
+  },
+    "image#kit-idealovers-mobile": {
+    "props": {
+      "src": "assets/home-black/banners/black-idealovers-kit-mobile.webp",
+      "alt": "Kit idealovers",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/kits-autoclaves-idealine"
+      }
+    }
+  },
+    "image#madu-idealovers-mobile": {
+    "props": {
+      "src": "assets/home-black/banners/linha-idealove-mobile.webp",
+      "alt": "Madu Idealove",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/idealove-by-madu"
+      }
+    }
+  },
+    "image#glowin-banner-mobile": {
+    "props": {
+      "src": "assets/home-black/banners/glowin-mobile.webp",
+      "alt": "Glowin",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/kit-autoclave-bellinha-5l-com-tecnologia-dvm-e-incubadora-biologica-glowin/p"
+      }
+    }
+  }
+}

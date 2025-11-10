@@ -4,7 +4,6 @@
       "trigger": "load"
     },
     "children": [
-
       "modal-layout#roleta"
     ]
   },

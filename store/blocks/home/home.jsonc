@@ -3,7 +3,9 @@
     "blocks": [
       // "responsive-layout.desktop#video-banner-home",
       // "responsive-layout.mobile#banner-topo-mobile",
-      "list-context.image-list#home",
+      "responsive-layout.desktop#slider-desktop",
+      "responsive-layout.mobile#slider-mobile",
+      // "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "flex-layout.row#shelf-timer",
@@ -56,6 +58,8 @@
       "allowCookies": true
     }
   },
+ 
+  // LIST CONTEXT DO SLIDER HOME
   "list-context.image-list#home": {
     "children": [
       "slider-layout#demo-images"
@@ -376,7 +380,6 @@
       "showNavigationArrows": "never"
     }
   },
-
   // slider instagram
   "flex-layout.row#postagens-instagram": {
     "props": {
