@@ -1,18 +1,26 @@
 {
-    // CONTEINER PRINCIPAL
+  // CONTEINER PRINCIPAL
   "flex-layout.row#shelf-timer": {
     "props": {
       "blockClass": "linha-shelf-timer",
       "colSizing": "auto"
     },
     "children": [
+      "responsive-layout.desktop#shelftimer",
+      "responsive-layout.mobile#shelftimer"
+    ],
+    "title": "Linha Promoção Relâmpago"
+  },
+  // layout desktop
+  "responsive-layout.desktop#shelftimer": {
+    "children": [
       "flex-layout.row#linha-line",
       "flex-layout.row#linha-conteudo-cronometro",
       "flex-layout.row#linha-line"
     ]
   },
-// LINHA DAS COLUNAS
-  "flex-layout.row#linha-conteudo-cronometro":{
+  // LINHA DAS COLUNAS
+  "flex-layout.row#linha-conteudo-cronometro": {
     "props": {
       "blockClass": "linha-conteudo-cronometro",
       "colSizing": "equal"
@@ -23,29 +31,31 @@
     ]
   },
   // COLUNA ESQUERDA
-  "flex-layout.col#coluna-cronometro-esquerda":{
+  "flex-layout.col#coluna-cronometro-esquerda": {
     "props": {
       "blockClass": "coluna-cronometro-esquerda",
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-imagem-cronometro"
-
+      "flex-layout.row#linha-imagem-cronometro",
+      "flex-layout.row#linha-coracao-maior"
     ]
   },
   // COLUNA DIREITA
-  "flex-layout.col#coluna-cronometro-direita":{
+  "flex-layout.col#coluna-cronometro-direita": {
     "props": {
       "blockClass": "coluna-cronometro-direita",
       "colSizing": "auto"
     },
     "children": [
-      "image#coracao-menor",
-      "list-context.product-list#prateleira-cronometrada"
+      "flex-layout.row#linha-coracao-menor",
+      "list-context.product-list#prateleira-cronometrada",
+      "flex-layout.row#linha-ver-mais"
     ]
   },
-// linha da img, titulo e cronometro
-  "flex-layout.row#linha-imagem-cronometro":{
+  // ITENS COLUNA ESQUERDA
+  // linha da img, titulo e cronometro
+  "flex-layout.row#linha-imagem-cronometro": {
     "props": {
       "blockClass": "linha-imagem-cronometro",
       "colSizing": "auto"
@@ -53,12 +63,11 @@
     "children": [
       "image#promo-relampago",
       "rich-text#titulo-cronometro",
-      "timershelf",
-      "image#coracao-maior"
+      "timershelf"
     ]
   },
   // IMAGEM PROMO RELAMPAGO
-  "image#promo-relampago":{
+  "image#promo-relampago": {
     "props": {
       "blockClass": "img-promo-relampago",
       "alt": "Promoção Relâmpago",
@@ -66,32 +75,55 @@
     }
   },
   // TITULO
-  "rich-text#titulo-cronometro" :{
+  "rich-text#titulo-cronometro": {
     "props": {
       "blockClass": "titulo-cronometro",
       "text": "DESCONTO EXCLUSIVO DE **20% NA AUTOCLAVE**"
-    }
+    },
+    "title": "Título cronômetro"
   },
   // cronometro
-  "timershelf":{
-
+  "timershelf": {},
+  // CORACAO MAIOR LINHA
+  "flex-layout.row#linha-coracao-maior": {
+    "props": {
+      "blockClass": "linha-coracao-maior",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-maior"
+    ],
+    "title": "Linha coração maior"
   },
   // CORACAO MAIOR
-  "image#coracao-maior":{
+  "image#coracao-maior": {
     "props": {
       "blockClass": "coracao-maior",
       "alt": "Coração",
       "src": "assets/home-black/shelf-cronometrada/coracao-maior.webp"
-    }
+    },
+    "title": "Imagem coração esquerdo"
   },
-  // ITENS COLUNA ESQUERDA
+  // ITENS COLUNA DIREITA
+  // CORACAO MENOR LINHA
+  "flex-layout.row#linha-coracao-menor": {
+    "props": {
+      "blockClass": "linha-coracao-menor",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-menor"
+    ],
+    "title": "Linha coração menor"
+  },
   // CORACAO MENOR
-  "image#coracao-menor":{
+  "image#coracao-menor": {
     "props": {
       "blockClass": "coracao-menor",
       "alt": "Coração",
       "src": "assets/home-black/shelf-cronometrada/coracao-menor.webp"
-    }
+    },
+    "title": "Imagem coração direito"
   },
   // PRATELEIRA
   "list-context.product-list#prateleira-cronometrada": {
@@ -104,7 +136,8 @@
     "props": {
       "orderBy": "OrderByNameASC",
       "maxItems": 20
-    }
+    },
+    "title": "Produtos da vitrine cronometrada"
   },
   // COMPONENTE DO SLIDE
   "slider-layout#prateleira-cronometro": {
@@ -115,9 +148,51 @@
         "phone": 2
       },
       "infinite": true,
-      "blockClass": "shelf",
+      "blockClass": [
+        "shelf",
+        "shelf-timer"
+      ],
       "showNavigationArrows": "never",
       "showPaginationDots": "never"
     }
+  },
+  "flex-layout.row#linha-ver-mais": {
+    "props": {
+      "blockClass": "linha-ver-mais",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#ver-mais-cronometro"
+    ],
+    "title": "Linha botão ver mais"
+  },
+  "link#ver-mais-cronometro": {
+    "props": {
+      "blockClass": "link-ver-mais",
+      "label": "ver tudo",
+      "href": "#"
+    }
+  },
+  // layout mobile
+  "responsive-layout.mobile#shelftimer": {
+    "children": [
+      "flex-layout.row#linha-line",
+      "flex-layout.row#linha-shelftimermobile",
+      "flex-layout.row#linha-line"
+    ]
+  },
+  "flex-layout.row#linha-shelftimermobile": {
+    "props": {
+      "blockClass": "linha-shelf-timer-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      
+      "image#promo-relampago",
+      "rich-text#titulo-cronometro",
+      "timershelf",
+      "list-context.product-list#prateleira-cronometrada",
+      "flex-layout.row#linha-ver-mais"
+    ]
   }
 }

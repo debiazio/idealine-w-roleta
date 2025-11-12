@@ -1,10 +1,28 @@
+.container--titulo-cronometro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph--titulo-cronometro {
+  font-family: "montserrat-extrabold";
+  font-size: 1.26rem;
+  color: white;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.strong--titulo-cronometro {
+  color: #F365D3;
+}
+
 /* teste prateleira cronometrada - black friday */
 .container--titulo-prateleira-timer {
   display: flex;
   justify-content: center;
 }
 
-.paragraph--titulo-prateleira-timer{
+.paragraph--titulo-prateleira-timer {
   font-family: "montserrat-extrabold";
   font-size: 65px;
   color: red;
@@ -561,6 +579,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .paragraph--titulo-cronometro {
+    font-size: .7rem;
+    white-space: nowrap;
+  }
+
   .paragraph--texto-pos-pdp {
     margin: 0 20px;
   }
@@ -905,7 +928,7 @@
   }
 
   .paragraph--texto-rules-roleta {
-    white-space: unset!important;
+    white-space: unset !important;
   }
 }
 
@@ -915,14 +938,14 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px;
-    white-space: unset!important;
+    white-space: unset !important;
   }
 
   .wrapper--confirm-form-roleta {
     display: flex;
   }
 
-  .container--subtitulo-nova-roleta{
+  .container--subtitulo-nova-roleta {
     max-width: 80%;
   }
 }

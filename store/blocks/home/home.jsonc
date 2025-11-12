@@ -381,14 +381,6 @@
     }
   },
   // slider instagram
-  "flex-layout.row#postagens-instagram": {
-    "props": {
-      "blockClass": "linha-instagram"
-    },
-    "children": [
-      "slider-layout#instagram-home"
-    ]
-  },
   "slider-layout#instagram-home": {
     "props": {
       "itemsPerPage": {

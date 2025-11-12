@@ -1,5 +1,14 @@
+.sliderTrackContainer--shelf-timer {
+  padding: 0 !important;
+}
+
+.sliderLayoutContainer--shelf-timer {
+  margin-bottom: 10px!important;
+}
+
 .sliderLayoutContainer--shelf {
   padding: 0 20px;
+  margin-bottom: 60px;
 }
 
 .slide--carrossel-mobile-blog {
@@ -25,9 +34,6 @@
   padding: 20px 0;
 }
 
-.sliderLayoutContainer--shelf {
-  margin-bottom: 60px;
-}
 
 .sliderTrack--shelf {
   gap: 20px;

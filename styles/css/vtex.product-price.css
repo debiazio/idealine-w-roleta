@@ -247,7 +247,7 @@
 .savings--desconto {
   font-weight: 400;
   color: white;
-  background-color: var(--violeta);
+  background-color: var(--rosa-installments);
   padding: 10px 5px;
   border-radius: 50%;
   /* margin: 5px; */

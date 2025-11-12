@@ -1,10 +1,41 @@
+.flexRowContent--linha-conteudo-cronometro{
+  display: flex
+;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexRowContent--linha-ver-mais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 57px;
+}
+
+.flexRow--linha-coracao-maior {
+  z-index: 1;
+}
+
+.flexRowContent--linha-coracao-maior {
+  margin-top: -70px;
+}
+
+.flexRowContent--linha-coracao-menor {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: -55px;
+}
+
 /* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
-.flexCol--coluna-cronometro-direita {
+/* .flexCol--coluna-cronometro-direita {
   background-image: url(assets/home-black/shelf-cronometrada/BLACK.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .flexRowContent--linha-imagem-cronometro {
   display: flex;
@@ -17,10 +48,9 @@
 
 .flexRow--linha-shelf-timer {
   display: none;
-  background-image: url(assets/home-black/shelf-cronometrada/fundo-shelf-cron.webp);
+  background-image: url(assets/home-black/shelf-cronometrada/fundo-promo-relampago.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .flexRowContent--linha-shelf-timer {
@@ -28,6 +58,8 @@
   flex-direction: column;
   justify-content: center;
   min-height: 0;
+  position: relative;
+  z-index: 1;
 }
 
 /* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
@@ -1745,6 +1777,18 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--linha-shelf-timer {
+  display: none;
+  background-image: url(assets/home-black/shelf-cronometrada/mobile/fundo-promo-relampago-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .flexRowContent--linha-ver-mais{
+    padding: 27px;
+  }
+
   .flexRowContent--conteiner-360 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 80% !important;
   }
