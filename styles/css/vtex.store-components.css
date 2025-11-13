@@ -718,6 +718,17 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElement--coracao-mobile-maior {
+    width: 50%;
+    margin-left: -22px;
+  }
+
+  .imageElement--coracao-mobile-menor {
+    width: 50%;
+    margin-top: 80px;
+    margin-right: -15px;
+  }
+
   .imageElement--img-deals {
     max-height: 30px;
   }

@@ -6,18 +6,13 @@
       "colSizing": "auto"
     },
     "children": [
-      "responsive-layout.desktop#shelftimer",
-      "responsive-layout.mobile#shelftimer"
+      "flex-layout.row#linha-line",
+      "flex-layout.row#img-coracao-menor-mobile",
+      "flex-layout.row#linha-conteudo-cronometro",
+      "flex-layout.row#img-coracao-maior-mobile",
+      "flex-layout.row#linha-line"
     ],
     "title": "Linha Promoção Relâmpago"
-  },
-  // layout desktop
-  "responsive-layout.desktop#shelftimer": {
-    "children": [
-      "flex-layout.row#linha-line",
-      "flex-layout.row#linha-conteudo-cronometro",
-      "flex-layout.row#linha-line"
-    ]
   },
   // LINHA DAS COLUNAS
   "flex-layout.row#linha-conteudo-cronometro": {
@@ -173,26 +168,38 @@
       "href": "#"
     }
   },
-  // layout mobile
-  "responsive-layout.mobile#shelftimer": {
-    "children": [
-      "flex-layout.row#linha-line",
-      "flex-layout.row#linha-shelftimermobile",
-      "flex-layout.row#linha-line"
-    ]
-  },
-  "flex-layout.row#linha-shelftimermobile": {
+  // LINHAS CORACOES MOBILE
+  "flex-layout.row#img-coracao-maior-mobile": {
     "props": {
-      "blockClass": "linha-shelf-timer-mobile",
+      "blockClass": "linha-coracao-mobile-maior",
       "colSizing": "auto"
     },
     "children": [
-      
-      "image#promo-relampago",
-      "rich-text#titulo-cronometro",
-      "timershelf",
-      "list-context.product-list#prateleira-cronometrada",
-      "flex-layout.row#linha-ver-mais"
+      "image#coracao-maior-mobile"
     ]
+  },
+  "flex-layout.row#img-coracao-menor-mobile": {
+    "props": {
+      "blockClass": "linha-coracao-mobile-menor",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-menor-mobile"
+    ]
+  },
+  // componente image coracoes mobile
+  "image#coracao-maior-mobile":{
+    "props": {
+      "blockClass": "coracao-mobile-maior",
+      "alt": "Coração maior Mobile",
+      "src": "assets/home-black/shelf-cronometrada/mobile/coracao-maior-mobile.webp"
+    }
+  },
+  "image#coracao-menor-mobile":{
+    "props": {
+      "blockClass": "coracao-mobile-menor",
+      "alt": "Coração menor mobile",
+      "src": "assets/home-black/shelf-cronometrada/mobile/coracao-menor-mobile.webp"
+    }
   }
 }

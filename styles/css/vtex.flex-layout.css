@@ -1,8 +1,7 @@
-.flexRowContent--linha-conteudo-cronometro{
-  display: flex
-;
-    flex-direction: row;
-    align-items: center;
+.flexRowContent--linha-conteudo-cronometro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flexRowContent--linha-ver-mais {
@@ -1776,16 +1775,49 @@
   width: 30% !important;
 }
 
-@media screen and (max-width: 1024px) {
-  .flexRow--linha-shelf-timer {
+.flexRowContent--linha-coracao-mobile-maior,
+.flexRowContent--linha-coracao-mobile-menor {
   display: none;
-  background-image: url(assets/home-black/shelf-cronometrada/mobile/fundo-promo-relampago-mobile.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .flexRowContent--linha-coracao-maior,
+  .flexRowContent--linha-coracao-menor {
+    display: none;
   }
 
-  .flexRowContent--linha-ver-mais{
+  .flexRowContent--linha-coracao-mobile-maior,
+  .flexRowContent--linha-coracao-mobile-menor {
+    display: flex;
+  }
+
+  .flexRowContent--linha-coracao-mobile-menor {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: -100%;
+  }
+
+  .flexRowContent--linha-coracao-mobile-maior{
+    margin-top: -77px;
+  }
+
+  .flexRowContent--linha-conteudo-cronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexRow--linha-shelf-timer {
+    display: none;
+    background-image: url(assets/home-black/shelf-cronometrada/mobile/fundo-promo-relampago-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexRowContent--linha-ver-mais {
     padding: 27px;
   }
 
