@@ -177,7 +177,7 @@ input:-webkit-autofill {
 }
 
 :global(.vtex-toast) {
-  background-color: var(--rosa-pink-escuro);
+  background-color: var(--rosa-installments);
 }
 
 :global(.vtex-numeric-stepper-container) {

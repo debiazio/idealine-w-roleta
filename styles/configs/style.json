@@ -109,7 +109,7 @@
           "action-primary": "#FEBBCE",
           "action-secondary": "#eef3f7",
           "link": "#FEBBCE",
-          "emphasis": "#f71963",
+          "emphasis": "#FEBBCE",
           "disabled": "#979899",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -151,7 +151,7 @@
         "border": {
           "action-primary": "#FEBBCE",
           "action-secondary": "#eef3f7",
-          "emphasis": "#f71963",
+          "emphasis": "#FEBBCE",
           "disabled": "#e3e4e6",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
