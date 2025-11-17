@@ -486,7 +486,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Flex",
-      "src": "assets/manual-flex.webp",
+      "src": "assets/manuais/manual-flex.webp",
       "alt": "Imagem de capa do manual"
     }
   },
@@ -494,7 +494,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Extra",
-      "src": "assets/manual-extra.webp",
+      "src": "assets/manuais/manual-extra.webp",
       "alt": "Imagem de capa do manual"
     }
   },
@@ -502,7 +502,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Vida 21 litros",
-      "src": "assets/vida-21l.webp",
+      "src": "assets/manuais/vida-21l.webp",
       "alt": "Imagem de capa do manual"
     }
   },
@@ -510,7 +510,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Vida 30l, 42l, 60l e 75l",
-      "src": "assets/vida-h.webp",
+      "src": "assets/manuais/vida-h.webp",
       "alt": "Linha Vida 30l, 42l, 60l e 75l"
     }
   },
@@ -518,7 +518,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Vida 75l Vertical",
-      "src": "assets/vida.webp",
+      "src": "assets/manuais/vida.webp",
       "alt": "Linha Vida 75l Vertical"
     }
   },
@@ -526,7 +526,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Linha Opta 12l",
-      "src": "assets/opta.webp",
+      "src": "assets/manuais/opta.webp",
       "alt": "Linha Opta 12l"
     }
   },
@@ -534,7 +534,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Idealclave Bellinha",
-      "src": "assets/bellinha-5l-stembro.webp",
+      "src": "assets/manuais/bellinha-5l-stembro.webp",
       "alt": "Idealclave Bellinha"
     }
   },
@@ -542,7 +542,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "Idealclave 8 litros",
-      "src": "assets/idealclave-labelle-setembro.webp",
+      "src": "assets/manuais/idealclave-labelle-setembro.webp",
       "alt": "Idealclave 8 litros"
     }
   },
@@ -550,7 +550,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "La Belle 5 Litros",
-      "src": "assets/labelle5litros.webp",
+      "src": "assets/manuais/labelle5litros.webp",
       "alt": "La Belle 5 Litros"
     }
   },
@@ -558,7 +558,7 @@
     "props": {
       "blockClass": "manual-imagem",
       "title": "La Belle 8 litros",
-      "src": "assets/labelle8litros.webp",
+      "src": "assets/manuais/labelle8litros.webp",
       "alt": "La Belle 8 litros"
     }
   },

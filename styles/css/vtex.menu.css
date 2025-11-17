@@ -70,16 +70,6 @@
 }
 
 
-/* icone do menu mobile
-.accordionIcon--menu-itens-mobile {
-  font-size: 0;
-  width: 16px;
-  height: 16px;
-  display: block;
-  background: url(assets/arrow.png) no-repeat transparent;
-  transition: 0.5s ease all;
-} */
-
 .accordionIcon--menu-itens-mobile--isOpen {
   transform: rotate(90deg);
   transition: 0.5s ease all;

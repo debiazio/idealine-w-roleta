@@ -1,8 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      // "responsive-layout.desktop#video-banner-home",
-      // "responsive-layout.mobile#banner-topo-mobile",
       "responsive-layout.desktop#slider-desktop",
       "responsive-layout.mobile#slider-mobile",
       // "list-context.image-list#home",
@@ -58,27 +56,27 @@
       "allowCookies": true
     }
   },
- 
+
   // LIST CONTEXT DO SLIDER HOME
-  "list-context.image-list#home": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
-    "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "assets/Banner DESKTOP sweet pink.webp",
-          "mobileImage": "assets/Banner MOBILE sweet pink.webp"
-        },
-        {
-          "image": "assets/Banner DESKTOP sweet black.webp",
-          "mobileImage": "assets/Banner MOBILE sweet black.webp"
-        }
-      ]
-    }
-  },
+  // "list-context.image-list#home": {
+  //   "children": [
+  //     "slider-layout#demo-images"
+  //   ],
+  //   "props": {
+  //     "height": 570,
+  //     "preload": true,
+  //     "images": [
+  //       {
+  //         "image": "assets/Banner DESKTOP sweet pink.webp",
+  //         "mobileImage": "assets/Banner MOBILE sweet pink.webp"
+  //       },
+  //       {
+  //         "image": "assets/Banner DESKTOP sweet black.webp",
+  //         "mobileImage": "assets/Banner MOBILE sweet black.webp"
+  //       }
+  //     ]
+  //   }
+  // },
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -380,179 +378,7 @@
       "showNavigationArrows": "never"
     }
   },
-  // slider instagram
-  "slider-layout#instagram-home": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 1,
-        "phone": 2
-      },
-      "infinite": true,
-      "blockClass": "video-banner-slider",
-      "fullWidth": true,
-      "showPaginationDots": "always",
-      "showNavigationArrows": "never",
-      "autoplay": {
-        "timeout": 3000
-      }
-    },
-    "children": [
-      // LIMITEI A 10
-      "link#8",
-      "link#7",
-      "link#6",
-      "link#5",
-      "link#4",
-      "link#3",
-      "link#2",
-      "link#1"
-    ]
-  },
-  // ICONES DO INSTAGRAM - MODELO
-  "image#links-instagram": {
-    "props": {
-      "src": "assets/icones_instagram.svg",
-      "blockClass": "icones-instagram"
-    }
-  },
-  // SITE SEGURO
-  "link#1": {
-    "props": {
-      "href": "https://www.instagram.com/p/DM-Zwq7PQja",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#1",
-      "image#links-instagram"
-    ]
-  },
-  "image#1": {
-    "props": {
-      "src": "assets/1.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#2": {
-    "props": {
-      "href": "https://www.instagram.com/p/DM-x_PTBZCO",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#2",
-      "image#links-instagram"
-    ]
-  },
-  "image#2": {
-    "props": {
-      "src": "assets/2.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#3": {
-    "props": {
-      "href": "https://www.instagram.com/p/DNBRZT2Tb_D",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#3",
-      "image#links-instagram"
-    ]
-  },
-  "image#3": {
-    "props": {
-      "src": "assets/3.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#4": {
-    "props": {
-      "href": "https://www.instagram.com/p/DNDfcgiTv9x",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#4",
-      "image#links-instagram"
-    ]
-  },
-  "image#4": {
-    "props": {
-      "src": "assets/4.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#5": {
-    "props": {
-      "href": "https://www.instagram.com/p/DNQSHwdNUOf",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#5",
-      "image#links-instagram"
-    ]
-  },
-  "image#5": {
-    "props": {
-      "src": "assets/5.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#6": {
-    "props": {
-      "href": "https://www.instagram.com/p/DNTberMpovn",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#6",
-      "image#links-instagram"
-    ]
-  },
-  "image#6": {
-    "props": {
-      "src": "assets/6.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#7": {
-    "props": {
-      "href": "https://www.instagram.com/idealine_autoclaves/p/DNV2QAnMjTZ",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#7",
-      "image#links-instagram"
-    ]
-  },
-  "image#7": {
-    "props": {
-      "src": "assets/7.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#8": {
-    "props": {
-      "href": "https://www.instagram.com/p/DNZSBmjiwhc",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#8",
-      "image#links-instagram"
-    ]
-  },
-  "image#8": {
-    "props": {
-      "src": "assets/8.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
+
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {

@@ -5,7 +5,6 @@
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
       "condition-layout.product#elementos-sec-pdp-availability",
-      // "flex-layout.row#topsales",
       "flex-layout.row#linha-certificados"
     ]
   },
@@ -591,7 +590,7 @@
         "miniaturas",
         "rosa-miniatura"
       ],
-      "src": "assets/rosa-miniatura.png"
+      "src": "assets/nova-pdp/miniaturas/rosa-miniatura.png"
     }
   },
   "link.product#bellinha-rose-gold": {
@@ -612,7 +611,7 @@
         "miniaturas",
         "rose-gold-miniatura"
       ],
-      "src": "assets/rose-gold-miniatura.png"
+      "src": "assets/nova-pdp/miniaturas/rose-gold-miniatura.png"
     }
   },
   "link.product#bellinha-perola": {
@@ -633,7 +632,7 @@
         "miniaturas",
         "perola-miniatura"
       ],
-      "src": "assets/perola-miniatura.png"
+      "src": "assets/nova-pdp/miniaturas/perola-miniatura.png"
     }
   },
   "link.product#bellinha-sweet-pink": {
@@ -654,7 +653,7 @@
         "miniaturas",
         "pink-miniatura"
       ],
-      "src": "assets/sweet-pink-miniatura.svg"
+      "src": "assets/nova-pdp/miniaturas/sweet-pink-miniatura.svg"
     }
   },
   "link.product#bellinha-sweet-black": {
@@ -675,7 +674,7 @@
         "miniaturas",
         "black-miniatura"
       ],
-      "src": "assets/sweet-black-miniatura.svg"
+      "src": "assets/nova-pdp/miniaturas/sweet-black-miniatura.svg"
     }
   },
   "link.product#bellinha-glowin": {
@@ -696,7 +695,7 @@
         "miniaturas",
         "glowin-miniatura"
       ],
-      "src": "assets/glowin-miniatura.svg"
+      "src": "assets/nova-pdp/miniaturas/glowin-miniatura.svg"
     }
   },
   // TEXTO POS PDP
@@ -760,9 +759,6 @@
       // "sku-selector", -- apagar
       // "flex-layout.row#mobile-quantidade-cep", -- apagar
       "flex-layout.row#vantagens-pgto-a-vista",
-      "condition-layout.product#branco-perola",
-      "condition-layout.product#rosa",
-      "condition-layout.product#rosa-padrao2",
       "condition-layout.product#rosa-gold",
       "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
@@ -818,9 +814,6 @@
       // "sku-selector", -- apagar
       // "flex-layout.row#mobile-quantidade-cep", -- apagar
       "flex-layout.row#vantagens-pgto-a-vista",
-      "condition-layout.product#branco-perola",
-      "condition-layout.product#rosa",
-      "condition-layout.product#rosa-padrao2",
       "condition-layout.product#rosa-gold",
       "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
@@ -900,11 +893,8 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      "condition-layout.product#compre-junto-esmalteira",
       // "condition-layout.product#visualizador3d-sweet-pink",
       // "condition-layout.product#visualizador3d-sweet-black",
-      "condition-layout.product#branco-perola",
-      "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
       "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
@@ -932,131 +922,7 @@
       "width": "60%"
     }
   },
-  // CONDICIONAL PARA APAERCER BANNER ESMALTEIRA NAS AUTOCLAVES
-  "condition-layout.product#compre-junto-esmalteira": {
-    "props": {
-      "blockClass": "condicional-compre-junto-incubadora",
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2795"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2797"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2886"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2902"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2798"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2796"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2885"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2887"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2895"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2903"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2905"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2898"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2894"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2893"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2897"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#compre-junto-esmalteira"
-    }
-  },
-  "flex-layout.row#compre-junto-esmalteira": {
-    "props": {
-      "blockClass": "content-compre-junto-incubadora"
-    },
-    "children": [
-      "flex-layout.row#linha-dia-consumidor-esmalteira"
-    ]
-  },
-  "flex-layout.row#linha-dia-consumidor-esmalteira": {
-    "props": {
-      "blockClass": "linha-dia-consumidor-incubadora",
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "image#dia-do-consumidor-esmalteira"
-    ]
-  },
-  "image#dia-do-consumidor-esmalteira": {
-    "props": {
-      "blockClass": "imagem-dia-do-consumidor-incubadora",
-      "alt": "Dia do Consumidor",
-      "src": "assets/Banner Desktop compre e ganhe.webp"
-    }
-  },
+
   //CONDITIONAL DO VR sweet pink
   "condition-layout.product#visualizador3d-sweet-pink": {
     "props": {
@@ -1110,173 +976,7 @@
       "vr-bellinha-black"
     ]
   },
-  // "image#brinde-horizontais-blackFriday": {
-  //   "props": {
-  //     "src": "assets/brinde-horizontais.webp",
-  //     "alt": "Imagem com brinde da Black Friday - horizontais",
-  //     "blockClass": "img-brindetriplo-bf-5l-8l"
-  //   }
-  // },
-  // // BRINDES AUTOCLAVES 5L E 8L BLACK FRIDAY
-  // "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday": {
-  //   "props": {
-  //     "blockClass": "condicional-brinde-5l-8l"
-  //   },
-  //   "children": [
-  //     "image#brinde-blackFriday-5l8l"
-  //   ]
-  // },
-  // condicional branco
-  "condition-layout.product#branco-perola": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Cor",
-            "value": "Pérola"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5L"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-layout-perola"
-    },
-    "title": "Condicional Branco pérola 5l"
-  },
-  "flex-layout.row#custom-pdp-layout-perola": {
-    "props": {
-      "blockClass": "conteiner-pai-imagens-extras"
-    },
-    "children": [
-      "flex-layout.col#fotos-branco-perola"
-    ],
-    "title": "Fotos branco pérola"
-  },
-  "flex-layout.col#fotos-branco-perola": {
-    "props": {
-      "blockClass": "imagens-extras"
-    },
-    "children": [
-      // "video#branco-perola-5l",
-      "image#branco-perola-1",
-      "image#branco-perola-2",
-      "image#branco-perola-3",
-      "image#branco-perola-4",
-      "image#branco-perola-5",
-      "image#branco-perola-6"
-    ]
-  },
 
-  "image#branco-perola-1": {
-    "props": {
-      "src": "assets/branco-perola-1.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-2": {
-    "props": {
-      "src": "assets/branco-perola-2.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-3": {
-    "props": {
-      "src": "assets/branco-perola-3.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-4": {
-    "props": {
-      "src": "assets/branco-perola-4.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-5": {
-    "props": {
-      "src": "assets/branco-perola-5.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-6": {
-    "props": {
-      "src": "assets/branco-perola-6.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  // condicional rosa
-  "condition-layout.product#rosa": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Cor",
-            "value": "Rosa"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5L"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-layout-rosa"
-    }
-  },
-  // condicional rosa padrao 2
-  "condition-layout.product#rosa-padrao2": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "Id": "2765"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-layout-rosa"
-    }
-  },
-  "flex-layout.row#custom-pdp-layout-rosa": {
-    "props": {
-      "blockClass": "conteiner-pai--imagens-extras"
-    },
-    "children": [
-      "flex-layout.col#fotos-branco-rosa"
-    ],
-    "title": "Fotos Rosa 5l"
-  },
-  "flex-layout.col#fotos-branco-rosa": {
-    "props": {
-      "blockClass": "imagens-extras"
-    },
-    "children": [
-      // "video#rosa-5l",
-      // "image#rosa-1",
-      // "image#rosa-2",
-      // "image#rosa-3",
-      // "image#rosa-4",
-      // "image#rosa-5",
-      // "image#rosa-6",
-      // "image#rosa-7",
-      // "image#rosa-8",
-      // "image#rosa-9"
-    ]
-  },
 
   // rosa-gold 5l condicional
   "condition-layout.product#rosa-gold": {
@@ -1349,7 +1049,7 @@
     ]
   },
 
- 
+
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
@@ -2510,43 +2210,7 @@
     }
   },
 
-  "rich-text#top-sales": {
-    "props": {
-      "text": "## **Mais vendidos**"
-    }
-  },
-  "flex-layout.row#topsales": {
-    "props": {
-      "blockClass": "content-top-sales"
-    },
-    "children": [
-      "list-context.product-list#prateleira-top-sales"
-    ]
-  },
-  "list-context.product-list#prateleira-top-sales": {
-    "blocks": [
-      "product-summary.shelf#teste"
-    ],
-    "children": [
-      "slider-layout#top-sales"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    },
-    "title": "Top Sales"
-  },
-  "slider-layout#top-sales": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "showNavigationArrows": "desktopOnly"
-    }
-  },
+
   "flex-layout.row#linha-certificados":{
     "props": {
       "blockClass": "linha-certificados",

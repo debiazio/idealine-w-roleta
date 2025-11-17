@@ -26,8 +26,7 @@
       "image#idealovers",
       "image#opta",
       "image#kit-idealovers",
-      "image#madu-idealovers",
-      "image#glowin-banner"
+      "image#madu-idealovers"
     ]
   },
   // TRIGGER ROLETA desktop
@@ -92,16 +91,7 @@
       }
     }
   },
-  "image#glowin-banner": {
-    "props": {
-      "src": "assets/home-black/banners/glowin-desktop.webp",
-      "alt": "Glowin",
-      "blockClass": "image-slider-desktop",
-      "link": {
-        "url": "/kit-autoclave-bellinha-5l-com-tecnologia-dvm-e-incubadora-biologica-glowin/p"
-      }
-    }
-  },
+
   // COMPONENTE RESPONSIVO PARA MOBILE - SLIDER IMAGENS
   "responsive-layout.mobile#slider-mobile": {
     "children": [
@@ -129,8 +119,7 @@
       "image#idealovers-mobile",
       "image#opta-mobile",
       "image#kit-idealovers-mobile",
-      "image#madu-idealovers-mobile",
-      "image#glowin-banner-mobile"
+      "image#madu-idealovers-mobile"
     ]
   },
   // TRIGGER ROLETA MOBILE
@@ -190,16 +179,6 @@
       "blockClass": "image-slider-mobile",
       "link": {
         "url": "/idealove-by-madu"
-      }
-    }
-  },
-  "image#glowin-banner-mobile": {
-    "props": {
-      "src": "assets/home-black/banners/glowin-mobile.webp",
-      "alt": "Glowin",
-      "blockClass": "image-slider-mobile",
-      "link": {
-        "url": "/kit-autoclave-bellinha-5l-com-tecnologia-dvm-e-incubadora-biologica-glowin/p"
       }
     }
   }
