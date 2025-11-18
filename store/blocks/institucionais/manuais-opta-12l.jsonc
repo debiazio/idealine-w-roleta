@@ -1,0 +1,147 @@
+{
+    // LINHA OPTA 12 LITROS
+    "flex-layout.col#opta-12l": {
+      "props": {
+        "blockClass": "manuais-colunas",
+        "title": "Coluna manual Opta 12 litros",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "flex-layout.row#imagem-manual-opta-12",
+        "flex-layout.row#link-ler-manual-opta-12",
+        "flex-layout.row#link-baixar-manual-opta-12"
+      ]
+    },
+    // LINHA IMAGEM MANUAL
+    "flex-layout.row#imagem-manual-opta-12": {
+      "props": {
+        "blockClass": "manuais-imagem"
+      },
+      "children": [
+        "image#manual-opta-12"
+      ],
+      "title": "Linha thumbnail manuaL OPTA 12L"
+    },
+    // IMAGEM MANUAL
+    "image#manual-opta-12": {
+      "props": {
+        "blockClass": "manual-imagem",
+        "src": "assets/manuais/opta.webp",
+        "alt": "Linha Opta 12l"
+      },
+      "title": "MANUAL Opta 12l"
+    },
+    // LINHA LER MANUAL
+    "flex-layout.row#link-ler-manual-opta-12": {
+      "props": {
+        "blockClass": "manual-link-ler-manunal"
+      },
+      "children": [
+        "link#ler-manual-opta-12"
+      ],
+      "title": "Linha ler manual OPTA 21L"
+    },
+    // LINK MANUAL
+    "link#ler-manual-opta-12": {
+      "props": {
+        "blockClass": "link-ler-manuais",
+        "label": "LER MANUAL",
+        "target": "_blank",
+        "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/MANUAL%20OPTA%20_OUTUBRO%2025.pdf"
+      },
+      "title": "Link ler manual OPTA 21l"
+    },
+    // LINHA BAIXAR MANUAL
+    "flex-layout.row#link-baixar-manual-opta-12": {
+      "props": {
+        "blockClass": "linha-link-baixar"
+      },
+      "children": [
+        "flex-layout.row#baixar-manual-opta-12"
+      ],
+      "title": "Linha botao baixar manual OPTA 21L"
+    },
+    // BAIXAR MANUAL
+    "flex-layout.row#baixar-manual-opta-12": {
+      "props": {
+        "blockClass": "link-baixar-manuais"
+      },
+      "children": [
+        "btn-opta-12l"
+      ],
+      "title": "Link baixar manual opta 21l"
+    },
+    // FICHA TECNHICA
+    // LINHA OPTA 12 LITROS FICHA TECNHICA
+    "flex-layout.col#ficha-tecnica-opta-12l": {
+      "props": {
+        "blockClass": "manuais-colunas",
+        "title": "Coluna manual Opta 12 litros",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "flex-layout.row#imagem-ficha-tecnica-opta-12",
+        "flex-layout.row#link-ler-ficha-tecnica-opta-12",
+        "flex-layout.row#link-baixar-ficha-tecnica-opta-12"
+      ]
+    },
+    // LINHA IMAGEM ficha-tecnica
+    "flex-layout.row#imagem-ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "manuais-imagem"
+      },
+      "children": [
+        "image#ficha-tecnica-opta-12"
+      ],
+      "title": "Linha thumbnail ficha-tecnica OPTA 12L"
+    },
+    // IMAGEM ficha-tecnica
+    "image#ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "manual-imagem",
+        "src": "assets/fichas-tecnicas/CAPAS FT-OPTA.webp",
+        "alt": "Linha Opta 12l"
+      },
+      "title": "ficha-tecnica Opta 12l"
+    },
+    // LINHA LER ficha-tecnica
+    "flex-layout.row#link-ler-ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "manual-link-ler-manunal"
+      },
+      "children": [
+        "link#ler-ficha-tecnica-opta-12"
+      ],
+      "title": "Linha ler ficha-tecnica OPTA 21L"
+    },
+    // LINK ficha-tecnica
+    "link#ler-ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "link-ler-manuais",
+        "label": "LER FICHA TÉCNICA",
+        "target": "_blank",
+        "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT.OPTA12L.21L-%20%20ATUALIZADO.pdf"
+      },
+      "title": "Link ler ficha-tecnica OPTA 21l"
+    },
+    // LINHA BAIXAR ficha-tecnica
+    "flex-layout.row#link-baixar-ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "linha-link-baixar"
+      },
+      "children": [
+        "flex-layout.row#baixar-ficha-tecnica-opta-12"
+      ],
+      "title": "Linha botao baixar ficha-tecnica OPTA 21L"
+    },
+    // BAIXAR ficha-tecnica
+    "flex-layout.row#baixar-ficha-tecnica-opta-12": {
+      "props": {
+        "blockClass": "link-baixar-manuais"
+      },
+      "children": [
+        "btn-opta-12l-ft"
+      ],
+      "title": "Link baixar ficha-tecnica opta 21l"
+    }
+}

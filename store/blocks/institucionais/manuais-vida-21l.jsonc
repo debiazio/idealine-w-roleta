@@ -1,0 +1,146 @@
+{ // LINHA VIDA 21 LITROS
+  "flex-layout.col#coluna-vida-21l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-vida-21l",
+      "flex-layout.row#link-ler-manual-vida-21l",
+      "flex-layout.row#link-baixar-manual-vida-21l"
+    ],
+    "title": "Coluna manual Vida 21 litros"
+  },
+  // linha imagem manual
+  "flex-layout.row#imagem-manual-vida-21l": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-vida-21l"
+    ],
+    "title": "Linha thumbnail manual Vida 21l"
+  },
+  // imagem manual
+  "image#manual-vida-21l": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/vida-21l.webp",
+      "alt": "Imagem de capa do manual"
+    },
+    "title": "Vida 21 litros imagem"
+  },
+  // LINHA LINK LER MAIS MANUAL
+  "flex-layout.row#link-ler-manual-vida-21l": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-vida-21l"
+    ],
+    "title": "Linha ler manual Vida 21l"
+  },
+  // link ler mais manual
+  "link#ler-manual-vida-21l": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/MANUAL%20VIDA%2021L_OUTUBRO%2025.pdf",
+      "target": "_blank"
+    },
+    "title": "Link ler manual VIda 21l"
+  },
+  // linha link baixar manual
+  "flex-layout.row#link-baixar-manual-vida-21l": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-vida-21l"
+    ],
+    "title": "Linha botao baixar manual"
+  },
+  // botao baixar manual
+  "flex-layout.row#baixar-manual-vida-21l": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-vida-21l"
+    ],
+    "title": "Link baixar manual Vida 21l"
+  },
+  // FICHA TECNICA
+  // linha ficha tecnica
+  "flex-layout.col#coluna-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-ficha-tecnica-vida-21l",
+      "flex-layout.row#link-ler-ficha-tecnica-vida-21l",
+      "flex-layout.row#link-baixar-ficha-tecnica-vida-21l"
+    ],
+    "title": "Coluna ficha tecnica Vida 21 litros"
+  },
+  // linha imagem ficha tecnica
+  "flex-layout.row#imagem-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-vida-21l"
+    ],
+    "title": "Linha thumbnail ficha-tecnica Vida 21l"
+  },
+  // imagem ficha-tecnica
+  "image#ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/fichas-tecnicas/CAPAS FT-VIDA 21L.webp",
+      "alt": "Imagem de capa do ficha-tecnica"
+    },
+    "title": "Vida 21 litros imagem"
+  },
+  // LINHA LINK LER MAIS ficha-tecnica
+  "flex-layout.row#link-ler-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-vida-21l"
+    ],
+    "title": "Linha ler ficha-tecnica Vida 21l"
+  },
+  // link ler mais ficha-tecnica
+  "link#ler-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER FICHA TÉCNICA",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT.VIDA21L-%20ATUALIZADO.pdf",
+      "target": "_blank"
+    },
+    "title": "Link ler ficha-tecnica VIda 21l"
+  },
+  // linha link baixar ficha-tecnica
+  "flex-layout.row#link-baixar-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-vida-21l"
+    ],
+    "title": "Linha botao baixar ficha-tecnica"
+  },
+  // botao baixar ficha-tecnica
+  "flex-layout.row#baixar-ficha-tecnica-vida-21l": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-vida-21l-ft"
+    ],
+    "title": "Link baixar ficha-tecnica Vida 21l"
+  }
+}

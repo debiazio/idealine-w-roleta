@@ -1,0 +1,74 @@
+{
+  // COLUNA MANUAL LABELLE 5 LITROS
+  "flex-layout.col#coluna-labelle-5litros": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-la-belle-5litros",
+      "flex-layout.row#link-ler-manual-la-belle-5litros",
+      "flex-layout.row#link-baixar-manual-la-belle-5litros"
+    ],
+    "title": "Coluna manual LaBelle 5 litros"
+  },
+  // LINHA IMAGEM MANUAL LA BELLE 5 LITROS
+  "flex-layout.row#imagem-manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-la-belle-5litros"
+    ],
+    "title": "Linha thumbnail manual La belle 5 litros"
+  },
+  // IMAGE MANUAL LA BELLE 5 LITROS
+  "image#manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/labelle5litros.webp",
+      "alt": "La Belle 5 Litros"
+    },
+    "title": "La Belle 5 Litros manual"
+  },
+  // LINHA LINK MANUAL
+  "flex-layout.row#link-ler-manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal",
+      "title": "Linha ler manual"
+    },
+    "children": [
+      "link#ler-manual-la-belle-5litros"
+    ]
+  },
+  // LINK MANUAL
+  "link#ler-manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-5L-2024.pdf"
+    },
+    "title": "Link ler manual la belle 5 litros"
+  },
+  // LINHA LINK BAIXAR MANUAL
+  "flex-layout.row#link-baixar-manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-la-belle-5litros"
+    ],
+    "title": "Linha botao baixar manual La belle 5 litros"
+  },
+  // linha baixar manual
+  "flex-layout.row#baixar-manual-la-belle-5litros": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-bella-5l"
+    ],
+    "title": "Linha link baixar manual la belle 5 litros"
+  }
+}

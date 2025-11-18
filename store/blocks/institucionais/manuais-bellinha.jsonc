@@ -1,0 +1,148 @@
+{
+  // BELLINHA
+  // COLUNA MANUAL BELLINHA
+  "flex-layout.col#coluna-idealclave-bellinha": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-bellinha",
+      "flex-layout.row#link-ler-manual-bellinha",
+      "flex-layout.row#link-baixar-manual-bellinha"
+    ],
+    "title": "Coluna manual Bellinha"
+  },
+  // LINHA IMAGEM MANUAL BELLINHA
+  "flex-layout.row#imagem-manual-bellinha": {
+    "props": {
+      "blockClass": "manuais-imagem",
+      "title": "Linha thumbnail manuais"
+    },
+    "children": [
+      "image#manual-bellinha"
+    ],
+    "title": "Linha imagem manual bellinha"
+  },
+  // IMAGE MANUAL BELLINHA
+  "image#manual-bellinha": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/bellinha-5l-stembro.webp",
+      "alt": "Idealclave Bellinha"
+    },
+    "title": "Idealclave Bellinha manual"
+  },
+  // LINHA LER MANUAL BELLINHA
+  "flex-layout.row#link-ler-manual-bellinha": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-bellinha"
+    ],
+    "title": "Linha ler manual Bellinha"
+  },
+  // LINK LER MANUAL BELLINHA
+  "link#ler-manual-bellinha": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/Manual_%20DIGITAL%20IDEALCLAVE_5L-bellinha%20-%20OUTUBRO%2025.pdf"
+    },
+    "title": "Link ler manual bellinha"
+  },
+  // LINHA BOTAO DOWNLOAD MANUAL BELLINHA
+  "flex-layout.row#link-baixar-manual-bellinha": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-bellinha"
+    ],
+    "title": "Linha botao baixar manual Bellinha"
+  },
+  // LINHA BOTAO BAIXAR MANUAL BELLINHA
+  "flex-layout.row#baixar-manual-bellinha": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-bellinha"
+    ],
+    "title": "Link baixar manual Bellinha"
+  },
+  // COLUNA FICHA TECNICA - IDEALCLAVE BELLINHA
+  "flex-layout.col#coluna-ficha-tecnica-idealclave-bellinha": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-ficha-tecnica-bellinha",
+      "flex-layout.row#link-ler-ficha-tecnica-bellinha",
+      "flex-layout.row#link-baixar-ficha-tecnica-bellinha"
+    ],
+    "title": "Coluna ficha técnica Bellinha"
+  },
+  // LINHA IMAGEM FICHA TÉCNICA BELLINHA
+  "flex-layout.row#imagem-ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-bellinha"
+    ],
+    "title": "Linha imagem ficha tecnica bellinha"
+  },
+  // IMAGE FICHA TÉCNICA BELLINHA
+  "image#ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/fichas-tecnicas/CAPAS FT-BELLINHA.webp",
+      "alt": "Idealclave Bellinha"
+    },
+    "title": "Idealclave Bellinha ficha ténica"
+  },
+  // LINHA LER FICHA TECNICA BELLINHA
+  "flex-layout.row#link-ler-ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-bellinha"
+    ],
+    "title": "Linha ler ficha técnica Bellinha"
+  },
+  // LINK LER FICHA TECNICA BELLINHA
+  "link#ler-ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER FICHA TÉCNICA",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT_BELLINHA%205L.pdf"
+    },
+    "title": "Link ler manual bellinha"
+  },
+  // LINHA BOTAO DOWNLOAD FICHA TECNICA BELLINHA
+  "flex-layout.row#link-baixar-ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-bellinha"
+    ],
+    "title": "Linha botao baixar ficha técnica Bellinha"
+  },
+  // LINHA BOTAO BAIXAR FICHA TECNICA BELLINHA
+  "flex-layout.row#baixar-ficha-tecnica-bellinha": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-bellinha-ft"
+    ],
+    "title": "Link baixar ficha técnica Bellinha"
+  }
+}

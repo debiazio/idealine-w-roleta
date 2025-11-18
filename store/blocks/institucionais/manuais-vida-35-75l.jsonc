@@ -1,0 +1,150 @@
+{
+    // LINHA VIDA 30-42-60-75 LITROS
+    "flex-layout.col#coluna-vida-30-a-75l": {
+      "props": {
+        "blockClass": "manuais-colunas",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "flex-layout.row#imagem-manual-vida-30-42-60-75l",
+        "flex-layout.row#link-ler-manual-vida-30-42-60-75l",
+        "flex-layout.row#link-baixar-manual-vida-30-42-60-75l"
+      ],
+      "title": "Coluna manual Vida 30/42/60/75 litros"
+    },
+    // LINHA DA IMAGEM MANUAL
+    "flex-layout.row#imagem-manual-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "manuais-imagem",
+        "title": "Linha thumbnail manuais"
+      },
+      "children": [
+        "image#manual-vida-30-42-60-75l"
+      ]
+    },
+    // IMAGEM MANUAL
+  "image#manual-vida-30-42-60-75l": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/vida-h.webp",
+      "alt": "Linha Vida 30l, 42l, 60l e 75l"
+    },
+    "title": "Linha Vida 30l, 42l, 60l e 75l"
+  },
+  // LINHA LINK MANUAL
+  "flex-layout.row#link-ler-manual-vida-30-42-60-75l": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-vida-30-42-60-75l"
+    ],
+    "title": "Linha ler manual VIDA 30 A 75L"
+  },
+  // LINK MANUAL
+  "link#ler-manual-vida-30-42-60-75l": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "target": "_blank",
+      "label": "LER MANUAL",
+      "href": "hhttps://stermax.com.br/images_idealine/manuais/novembro2025/MANUAL%20VIDA%2030L%20a%2075lL_OUTUBRO%2025.pdf"
+    },
+    "title": "Link ler manuaL VIDA 30 A 75L"
+  },
+  // LINHA BAIXAR MANUAL
+  "flex-layout.row#link-baixar-manual-vida-30-42-60-75l": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-vida-30-42-60-75l"
+    ],
+    "title": "Linha botao baixar manual VIDA 30 A 75L"
+  },
+  // BOTAO BAIXA MANUAL
+  "flex-layout.row#baixar-manual-vida-30-42-60-75l": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-vida-varios"
+    ],
+    "title": "Link baixar manuais"
+  },
+      // LINHA VIDA FICHA TECNICA 30-42-60-75 LITROS
+      "flex-layout.col#coluna-ficha-tecnica-vida-30-a-75l": {
+        "props": {
+          "blockClass": "manuais-colunas",
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "flex-layout.row#imagem-ficha-tecnica-vida-30-42-60-75l",
+          "flex-layout.row#link-ler-ficha-tecnica-vida-30-42-60-75l",
+          "flex-layout.row#link-baixar-ficha-tecnica-vida-30-42-60-75l"
+        ],
+        "title": "Coluna ficha-tecnica Vida 30/42/60/75 litros"
+      },
+      // LINHA DA IMAGEM ficha-tecnica
+      "flex-layout.row#imagem-ficha-tecnica-vida-30-42-60-75l": {
+        "props": {
+          "blockClass": "manuais-imagem"
+        },
+        "children": [
+          "image#ficha-tecnica-vida-30-42-60-75l"
+        ],
+        "title": "Linha thumbnail ficha-tecnica vida 30 a 75l"
+      },
+      // IMAGEM ficha-tecnica
+    "image#ficha-tecnica-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "manual-imagem",
+        "src": "assets/fichas-tecnicas/CAPAS FT_VIDA 30 A 75L.webp",
+        "alt": "Linha Vida 30l, 42l, 60l e 75l"
+      },
+      "title": "Linha Vida  ficha-tecnica 30l, 42l, 60l e 75l"
+    },
+    // LINHA LINK ficha-tecnica
+    "flex-layout.row#link-ler-ficha-tecnica-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "manual-link-ler-manunal"
+      },
+      "children": [
+        "link#ler-ficha-tecnica-vida-30-42-60-75l"
+      ],
+      "title": "Linha ler manual VIDA 30 A 75L"
+    },
+    // LINK ficha-tecnica
+    "link#ler-ficha-tecnica-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "link-ler-manuais",
+        "target": "_blank",
+        "label": "LER FICHA TÉCNICA",
+        "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT.VIDA30.42.60.75L-%20ATUALIZADO.pdf"
+      },
+      "title": "Link ler ficha-tecnica VIDA 30 A 75L"
+    },
+    // LINHA BAIXAR ficha-tecnica
+    "flex-layout.row#link-baixar-ficha-tecnica-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "linha-link-baixar"
+      },
+      "children": [
+        "flex-layout.row#baixar-ficha-tecnica-vida-30-42-60-75l"
+      ],
+      "title": "Linha botao baixar ficha-tecnica VIDA 30 A 75L"
+    },
+    // BOTAO BAIXA ficha-tecnica
+    "flex-layout.row#baixar-ficha-tecnica-vida-30-42-60-75l": {
+      "props": {
+        "blockClass": "link-baixar-manuais"
+      },
+      "children": [
+        "btn-vida-varios-ft"
+      ],
+      "title": "Link baixar ficha-tecnica vida 30 a 75l"
+    }
+}
+
+
+
+

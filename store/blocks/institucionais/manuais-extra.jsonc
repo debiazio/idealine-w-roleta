@@ -1,0 +1,68 @@
+{
+  // COLUNA 1 LINHA 3 - MANUAL EXTRA
+  "flex-layout.col#extra": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-extra",
+      "flex-layout.row#link-ler-manual-extra",
+      "flex-layout.row#link-baixar-manual-extra"
+    ],
+    "title": "Coluna manual extra"
+  },
+  "flex-layout.row#imagem-manual-extra": {
+    "props": {
+      "blockClass": "manuais-imagens"
+    },
+    "children": [
+      "image#manual-extra"
+    ],
+    "title": "Linha thumbnail manuais"
+  },
+  "image#manual-extra": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/manual-extra.webp",
+      "alt": "Imagem de capa do manual"
+    },
+    "title": "Linha Extra"
+  },
+  "flex-layout.row#link-ler-manual-extra": {
+    "props": {
+      "blockClass": "mnuais-colunas"
+    },
+    "children": [
+      "link#ler-manual-extra"
+    ],
+    "title": "Linha Ler manual Extra"
+  },
+  "link#ler-manual-extra": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL AUTOCLAVE EXTRA.pdf",
+      "target": "_blank"
+    },
+    "title": "Link ler manual Extra"
+  },
+  "flex-layout.row#link-baixar-manual-extra": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-extra"
+    ],
+    "title": "Linha botao baixar manual Extra"
+  },
+  "flex-layout.row#baixar-manual-extra": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-extra"
+    ],
+    "title": "Link baixar manuais - Extra"
+  }
+}

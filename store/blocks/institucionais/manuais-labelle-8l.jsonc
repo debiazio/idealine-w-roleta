@@ -1,0 +1,73 @@
+{
+  // COLUNA MANUAL LABELLE 8 LITROS
+  "flex-layout.col#coluna-la-belle-8-litros": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual LaBelle 8 litros",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-la-belle-8litros",
+      "flex-layout.row#link-ler-manual-la-belle-8litros",
+      "flex-layout.row#link-baixar-manual-la-belle-8litros"
+    ]
+  },
+  "flex-layout.row#imagem-manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-la-belle-8litros"
+    ],
+    "title": "Linha manual la belle 8 l"
+  },
+  // IMAGEM MANUAL LA BELLE 8L
+  "image#manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/labelle8litros.webp",
+      "alt": "La Belle 8 litros"
+    },
+    "title": "La Belle 8 litros MANUAL"
+  },
+  // LINHA LER MANUAL LA BELLE 8 LITROS
+  "flex-layout.row#link-ler-manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-la-belle-8litros"
+    ],
+    "title": "Linha ler manual La belle 8 litros"
+  },
+  // LINK LER MANUAL LA BELLE 8 LITROS
+  "link#ler-manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-8L-2024.pdf"
+    },
+    "title": "Link ler manuaL La Belle 8 litros"
+  },
+  // LINHA BAIXAR MANUAL
+  "flex-layout.row#link-baixar-manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-la-belle-8litros"
+    ],
+    "title": "Linha botao baixar manual LABELLE 8L"
+  },
+  // LINHA BOTAO BAIXAR MANUAL LA BELLE 8 LITROS
+  "flex-layout.row#baixar-manual-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-bella-8l"
+    ],
+    "title": "Link baixar manual La Belle 8 litros"
+  }
+}

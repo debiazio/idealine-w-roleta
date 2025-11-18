@@ -1,0 +1,146 @@
+{
+  // COLUNA MANUAL IDEACLAVE la belle 8 litros
+  "flex-layout.col#coluna-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-idealclave-la-belle-8l",
+      "flex-layout.row#link-ler-manual-idealclave-la-belle-8litros",
+      "flex-layout.row#link-baixar-manual-idealclave-la-belle-8litros"
+    ],
+    "title": "Coluna manual Idealclave lA BELLE 8 LITROS"
+  },
+  // LINHA IMAGEM MANUAL IDEALCLAVE LABELLE 8 LITROS
+  "flex-layout.row#imagem-manual-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-idealclave-la-belle-8l"
+    ],
+    "title": "Linha thumbnail manual La Belle 8 litros"
+  },
+  // IMAGE MANUAL LA BELLE 8 LITROS
+  "image#manual-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/idealclave-labelle-setembro.webp",
+      "alt": "Idealclave 8 litros"
+    },
+    "title": "Idealclave 8 litros la belle manual"
+  },
+  // LINHA LINK LER MANUAL
+  "flex-layout.row#link-ler-manual-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-idealclave-la-belle-8litros"
+    ],
+    "title": "Linha ler manual Idealclave La Belle 8 litros"
+  },
+  // LINK LER MANUAL
+  "link#ler-manual-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/Manual_%20DIGITAL%20IDEALCLAVE_8L%20-%20OUTUBRO%2025.pdf"
+    },
+    "title": "Link ler manuaL iDEALCLAVE LA BELLE 8 LITROS"
+  },
+  // LINHA BOTAO DOWNLOAD MANUAL IDEALCLAVE LA BELLE 8 LITROS
+  "flex-layout.row#link-baixar-manual-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-idealclave-la-belle-8litros"
+    ],
+    "title": "Linha botao baixar manual iDEALCLAVE 8 LITROS LA BELLE"
+  },
+  // LINHA BAIXAR MANUAL IDEALCLAVE LA BELLE 8 LITROS
+  "flex-layout.row#baixar-manual-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-baixar-manuais",
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-idealclave"
+    ]
+  },
+  // COLUNA FICHA TECNICA IDEACLAVE la belle 8 litros
+  "flex-layout.col#coluna-ficha-tecnica-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-ficha-tecnica-idealclave-la-belle-8l",
+      "flex-layout.row#link-ler-ficha-tecnica-idealclave-la-belle-8l",
+      "flex-layout.row#link-baixar-ficha-tecnica-idealclave-la-belle-8litros"
+    ],
+    "title": "Coluna ficha tecnica Idealclave La belle 8 litros"
+  },
+  // LINHA IMAGEM FICHA TECNICA IDEALCLAVE LABELLE 8 LITROS
+  "flex-layout.row#imagem-ficha-tecnica-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-idealclave-la-belle-8l"
+    ],
+    "title": "Linha thumbnail ficha técnica La Belle 8 litros"
+  },
+  // IMAGE FICHA TECNICA LA BELLE 8 LITROS
+  "image#ficha-tecnica-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/fichas-tecnicas/CAPAS FT_LABELLE.webp",
+      "alt": "Idealclave 8 litros"
+    },
+    "title": "Idealclave 8 litros la belle ficha tecnica"
+  },
+  // LINHA LER FICHA TECNICA LA BELLE 8 LITROS
+  "flex-layout.row#link-ler-ficha-tecnica-idealclave-la-belle-8l": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-idealclave-la-belle-8litros"
+    ],
+    "title": "Linha ler ficha tecnica La belle 8 litros"
+  },
+  // LINK LER FICHA TECNNICA  idealclave LA BELLE 8 LITROS
+  "link#ler-ficha-tecnica-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER FICHA TÉCNICA",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT-idealclave_LA%20BELLE%208L.pdf"
+    },
+    "title": "Link ler ficha técnica La Belle 8 litros"
+  },
+  // LINHA BOTAO DOWNLOAD FICHA TECNICA IDEALCLAVE LA BELLE 8 LITROS
+  "flex-layout.row#link-baixar-ficha-tecnica-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-idealclave-la-belle-8litros"
+    ],
+    "title": "Linha botao baixar ficha tecnica iDEALCLAVE 8 LITROS LA BELLE"
+  },
+  // LINHA BOTAO BAIXAR FICHA TECNICA LA BELLE 8 LITROS
+  "flex-layout.row#baixar-ficha-tecnica-idealclave-la-belle-8litros": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-idealclave-ft"
+    ],
+    "title": "Link baixar ficha técnica idealclave La Belle 8 litros"
+  }
+}

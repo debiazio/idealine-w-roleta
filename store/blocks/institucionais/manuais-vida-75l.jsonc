@@ -1,0 +1,147 @@
+{
+  // LINHA VIDA 75 LITROS VERTICAL
+  "flex-layout.col#vida-75l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-vida-75l-vertical",
+      "flex-layout.row#link-ler-manual-vida-75l-vertical",
+      "flex-layout.row#link-baixar-manual-vida-75l-vertical"
+    ],
+    "title": "Coluna manual Vida 75 litros"
+  },
+  // linha imagem manual
+  "flex-layout.row#imagem-manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-vida-75l-vertical"
+    ],
+    "title": "Linha thumbnail manual 75 l"
+  },
+  // IMAGEM MANUAL
+  "image#manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/vida.webp",
+      "alt": "Linha Vida 75l Vertical"
+    },
+    "title": "Linha Vida 75l Vertical manual"
+  },
+  // linha link manual
+  "flex-layout.row#link-ler-manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-vida-75l-vertical"
+    ],
+    "title": "Linha ler manual 75l"
+  },
+  // link manual
+  "link#ler-manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "target": "_blank",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/MANUAL%20VIDA%2075L%20VERTICAL_OUTUBRO%202025.pdf"
+    },
+    "title": "Link ler manual vida 75 l"
+  },
+  // linha baixar manual
+  "flex-layout.row#link-baixar-manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-vida-75l-vertical"
+    ],
+    "title": "Linha botao baixar manual vida 75l"
+  },
+  // botao baixar manual
+  "flex-layout.row#baixar-manual-vida-75l-vertical": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-vida-75l"
+    ],
+    "title": "Link baixar manual 75l"
+  },
+  // ficha tecnhica
+  // LINHA VIDA ficha tecnica 75 LITROS VERTICAL
+  "flex-layout.col#ficha-tecnica-vida-75l": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-ficha-tecnica-vida-75l-vertical",
+      "flex-layout.row#link-ler-ficha-tecnica-vida-75l-vertical",
+      "flex-layout.row#link-baixar-ficha-tecnica-vida-75l-vertical"
+    ],
+    "title": "Coluna ficha-tecnica Vida 75 litros"
+  },
+  // linha imagem ficha-tecnica
+  "flex-layout.row#imagem-ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-vida-75l-vertical"
+    ],
+    "title": "Linha thumbnail ficha-tecnica 75 l"
+  },
+  // IMAGEM ficha-tecnica
+  "image#ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/fichas-tecnicas/CAPAS FT-VIDA 75L.webp",
+      "alt": "Linha Vida 75l Vertical"
+    },
+    "title": "Linha Vida 75l Vertical ficha-tecnica"
+  },
+  // linha link ficha-tecnica
+  "flex-layout.row#link-ler-ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-vida-75l-vertical"
+    ],
+    "title": "Linha ler ficha-tecnica 75l"
+  },
+  // link ficha-tecnica
+  "link#ler-ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "target": "_blank",
+      "label": "LER FICHA TÉCNICA",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2025/FT.VIDA75LVERT-%20ATUALIZADO.pdf"
+    },
+    "title": "Link ler ficha-tecnica vida 75 l"
+  },
+  // linha baixar ficha-tecnica
+  "flex-layout.row#link-baixar-ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-vida-75l-vertical"
+    ],
+    "title": "Linha botao baixar ficha-tecnica vida 75l"
+  },
+  // botao baixar ficha-tecnica
+  "flex-layout.row#baixar-ficha-tecnica-vida-75l-vertical": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-vida-75l-ft"
+    ],
+    "title": "Link baixar ficha-tecnica 75l"
+  }
+}

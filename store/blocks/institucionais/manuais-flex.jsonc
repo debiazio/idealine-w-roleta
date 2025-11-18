@@ -1,0 +1,74 @@
+{
+  // COLUNA 2 LINHA 3 - MANUAL FLEX
+  "flex-layout.col#flex": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-flex",
+      "flex-layout.row#link-ler-manual-flex",
+      "flex-layout.row#link-baixar-manual-flex"
+    ],
+    "title": "Coluna manual flex"
+  },
+  // SEÇÃO imagens
+  "flex-layout.row#imagem-manual-flex": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-flex"
+    ],
+    "title": "Linha thumbnail manuais flex"
+  },
+  // SEÇÃO DAS IMAGENS
+  "image#manual-flex": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "assets/manuais/manual-flex.webp",
+      "alt": "Imagem de capa do manual"
+    },
+    "title": "Linha Flex"
+  },
+  // seção LINHA DOS links "ler manual"
+  "flex-layout.row#link-ler-manual-flex": {
+    "props": {
+      "blockClass": "mnuais-colunas"
+    },
+    "children": [
+      "link#ler-manual-flex"
+    ],
+    "title": "Linha Ler manual Flex"
+  },
+  // SEÇÃO DOS LINKS LER MANUAL
+  "link#ler-manual-flex": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual Linha FLEX.pdf",
+      "target": "_blank"
+    },
+    "title": "Link ler manual flex"
+  },
+  // SEÇÃO linhas DOS LINKS DOWNLOAD
+  "flex-layout.row#link-baixar-manual-flex": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-flex"
+    ],
+    "title": "Linha botao baixar manual Flex"
+  },
+  // SEÇÃO DOS LINKS PARA BAIXAR
+  "flex-layout.row#baixar-manual-flex": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-flex"
+    ],
+    "title": "Link baixar manuais - Flex"
+  }
+}
