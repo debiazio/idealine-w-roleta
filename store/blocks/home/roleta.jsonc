@@ -31,10 +31,11 @@
       "colSizing": "auto"
     },
     "children": [
-      "newsletter-form#teste-roleta"
+      "flex-layout.row#teste-roleta"
+
     ]
   },
-  "newsletter-form#teste-roleta": {
+  "flex-layout.row#teste-roleta": {
     "props": {
       "SuccessState": "rich-text#roleta-fomr",
       "blockClass": "formulario-roleta"
@@ -46,18 +47,13 @@
   },
   "flex-layout.col#roleta-coluna-esquerda": {
     "props": {
-      "blockClass": "coluna-esquerda-roleta",
-      "width": "100%"
+      "blockClass": "coluna-esquerda-roleta"
     },
     "children": [
       "image#roleta-premios",
       "rich-text#titulo-roleta",
       "rich-text#subtitulo-roleta",
-      "newsletter-input-name#roleta",
-      "newsletter-input-email#roleta",
-      "newsletter-input-phone#roleta",
-      "flex-layout.row#confirm",
-      "flex-layout.row#linha-submit",
+      "form-roleta",
       "flex-layout.row#rules"
     ]
   },

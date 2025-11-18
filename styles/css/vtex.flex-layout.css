@@ -1963,6 +1963,10 @@
     min-height: 0;
   }
 
+  .flexRowContent--row-form-roleta .stretchChildrenWidth {
+    width: unset !important;
+  }
+
 }
 
 
