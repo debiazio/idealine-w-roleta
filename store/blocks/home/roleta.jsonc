@@ -175,7 +175,7 @@
   },
   "image#roleta-primeira-tela": {
     "props": {
-      "src": "assets/roleta/roleta-estatica.webp",
+      "src": "assets/roleta/roleta-idealine-static-edit2.webp",
       "alt": "roleta de premios",
       "blockClass": "roleta-primeira-tela"
     }
