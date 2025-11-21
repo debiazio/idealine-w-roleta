@@ -22,12 +22,23 @@
       }
     },
     "children": [
+      "image#frete-gratis",
       "modal-trigger#trigger2-roleta",
       "image#idealovers",
       "image#opta",
       "image#kit-idealovers",
       "image#madu-idealovers"
     ]
+  },
+  "image#frete-gratis":{
+    "props": {
+      "src": "assets/home-black/banners/IDL - Banner DESKTOP BLACK frete gratis.webp",
+      "alt": "Frete Grátis",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/black-friday-idealine"
+      }
+    }
   },
   // TRIGGER ROLETA desktop
   "modal-trigger#trigger2-roleta": {
@@ -115,12 +126,23 @@
       }
     },
     "children": [
+      "image#frete-gratis-mobile",
       "modal-trigger#trigger2-roleta-mobile",
       "image#idealovers-mobile",
       "image#opta-mobile",
       "image#kit-idealovers-mobile",
       "image#madu-idealovers-mobile"
     ]
+  },
+  "image#frete-gratis-mobile":{
+    "props": {
+      "src": "assets/home-black/banners/IDL - Banner MOBILE BLACK frete gratis.webp",
+      "alt": "Frete gratis",
+      "blockClass": "image-slider-mobile",
+      "link": {
+        "url": "/black-friday-idealine"
+      }
+    }
   },
   // TRIGGER ROLETA MOBILE
   "modal-trigger#trigger2-roleta-mobile": {
