@@ -52,7 +52,7 @@
   },
   "image#teste-trigger-roleta": {
     "props": {
-      "src": "assets/home-black/banners/banner-roleta-idealine.gif",
+      "src": "assets/home-black/banners/IDL---Banner-DESKTOP-ROLETA-2.gif",
       "alt": "Roleta",
       "lazyLoad": false,
       "preload": true,
@@ -156,7 +156,7 @@
   },
   "image#teste-trigger-roleta-mobile": {
     "props": {
-      "src": "assets/home-black/banners/gif-roleta-mobile.gif",
+      "src": "assets/home-black/banners/IDL---banner-roleta-mobile-2.gif",
       "alt": "Roleta",
       "blockClass": [
         "image-slider-mobile",
